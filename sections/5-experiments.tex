@@ -64,7 +64,6 @@ These results demonstrate that \ours provides an effective and reliable approach
 % , without sacrificing accuracy on any specific perceptual dimension.
 
 \paragraph{Strong Performance on Real-World VQA.}
-\input{tables/main_results2.tex}
 % paragraph 2: \ours在多个VQA任务上表现出色
 % Table~\ref{tab:main_results_vqa} reports results on open-ended VQA benchmarks.
 In Table~\ref{tab:main_results_vqa}, \ours achieves the best performance on all three benchmarks, yielding an average score of 73.16 and surpassing the strongest baseline, EvoLMM, by 0.86 points.
@@ -72,6 +71,7 @@ The most substantial gain is observed on RealWorldQA (+3.53 over the base model)
 % Consistent improvements are also observed on A-OKVQA (+1.22) and GQA (+0.45), covering knowledge-grounded and compositional reasoning respectively, demonstrating the generality of our approach across diverse VQA paradigms.
 % It is worth noting that R1-OneVision and OpenVLThinker exhibit near-zero scores on GQA, indicating severe format collapse under compositional reasoning tasks—a failure mode that \ours entirely avoids.
 Taken together, these results confirm that \ours yields consistent and transferable improvements on real-world VQA without sacrificing generalization across task types.
+\input{tables/main_results2.tex}
 
 \paragraph{Comprehensive Gains on Multiple Mixed Benchmarks.}
 \input{tables/main_results3.tex}
@@ -179,36 +179,13 @@ These results demonstrate that decomposing verification into atomic claims enabl
 % Claim-level verification provides a stronger and more reliable training signal, leading to better-calibrated and more hallucination-resistant models.
 
 \paragraph{Training Dynamics.}
-\begin{figure}[t]
-\centering
-\begin{minipage}[t]{0.60\textwidth}
+\begin{wrapfigure}{r}{0.5\textwidth}
     \centering
-    \includegraphics[width=\linewidth]{figures/training_dynamics_2.pdf}
+    \vspace{-\intextsep}
+    \includegraphics[width=0.48\textwidth]{figures/training_dynamics_2.pdf}
     \caption{Reward (red, left axis) and entropy (blue, right axis) curves over 256 training steps for (a) Single Agent SelfCheck, (b) MARCH~\cite{li2026march}, (c) V-MARCH w/o VCR, and (d) \textbf{\ours}. The comparison demonstrates that claim-level verification with VCR is necessary for stable, non-degenerate training.}
     \label{fig:training-dynamics}
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.37\textwidth}
-    \centering
-    \captionof{table}{Wall-clock time per training step, along with agent configuration \#Agent(trained/total) and relative overhead compared to SelfCheck with Ground Truth.}
-    \label{tab:overhead}
-    \vspace{2pt}
-    \small
-    \adjustbox{max width=\linewidth}{
-    \begin{tabular}{lccc}
-    \toprule
-    \textbf{Method} & \textbf{Time / Step (s)} & \textbf{\#Agents} & \textbf{Overhead} \\
-    \midrule
-    SelfCheck (GT) & 171.24 & 1/2 & $\times1.00$ \\
-    SelfCheck      & 180.02 & 1/2 & $\times1.05$ \\
-    EvoLMM*      & 360.04 & 2/2 & $\times2.10$ \\
-    \rowcolor{oursbg}
-    \ours          & 281.21 & 1/4 & $\times1.56$ \\
-    \bottomrule
-    \end{tabular}
-    }
-\end{minipage}
-\end{figure}
+\end{wrapfigure}
 
 % Figure~\ref{fig:training-dynamics} examines training stability across three configurations to isolate the contribution of VCR.
 % Single Agent Self-Check achieves rapid early reward gains but exhibits persistent entropy oscillation between 0.6 and 1.0, a signature of reward hacking under a coarse holistic verification signal.
@@ -224,6 +201,26 @@ Figure~\ref{fig:training-dynamics} compares training stability across four confi
 This training-time stability, conferred by the claim quantity reward $r^{\mathrm{cnt}}$ and quality penalty $r^{\mathrm{qual}}$ of VCR, directly underlies the performance advantage \ours demonstrates across all benchmarks.
 
 \paragraph{Computational Overhead.}
+\begin{wraptable}{r}{0.5\textwidth}
+\centering
+\vspace{-\intextsep}
+\caption{Wall-clock time per training step, along with agent configuration \#Agent(trained/total) and relative overhead compared to SelfCheck with Ground Truth.}
+\label{tab:overhead}
+\small
+\adjustbox{max width=\linewidth}{
+\begin{tabular}{lccc}
+\toprule
+\textbf{Method} & \textbf{Time / Step (s)} & \textbf{\#Agents} & \textbf{Overhead} \\
+\midrule
+SelfCheck (GT) & 171.24 & 1/2 & $\times1.00$ \\
+SelfCheck      & 180.02 & 1/2 & $\times1.05$ \\
+EvoLMM*      & 360.04 & 2/2 & $\times2.10$ \\
+\rowcolor{oursbg}
+\ours          & 281.21 & 1/4 & $\times1.56$ \\
+\bottomrule
+\end{tabular}
+}
+\end{wraptable}
 % Our pipeline introduces additional inference overhead relative to single-agent baselines.
 Table~\ref{tab:overhead} reports the wall-clock time per training step for each method.
 EvoLMM~\cite{thawakar2025evolmm} trains separate Proposer and Solver models, and the switching overhead more than doubles the average step time compared to SelfCheck.
