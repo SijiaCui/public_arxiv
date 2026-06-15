@@ -2,14 +2,14 @@
 \section{Introduction}
 \label{sec:introduction}
 
-\begin{figure}
+\begin{wrapfigure}{r}{0.5\textwidth}
     \centering
-    \includegraphics[width=0.98\linewidth]{figures/v-march-intro-final.pdf}
+    \vspace{-\intextsep}
+    \includegraphics[width=0.48\textwidth]{figures/v-march-intro-final.pdf}
     \caption{\ours achieves reliable visual self-verification rewards through a multi-agent self-check mechanism, encouraging VLMs to generate more informative, image-supported, and diverse responses.
     }
     \label{fig:ours_intro}
-    \vspace{-3mm}
-\end{figure}
+\end{wrapfigure}
 
 % VLM 的进展和挑战
 Vision-Language Models (VLMs) have demonstrated remarkable capabilities across a wide range of multimodal tasks, from image captioning to visual question answering~\cite{achiam2023gpt,touvron2023llama,liu2023llava,chen2024internvl,bai2025qwen3,comanici2025gemini}. 
@@ -32,14 +32,14 @@ A key open question remains:
 % \textit{how can we construct a reliable, self-supervised factual verification signal for VLM training, grounded in the image itself, without any human annotation?}
 \textbf{\textit{How can VLMs obtain reliable and scalable image-grounded verification signals without relying on annotations or external supervision?}}
 
-\begin{figure}
+\begin{wrapfigure}{l}{0.5\textwidth}
     \centering
-    \includegraphics[width=0.98\linewidth]{figures/v-march-motivation-final.pdf}
+    \vspace{-\intextsep}
+    \includegraphics[width=0.48\textwidth]{figures/v-march-motivation-final.pdf}
     \caption{Motivation. Naive self-verification rewards vague but safe descriptions, causing rapid reward growth that reflects reward hacking rather than genuine visual grounding. Reliable visual self-verification should instead favor diverse, non-trivial, and image-grounded claims while maintaining stable training.
     }
     \label{fig:ours}
-    \vspace{-3mm}
-\end{figure}
+\end{wrapfigure}
 
 To address this, we propose \textbf{\ours}, a visual multi-agent self-check framework for scalable hallucination mitigation in VLMs.
 Our insight is that factual verification for VLMs can be approximated through visual regulated self-verification, where generated claims are validated solely against image-grounded visual evidence without accessing the original response~\cite{madaan2023self,li2026march}.

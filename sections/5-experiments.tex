@@ -51,8 +51,6 @@ Further implementation details are provided in Appendix~\ref{sec:implementation_
 % We first evaluate on different hallucination-related benchmarks in Table~\ref{tab:main_results}, followed by real-world visual question-answering benchmarks in Table~\ref{tab:main_results_vqa}, and finally conduct a comprehensive evaluation across multiple mixed benchmarks in Table~\ref{tab:main_results_mixed}.
 
 \input{tables/main_results.tex}
-\input{tables/main_results2.tex}
-\input{tables/main_results3.tex}
 
 \paragraph{Mitigating Hallucination.}
 % paragraph 1: \ours 有效缓解多种类型的幻觉
@@ -66,6 +64,7 @@ These results demonstrate that \ours provides an effective and reliable approach
 % , without sacrificing accuracy on any specific perceptual dimension.
 
 \paragraph{Strong Performance on Real-World VQA.}
+\input{tables/main_results2.tex}
 % paragraph 2: \ours在多个VQA任务上表现出色
 % Table~\ref{tab:main_results_vqa} reports results on open-ended VQA benchmarks.
 In Table~\ref{tab:main_results_vqa}, \ours achieves the best performance on all three benchmarks, yielding an average score of 73.16 and surpassing the strongest baseline, EvoLMM, by 0.86 points.
@@ -75,6 +74,7 @@ The most substantial gain is observed on RealWorldQA (+3.53 over the base model)
 Taken together, these results confirm that \ours yields consistent and transferable improvements on real-world VQA without sacrificing generalization across task types.
 
 \paragraph{Comprehensive Gains on Multiple Mixed Benchmarks.}
+\input{tables/main_results3.tex}
 % paragraph 3: \ours在多个综合评测benchmark上表现出色
 Table~\ref{tab:main_results_mixed} presents results across a diverse set of general-purpose benchmarks spanning low-level visual perception, compositional reasoning, multi-image understanding, and holistic multimodal understanding.
 \ours achieves the highest average score of 58.29, surpassing the previous best (EvoLMM, 56.77) by 1.52 points and improving over the base model by 4.07 points.
@@ -87,18 +87,17 @@ On NaturalBench, which evaluates compositional reasoning through stringent group
 On the broader benchmarks MMBench and MMBench-Multi, \ours achieves scores of 81.61 and 84.34, respectively, along with the highest SEEDBench score of 76.95, demonstrating well-rounded capability across standard multimodal evaluation suites.
 % In contrast, RLVR-based methods such as R1-OneVision and OpenVLThinker exhibit severe performance degradation on structurally complex tasks (e.g., R1-OneVision drops to 8.68 on G-Acc and 0.00 on IQ Test), further highlighting the robustness advantage of \ours.
 
-\begin{figure}[t]
-    \centering
-    \includegraphics[width=\linewidth]{figures/model_generalization_final_heatmap.pdf}
-    \caption{Average improvements ($\Delta\%$) of \ours over the Qwen2.5-VL base model across three model scales and three benchmark categories. All cells are positive, demonstrating consistent gains at every scale.}
-    \label{fig:model_gen_heatmap}
-    \vspace{-3mm}
-\end{figure}
-
 \subsection{Model Generalization}
 \label{sec:generalization}
 
 \paragraph{Consistent gains across all scales.}
+\begin{wrapfigure}{r}{0.5\textwidth}
+    \centering
+    \vspace{-\intextsep}
+    \includegraphics[width=0.48\textwidth]{figures/model_generalization_final_heatmap.pdf}
+    \caption{Average improvements ($\Delta\%$) of \ours over the Qwen2.5-VL base model across three model scales and three benchmark categories. All cells are positive, demonstrating consistent gains at every scale.}
+    \label{fig:model_gen_heatmap}
+\end{wrapfigure}
 To evaluate whether \ours generalizes across model scales, we apply the identical training recipe to Qwen2.5-VL-3B and 32B without any scale-specific modifications, and measure per-metric improvements relative to the respective base models.
 As summarized in Figure~\ref{fig:model_gen_heatmap}, every cell of the $3{\times}3$ grid is positive, demonstrating that the claim-level self-verification signal benefits models regardless of capacity.
 % The 7B model achieves the largest average gains ($+3.30$ on Hallucination, $+1.74$ on VQA, $+4.07$ on Mixed), consistent with the main results.
@@ -133,9 +132,8 @@ These results confirm that \ours generalizes reliably from 3B to 32B, without an
 
 % \input{tables/ablation_aug.tex}
 
-\input{tables/ablation_com.tex}
-
 \paragraph{VCR Analysis.}
+\input{tables/ablation_com.tex}
 To assess the contribution of each VCR component, we ablate them individually and report results in Table~\ref{tab:ablation_com}.
 \textbf{Dedup.}\ proves most critical for the Hallucination benchmark ($-1.92$): without semantic deduplication, the model exploits near-identical claims to inflate the consistency reward without genuinely improving perceptual accuracy, a form of reward hacking that degrades grounded perception.
 \textbf{$r^{\mathrm{cnt}}$}\ exerts the broadest influence, yielding the largest drops on Mixed ($-2.85$) and notable degradation on Real-World VQA ($-1.63$) and Hallucination ($-1.71$); this pattern suggests that incentivizing sufficient claim diversity is essential for comprehensive visual coverage across task types.
@@ -145,8 +143,9 @@ Overall, all three components contribute positively and consistently, with claim
 
 \paragraph{Granularity of Self-Verification.}
 
-\begin{table}[t]
+\begin{wraptable}{r}{0.5\textwidth}
 \centering
+\vspace{-\intextsep}
 \caption{
 Comparison of claim-level and response-level self-verification on the three benchmark categories.
 Decrease denotes the performance drop to the claim-level.
@@ -164,8 +163,7 @@ Response-Level  & 87.70 & 72.51 & 56.99 \\
 \cellcolor{gray!10}Decrease        & \negcell{-0.84} & \negcell{-0.66} & \negcell{-1.30} \\
 \bottomrule
 \end{tabular}
-\vspace{-5mm}
-\end{table}
+\end{wraptable}
 
 A key design choice in \ours is the use of \textit{claim-level} self-verification.
 % , which decomposes a model-generated caption into atomic, verifiable claims and checks each one independently against the image.
@@ -181,14 +179,35 @@ These results demonstrate that decomposing verification into atomic claims enabl
 % Claim-level verification provides a stronger and more reliable training signal, leading to better-calibrated and more hallucination-resistant models.
 
 \paragraph{Training Dynamics.}
-
 \begin{figure}[t]
+\centering
+\begin{minipage}[t]{0.60\textwidth}
     \centering
     \includegraphics[width=\linewidth]{figures/training_dynamics_2.pdf}
-    \vspace{-5mm}
     \caption{Reward (red, left axis) and entropy (blue, right axis) curves over 256 training steps for (a) Single Agent SelfCheck, (b) MARCH~\cite{li2026march}, (c) V-MARCH w/o VCR, and (d) \textbf{\ours}. The comparison demonstrates that claim-level verification with VCR is necessary for stable, non-degenerate training.}
-    \vspace{-5mm}
     \label{fig:training-dynamics}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.37\textwidth}
+    \centering
+    \captionof{table}{Wall-clock time per training step, along with agent configuration \#Agent(trained/total) and relative overhead compared to SelfCheck with Ground Truth.}
+    \label{tab:overhead}
+    \vspace{2pt}
+    \small
+    \adjustbox{max width=\linewidth}{
+    \begin{tabular}{lccc}
+    \toprule
+    \textbf{Method} & \textbf{Time / Step (s)} & \textbf{\#Agents} & \textbf{Overhead} \\
+    \midrule
+    SelfCheck (GT) & 171.24 & 1/2 & $\times1.00$ \\
+    SelfCheck      & 180.02 & 1/2 & $\times1.05$ \\
+    EvoLMM*      & 360.04 & 2/2 & $\times2.10$ \\
+    \rowcolor{oursbg}
+    \ours          & 281.21 & 1/4 & $\times1.56$ \\
+    \bottomrule
+    \end{tabular}
+    }
+\end{minipage}
 \end{figure}
 
 % Figure~\ref{fig:training-dynamics} examines training stability across three configurations to isolate the contribution of VCR.
@@ -212,28 +231,6 @@ Its training time is therefore estimated as twice that of SelfCheck, although th
 \ours comprises four agents, with only the Solver being trainable and the other three (Proposer, Regulator, Checker) frozen.
 This design results in a per-step runtime of 281.21,s, representing a $1.56\times$ overhead compared to SelfCheck (180.02,s).
 Given that \ours achieves consistent and substantial performance gains across all evaluation dimensions, this overhead represents a favorable trade-off between compute cost and reward quality.
-
-\begin{table}[t]
-\centering
-\caption{Wall-clock time per training step, along with agent configuration \#Agent(trained/total) and relative overhead compared to SelfCheck with Ground Truth.
-}
-\label{tab:overhead}
-\small
-\adjustbox{max width=\linewidth}{
-\begin{tabular}{lccc}
-\toprule
-\textbf{Method} & \textbf{Time / Step (s)} & \textbf{\#Agents} & \textbf{Overhead} \\
-\midrule
-SelfCheck (GT) & 171.24 & 1/2 & $\times1.00$ \\
-SelfCheck      & 180.02 & 1/2 & $\times1.05$ \\
-EvoLMM*      & 360.04 & 2/2 & $\times2.10$ \\
-\rowcolor{oursbg}
-\ours          & 281.21 & 1/4 & $\times1.56$ \\
-\bottomrule
-\end{tabular}
-}
-\vspace{-5mm}
-\end{table}
 
 % \paragraph{Training Dynamics and Efficiency.}
 % % 我们分析\ours的训练动态，包括训练中的reward曲线，entropy变化情况，以及训练的overhead。

@@ -23,8 +23,9 @@
 % \end{tabular}
 % \end{table}
 
-\begin{table}[t]
+\begin{wraptable}{r}{0.5\textwidth}
 \centering
+\vspace{-\intextsep}
 \caption{
 Ablation study of the VCR: claim deduplication (Dedup.), claim quantity reward ($r^{\text{cnt}}$), and claim quality penalty ($r^{\text{qual}}$).
 Each variant removes one component at a time; Decrease denotes the performance drop relative to the full \ours method.
@@ -48,5 +49,4 @@ Method & {Hallucination} & {VQA(s)} & {Mixed(s)} \\
 \cellcolor{gray!10}Decrease               & {\negcell{-0.71}} & {\negcell{-0.87}} & {\negcell{-1.28}} \\
 \bottomrule
 \end{tabular}
-\vspace{-6mm}
-\end{table}
+\end{wraptable}
