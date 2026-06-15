@@ -1,0 +1,47 @@
+
+\begin{table}[h]
+\centering
+\caption{Key training hyperparameters used in all experiments.}
+\label{tab:training_params}
+\small
+\begin{tabular}{lc}
+\toprule
+\textbf{Hyperparameter} & \textbf{Value} \\
+\midrule
+\multicolumn{2}{l}{\textit{Optimization}} \\
+Learning rate              & $2 \times 10^{-6}$ \\
+LR schedule                & Cosine decay \\
+LR warmup steps            & 2 \\
+LR decay steps             & 350 \\
+Weight decay               & 0.1 \\
+Gradient clipping          & 1.0 \\
+\midrule
+\multicolumn{2}{l}{\textit{Training}} \\
+Training algorithm         & GRPO \\
+Global batch size          & 64 \\
+Rollouts per prompt ($n$)  & 8 \\
+Training epochs            & 5 \\
+Max prompt length          & 8{,}192 tokens \\
+Max response length        & 2{,}048 tokens \\
+Loss aggregation           & Token mean \\
+\midrule
+\multicolumn{2}{l}{\textit{PPO / GRPO}} \\
+Advantage estimator        & GRPO \\
+KL coefficient             & 0.02 \\
+KL loss coefficient        & 0.0 \\
+Clip ratio (low / high)    & 0.2 / 0.2 \\
+Entropy coefficient        & 0.0 \\
+\midrule
+\multicolumn{2}{l}{\textit{Generation}} \\
+Temperature                & 1.0 \\
+Top-$p$                    & 1.0 \\
+Top-$k$                    & $-1$ (disabled) \\
+GPU memory utilization     & 0.6 \\
+\midrule
+\multicolumn{2}{l}{\textit{Parallelism (7B)}} \\
+Tensor parallel size       & 2 \\
+Pipeline parallel size     & 2 \\
+Generation tensor parallel & 2 \\
+\bottomrule
+\end{tabular}
+\end{table}

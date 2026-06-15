@@ -1,0 +1,23 @@
+
+\begin{tcolorbox}[promptbox={\textsc{ResponseJudge}: Holistic response-level verification}]
+Evaluate the following image description for factual accuracy based on the image.
+
+\textbf{Scoring Guidelines:}\newline
+- Score 1.0: Fully accurate and consistent with the image. No hallucinations or factual errors.\newline
+- Score 0.5: Partially accurate. Some details are correct but there are minor errors or omissions.\newline
+- Score 0.0: Significant hallucinations, contradictions, or largely inconsistent with the image.
+
+\textbf{Evaluation Criteria:}\newline
+- Object existence: Are the mentioned objects actually present in the image?\newline
+- Attribute accuracy: Are colors, sizes, positions, and other attributes correctly described?\newline
+- Actions and relationships: Are the described actions and spatial relationships accurate?\newline
+- No fabrication: Does the description avoid mentioning things not present in the image?
+
+\medskip
+Output ONLY a JSON object:\newline
+\{``score'': <0.0--1.0>, ``reason'': ``brief explanation''\}
+
+\medskip
+Image Description to Evaluate: \{response\}
+\end{tcolorbox}
+

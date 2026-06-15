@@ -1,0 +1,174 @@
+% \documentclass{article} % For LaTeX2e
+
+% ========================================
+% 单栏/双栏切换：注释其中一行即可
+% ========================================
+% 单栏布局（撰写编辑推荐）
+\documentclass[10pt, a4paper, logo]{googledeepmind}
+% 双栏布局（会议投稿推荐）
+% \documentclass[10pt, a4paper, twocolumn, logo]{googledeepmind}
+% ========================================
+
+\usepackage{times}
+
+% --- 基础与字体 ---
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage{xspace}
+\usepackage{microtype}
+
+% --- 数学符号与公式 ---
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{bbm}
+
+% Optional math commands from https://github.com/goodfeli/dlbook_notation.
+\input{math_commands.tex}
+
+% --- 颜色与表格 ---
+\usepackage[table]{xcolor}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{siunitx}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{adjustbox}
+
+% --- 图形与布局 ---
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage[leftcaption]{sidecap} % caption 在右边
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{stfloats}
+
+% --- 算法与列表 ---
+\usepackage[ruled, linesnumbered, lined]{algorithm2e}
+\usepackage{enumitem}
+
+% --- 文本装饰与框图 ---
+\usepackage[most]{tcolorbox}
+\tcbuselibrary{breakable} % 加载分页支持库
+\usepackage[normalem]{ulem}
+\usepackage{verbatim}
+
+% --- 引用与链接 ---
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{etoolbox}
+
+% 让 \cite 输出 ACL 风格的括号引用（与原稿一致）
+\let\cite\citep
+
+% ========================================
+% V-MARCH 自定义命令与颜色
+% ========================================
+\definecolor{poscolor}{HTML}{E6F4EA}     % 淡绿色
+\definecolor{negcolor}{HTML}{FEF4F4}     % 淡红色
+\definecolor{oursbg}{RGB}{230,240,255}   % 我们方法行的淡蓝背景
+\definecolor{upcolor}{RGB}{52,140,90}    % 柔和森林绿
+\definecolor{dncolor}{RGB}{190,60,60}    % 低饱和砖红
+\newcommand{\up}[1]{\textcolor{upcolor}{$\uparrow$#1}}
+\newcommand{\dn}[1]{\textcolor{dncolor}{$\downarrow$#1}}
+\newcommand{\poscell}[1]{\cellcolor{poscolor}{$$#1}}
+\newcommand{\negcell}[1]{\cellcolor{negcolor}{$$#1}}
+
+\newcommand{\sh}[1]{{\fontsize{8}{9}\selectfont #1}}
+
+\newcommand{\ours}{V-MARCH\xspace}    % our method name
+\newcommand{\pengyu}[1]{{\color{red}{[\bf\sf Pengyu: #1]}}}
+
+% 表格高亮快捷命令
+\definecolor{BestColor}{HTML}{C8E6C9}        % 柔和的绿色
+\definecolor{SecondBestColor}{HTML}{FFF9C4}  % 淡黄色
+\newcommand{\best}[1]{\cellcolor{BestColor}\textbf{#1}}
+\newcommand{\secondbest}[1]{\cellcolor{SecondBestColor}#1}
+
+% prompt 框样式（appendix 中的 prompt 模板使用）
+\tcbset{
+  promptbox/.style={
+    colback=gray!6,
+    colframe=gray!40,
+    fonttitle=\bfseries\small,
+    coltitle=black,
+    title=#1,
+    boxrule=0.4pt,
+    arc=3pt,
+    left=6pt, right=6pt, top=4pt, bottom=4pt,
+    breakable,
+    before upper={\setlength{\parskip}{4pt}\small\ttfamily},
+  }
+}
+
+% ========================================
+% 标题与作者
+% ========================================
+\title{\ours: Multi-Agent Self-Verification with Visual Claim Regulation \\ for VLM Hallucination}
+
+% Authors must not appear in the submitted version. They should be hidden
+% as long as the \iclrfinalcopy macro remains commented out below.
+% Non-anonymous submissions will be rejected without review.
+
+% --- AUTHORS AND AFFILIATIONS ---
+% Equal Contribution: 第一和第二作者同等贡献
+\author[1]{First Author\textsuperscript{$\S$,*}}
+\author[1]{Second Author\textsuperscript{$\S$,$\dag$}}
+\author[1]{Third Author}
+\affil[1]{Qwen Large Model Application Team, Alibaba}
+\affil[2]{xxx University}
+\footnotetext{\textsuperscript{$\S$}Equal contribution.}  % 同等贡献脚注
+
+% Corresponding author email (shown in footer)
+\correspondingauthor{zhoumengyu.zmy@alibaba-inc.com}
+
+% --- Abstract ---
+\begin{abstract}
+Hallucination remains a critical challenge for vision-language models (VLMs), especially in real-world scenarios where models generate image-inconsistent content.
+Existing mitigation methods typically rely on human annotations or external supervision, limiting their scalability to large-scale unlabeled image corpora.
+We propose \textbf{\ours}, a reinforced visual self-check framework for reducing hallucination in VLMs without ground-truth labels.
+\ours performs claim-level factual verification by decomposing model responses into atomic claims, transforming them into visual questions, and aggregating image-grounded verification signals as reinforcement learning rewards.
+To improve reward reliability, we further introduce a Visual Claim Regulation (VCR) mechanism that encourages informative, image-grounded descriptions while suppressing trivial or redundant claims.
+We evaluate \ours on 12 benchmarks spanning hallucination evaluation (+3.30), real-world VQA (+1.74), and general multimodal understanding benchmarks (+4.07), where it consistently outperforms existing methods without human-annotated factual supervision.
+Moreover, \ours generalizes effectively across model scales, demonstrating its potential as a scalable hallucination mitigation solution on large-scale real-world unlabeled image corpora.
+\end{abstract}
+
+%\iclrfinalcopy % Uncomment for camera-ready version, but NOT for submission.
+
+\begin{document}
+\maketitle
+
+\input{sections/1-introduction.tex}
+\input{sections/2-related-work.tex}
+\input{sections/3-preliminary.tex}
+\input{sections/4-method-vcr.tex}
+\input{sections/5-experiments.tex}
+\input{sections/6-conclusion.tex}
+
+\clearpage
+\section*{Limitations}
+Despite its strong empirical performance, \ours has several limitations that point to future research directions.
+First, the multi-agent reward pipeline introduces computational overhead during the post-training phase, resulting in approximately 1.56$\times$ longer wall-clock training time compared to a single-agent baseline. Importantly, this overhead is incurred only during training: the Proposer, Regulator, and Checker agents are discarded after optimization, allowing the deployed Solver model to operate without any additional inference latency.
+Second, our scaling and verification experiments were primarily conducted using different sizes of the Qwen2.5-VL family. While these experiments demonstrate consistent performance gains across model scales, the generalizability of \ours across different architectures (e.g., InternVL or LLaVA) remains an open empirical question.
+Final, although \ours demonstrates remarkable cross-dataset generalization across 12 standard benchmarks, it has been post-trained primarily on the GQA dataset. Its efficacy on highly specialized or visually distinct domains, such as document understanding, chart analysis, or medical imaging, remains to be comprehensively validated.
+
+\section*{Ethical Considerations}
+This work aims to improve the factual reliability of vision-language models, with potential benefits in high-stakes application domains such as medical image interpretation, legal document analysis, and accessibility tools for visually impaired users.
+All experiments rely exclusively on publicly available academic datasets and pretrained models; no new data were collected, no human subjects were involved, and no personally identifiable information was processed.
+As with any advance in the fidelity of generative models, more accurate visual descriptions could in principle be misused to produce more convincing multimodal misinformation, though the primary intent and expected application of this work is the reduction of model hallucination.
+Finally, the multi-agent verification pipeline incurs a modest additional computational cost (approximately $1.56{\times}$ that of a single-agent baseline), which may lead to a larger carbon footprint; we encourage future work to explore more efficient verification architectures.
+
+% \section*{Acknowledgments}
+% TODO: Acknowledgments here.
+% Do not include this section in the review version
+
+\nocite{*}
+\bibliography{custom}
+\bibliographystyle{conference}
+
+\clearpage
+\appendix
+\input{sections/appendix.tex}
+
+\end{document}

@@ -1,0 +1,594 @@
+\begin{thebibliography}{65}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Achiam et~al.(2023)Achiam, Adler, Agarwal, Ahmad, Akkaya, Aleman,
+  Almeida, Altenschmidt, Altman, Anadkat, et~al.]{achiam2023gpt}
+Josh Achiam, Steven Adler, Sandhini Agarwal, Lama Ahmad, Ilge Akkaya,
+  Florencia~Leoni Aleman, Diogo Almeida, Janko Altenschmidt, Sam Altman,
+  Shyamal Anadkat, et~al.
+\newblock Gpt-4 technical report.
+\newblock \emph{arXiv preprint arXiv:2303.08774}, 2023.
+
+\bibitem[Anand et~al.(2026)Anand, Jha, Bamba, and Rahaman]{anand2026crops}
+Neeraj Anand, Samyak Jha, Udbhav Bamba, and Rahul Rahaman.
+\newblock {CR}o{PS}: A training-free hallucination mitigation framework for
+  vision-language models.
+\newblock \emph{Transactions on Machine Learning Research}, 2026.
+\newblock ISSN 2835-8856.
+\newblock URL \url{https://openreview.net/forum?id=KQSoZDPVGX}.
+
+\bibitem[Bai et~al.(2025{\natexlab{a}})Bai, Cai, Chen, Chen, Chen, Cheng, Deng,
+  Ding, Gao, Ge, et~al.]{bai2025qwen3}
+Shuai Bai, Yuxuan Cai, Ruizhe Chen, Keqin Chen, Xionghui Chen, Zesen Cheng,
+  Lianghao Deng, Wei Ding, Chang Gao, Chunjiang Ge, et~al.
+\newblock Qwen3-vl technical report.
+\newblock \emph{arXiv preprint arXiv:2511.21631}, 2025{\natexlab{a}}.
+
+\bibitem[Bai et~al.(2025{\natexlab{b}})Bai, Cai, Chen, Chen, Chen, Cheng, Deng,
+  Ding, Gao, Ge, et~al.]{qwen3vl}
+Shuai Bai, Yuxuan Cai, Ruizhe Chen, Keqin Chen, Xionghui Chen, Zesen Cheng,
+  Lianghao Deng, Wei Ding, Chang Gao, Chunjiang Ge, et~al.
+\newblock Qwen3-vl technical report.
+\newblock \emph{arXiv preprint arXiv:2511.21631}, 2025{\natexlab{b}}.
+
+\bibitem[Bai et~al.(2022)Bai, Kadavath, Kundu, Askell, Kernion, Jones, Chen,
+  Goldie, Mirhoseini, McKinnon, et~al.]{bai2022constitutional}
+Yuntao Bai, Saurav Kadavath, Sandipan Kundu, Amanda Askell, Jackson Kernion,
+  Andy Jones, Anna Chen, Anna Goldie, Azalia Mirhoseini, Cameron McKinnon,
+  et~al.
+\newblock Constitutional ai: Harmlessness from ai feedback.
+\newblock \emph{arXiv preprint arXiv:2212.08073}, 2022.
+
+\bibitem[Chen et~al.(2025)Chen, Tu, Wang, Liu, Tang, Du, Zhou, and
+  Xie]{chen2025vlaa}
+Hardy Chen, Haoqin Tu, Fali Wang, Hui Liu, Xianfeng Tang, Xinya Du, Yuyin Zhou,
+  and Cihang Xie.
+\newblock {SFT} or {RL}? an early investigation into training r1-like reasoning
+  large vision-language models.
+\newblock \emph{Transactions on Machine Learning Research}, 2025.
+\newblock ISSN 2835-8856.
+\newblock URL \url{https://openreview.net/forum?id=wZI5qkQeDF}.
+
+\bibitem[Chen et~al.(2024)Chen, Wu, Wang, Su, Chen, Xing, Zhong, Zhang, Zhu,
+  Lu, et~al.]{chen2024internvl}
+Zhe Chen, Jiannan Wu, Wenhai Wang, Weijie Su, Guo Chen, Sen Xing, Muyan Zhong,
+  Qinglong Zhang, Xizhou Zhu, Lewei Lu, et~al.
+\newblock Internvl: Scaling up vision foundation models and aligning for
+  generic visual-linguistic tasks.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision
+  and pattern recognition}, pp.\  24185--24198, 2024.
+
+\bibitem[Comanici et~al.(2025)Comanici, Bieber, Schaekermann, Pasupat,
+  Sachdeva, Dhillon, Blistein, Ram, Zhang, Rosen, et~al.]{comanici2025gemini}
+Gheorghe Comanici, Eric Bieber, Mike Schaekermann, Ice Pasupat, Noveen
+  Sachdeva, Inderjit Dhillon, Marcel Blistein, Ori Ram, Dan Zhang, Evan Rosen,
+  et~al.
+\newblock Gemini 2.5: Pushing the frontier with advanced reasoning,
+  multimodality, long context, and next generation agentic capabilities.
+\newblock \emph{arXiv preprint arXiv:2507.06261}, 2025.
+
+\bibitem[Dahl et~al.(2024)Dahl, Magesh, Suzgun, and Ho]{dahl2024large}
+Matthew Dahl, Varun Magesh, Mirac Suzgun, and Daniel~E Ho.
+\newblock Large legal fictions: Profiling legal hallucinations in large
+  language models.
+\newblock \emph{Journal of Legal Analysis}, 16\penalty0 (1):\penalty0 64--93,
+  2024.
+
+\bibitem[Deng et~al.(2024)Deng, Lu, Yin, Hu, Shen, Gu, Zou, Chang, and
+  Wang]{deng2024stic}
+Yihe Deng, Pan Lu, Fan Yin, Ziniu Hu, Sheng Shen, Quanquan Gu, James Zou,
+  Kai-Wei Chang, and Wei Wang.
+\newblock Enhancing large vision language models with self-training on image
+  comprehension.
+\newblock In \emph{The Thirty-eighth Annual Conference on Neural Information
+  Processing Systems}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=FZW7Ctyjm3}.
+
+\bibitem[Deng et~al.(2026)Deng, Bansal, Yin, Peng, Wang, and
+  Chang]{deng2026openvlthinker}
+Yihe Deng, Hritik Bansal, Fan Yin, Nanyun Peng, Wei Wang, and Kai-Wei Chang.
+\newblock Openvlthinker: Complex vision-language reasoning via iterative sft-rl
+  cycles.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  38:\penalty0 123817--123846, 2026.
+
+\bibitem[Duan et~al.(2024)Duan, Yang, Qiao, Fang, Chen, Liu, Dong, Zang, Zhang,
+  Wang, et~al.]{duan2024vlmevalkit}
+Haodong Duan, Junming Yang, Yuxuan Qiao, Xinyu Fang, Lin Chen, Yuan Liu, Xiaoyi
+  Dong, Yuhang Zang, Pan Zhang, Jiaqi Wang, et~al.
+\newblock Vlmevalkit: An open-source toolkit for evaluating large
+  multi-modality models.
+\newblock In \emph{Proceedings of the 32nd ACM international conference on
+  multimedia}, pp.\  11198--11201, 2024.
+
+\bibitem[Fu et~al.(2026)Fu, Chen, Shen, Qin, Zhang, Lin, Yang, Zheng, Li, Sun,
+  Wu, Ji, Shan, and He]{fu2026mme}
+Chaoyou Fu, Peixian Chen, Yunhang Shen, Yulei Qin, Mengdan Zhang, Xu~Lin,
+  Jinrui Yang, Xiawu Zheng, Ke~Li, Xing Sun, Yunsheng Wu, Rongrong Ji, Caifeng
+  Shan, and Ran He.
+\newblock {MME}: A comprehensive evaluation benchmark for multimodal large
+  language models.
+\newblock In \emph{The Thirty-ninth Annual Conference on Neural Information
+  Processing Systems Datasets and Benchmarks Track}, 2026.
+\newblock URL \url{https://openreview.net/forum?id=DgH9YCsqWm}.
+
+\bibitem[Fu et~al.(2024)Fu, Hu, Li, Feng, Wang, Lin, Roth, Smith, Ma, and
+  Krishna]{fu2024blink}
+Xingyu Fu, Yushi Hu, Bangzheng Li, Yu~Feng, Haoyu Wang, Xudong Lin, Dan Roth,
+  Noah~A Smith, Wei-Chiu Ma, and Ranjay Krishna.
+\newblock Blink: Multimodal large language models can see but not perceive.
+\newblock In \emph{European Conference on Computer Vision}, pp.\  148--166.
+  Springer, 2024.
+
+\bibitem[Fu et~al.(2025)Fu, Xie, Sun, Kang, and Li]{zhao2024hdpo}
+Yuhan Fu, Ruobing Xie, Xingwu Sun, Zhanhui Kang, and Xirong Li.
+\newblock Mitigating hallucination in multimodal large language model via
+  hallucination-targeted direct preference optimization.
+\newblock In Wanxiang Che, Joyce Nabende, Ekaterina Shutova, and Mohammad~Taher
+  Pilehvar (eds.), \emph{Findings of the Association for Computational
+  Linguistics: ACL 2025}, pp.\  16563--16577, Vienna, Austria, July 2025.
+  Association for Computational Linguistics.
+\newblock ISBN 979-8-89176-256-5.
+\newblock \doi{10.18653/v1/2025.findings-acl.850}.
+\newblock URL \url{https://aclanthology.org/2025.findings-acl.850/}.
+
+\bibitem[Huang et~al.(2024)Huang, Dong, Zhang, Wang, He, Wang, Lin, Zhang, and
+  Yu]{huang2023opera}
+Qidong Huang, Xiaoyi Dong, Pan Zhang, Bin Wang, Conghui He, Jiaqi Wang, Dahua
+  Lin, Weiming Zhang, and Nenghai Yu.
+\newblock Opera: Alleviating hallucination in multi-modal large language models
+  via over-trust penalty and retrospection-allocation.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pp.\  13418--13427, 2024.
+
+\bibitem[Hudson \& Manning(2019)Hudson and Manning]{hudson2019gqa}
+Drew~A Hudson and Christopher~D Manning.
+\newblock Gqa: A new dataset for real-world visual reasoning and compositional
+  question answering.
+\newblock In \emph{Proceedings of the IEEE/CVF conference on computer vision
+  and pattern recognition}, pp.\  6700--6709, 2019.
+
+\bibitem[Jhaveri et~al.(2026)Jhaveri, GX-Chen, Sucholutsky, and
+  Choi]{jhaveri2026failing}
+Ayush~Rajesh Jhaveri, Anthony GX-Chen, Ilia Sucholutsky, and Eunsol Choi.
+\newblock Failing to falsify: Evaluating and mitigating confirmation bias in
+  language models.
+\newblock \emph{arXiv preprint arXiv:2604.02485}, 2026.
+
+\bibitem[Jiang et~al.(2025)Jiang, Kachinthaya, Petryk, and
+  Gandelsman]{jiang2024interp}
+Nick Jiang, Anish Kachinthaya, Suzanne Petryk, and Yossi Gandelsman.
+\newblock Interpreting and editing vision-language representations to mitigate
+  hallucinations.
+\newblock In \emph{International Conference on Learning Representations},
+  volume 2025, pp.\  63582--63605, 2025.
+
+\bibitem[Jing et~al.(2024)Jing, Li, Chen, and Du]{jing2024faithscore}
+Liqiang Jing, Ruosen Li, Yunmo Chen, and Xinya Du.
+\newblock {F}aith{S}core: Fine-grained evaluations of hallucinations in large
+  vision-language models.
+\newblock In Yaser Al-Onaizan, Mohit Bansal, and Yun-Nung Chen (eds.),
+  \emph{Findings of the Association for Computational Linguistics: EMNLP 2024},
+  pp.\  5042--5063, Miami, Florida, USA, November 2024. Association for
+  Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.findings-emnlp.290}.
+\newblock URL \url{https://aclanthology.org/2024.findings-emnlp.290/}.
+
+\bibitem[Kim et~al.(2025)Kim, Jeong, Chen, Li, Park, Lu, Alhamoud, Mun, Grau,
+  Jung, et~al.]{kim2025medical}
+Yubin Kim, Hyewon Jeong, Shan Chen, Shuyue~Stella Li, Chanwoo Park, Mingyu Lu,
+  Kumail Alhamoud, Jimin Mun, Cristina Grau, Minseok Jung, et~al.
+\newblock Medical hallucinations in foundation models and their impact on
+  healthcare.
+\newblock \emph{arXiv preprint arXiv:2503.05777}, 2025.
+
+\bibitem[Leng et~al.(2024)Leng, Zhang, Chen, Li, Lu, Miao, and
+  Bing]{leng2023vcd}
+Sicong Leng, Hang Zhang, Guanzheng Chen, Xin Li, Shijian Lu, Chunyan Miao, and
+  Lidong Bing.
+\newblock Mitigating object hallucinations in large vision-language models
+  through visual contrastive decoding.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pp.\  13872--13882, 2024.
+
+\bibitem[Li et~al.(2024{\natexlab{a}})Li, Lin, Peng, de~Dieu~Nyandwi, Jiang,
+  Ma, Khanuja, Krishna, Neubig, and Ramanan]{li2024naturalbench}
+Baiqi Li, Zhiqiu Lin, Wenxuan Peng, Jean de~Dieu~Nyandwi, Daniel Jiang, Zixian
+  Ma, Simran Khanuja, Ranjay Krishna, Graham Neubig, and Deva Ramanan.
+\newblock Naturalbench: Evaluating vision-language models on natural
+  adversarial samples.
+\newblock In \emph{The Thirty-eight Conference on Neural Information Processing
+  Systems Datasets and Benchmarks Track}, 2024{\natexlab{a}}.
+\newblock URL \url{https://openreview.net/forum?id=Dx88A9Zgnv}.
+
+\bibitem[Li et~al.(2024{\natexlab{b}})Li, Ge, Ge, Wang, Wang, Zhang, and
+  Shan]{li2024seedbench}
+Bohao Li, Yuying Ge, Yixiao Ge, Guangzhi Wang, Rui Wang, Ruimao Zhang, and Ying
+  Shan.
+\newblock Seed-bench: Benchmarking multimodal large language models.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition (CVPR)}, pp.\  13299--13308, June 2024{\natexlab{b}}.
+
+\bibitem[Li et~al.(2025{\natexlab{a}})Li, Huang, Li, Lu, Lu, Tian, Shen, and
+  Ye]{li2025visual}
+Wei Li, Zhen Huang, Houqiang Li, Le~Lu, Yang Lu, Xinmei Tian, Xu~Shen, and
+  Jieping Ye.
+\newblock Visual evidence prompting mitigates hallucinations in large
+  vision-language models.
+\newblock In Wanxiang Che, Joyce Nabende, Ekaterina Shutova, and Mohammad~Taher
+  Pilehvar (eds.), \emph{Proceedings of the 63rd Annual Meeting of the
+  Association for Computational Linguistics (Volume 1: Long Papers)}, pp.\
+  4048--4080, Vienna, Austria, July 2025{\natexlab{a}}. Association for
+  Computational Linguistics.
+\newblock ISBN 979-8-89176-251-0.
+\newblock \doi{10.18653/v1/2025.acl-long.205}.
+\newblock URL \url{https://aclanthology.org/2025.acl-long.205/}.
+
+\bibitem[Li et~al.(2025{\natexlab{b}})Li, Huang, Li, Lu, Lu, Tian, Shen, and
+  Ye]{li2025visual_evidence}
+Wei Li, Zhen Huang, Houqiang Li, Le~Lu, Yang Lu, Xinmei Tian, Xu~Shen, and
+  Jieping Ye.
+\newblock Visual evidence prompting mitigates hallucinations in large
+  vision-language models.
+\newblock In Wanxiang Che, Joyce Nabende, Ekaterina Shutova, and Mohammad~Taher
+  Pilehvar (eds.), \emph{Proceedings of the 63rd Annual Meeting of the
+  Association for Computational Linguistics (Volume 1: Long Papers)}, pp.\
+  4048--4080, Vienna, Austria, July 2025{\natexlab{b}}. Association for
+  Computational Linguistics.
+\newblock ISBN 979-8-89176-251-0.
+\newblock \doi{10.18653/v1/2025.acl-long.205}.
+\newblock URL \url{https://aclanthology.org/2025.acl-long.205/}.
+
+\bibitem[Li et~al.(2023)Li, Du, Zhou, Wang, Zhao, and Wen]{li2023pope}
+Yifan Li, Yifan Du, Kun Zhou, Jinpeng Wang, Xin Zhao, and Ji-Rong Wen.
+\newblock Evaluating object hallucination in large vision-language models.
+\newblock In Houda Bouamor, Juan Pino, and Kalika Bali (eds.),
+  \emph{Proceedings of the 2023 Conference on Empirical Methods in Natural
+  Language Processing}, pp.\  292--305, Singapore, December 2023. Association
+  for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.emnlp-main.20}.
+\newblock URL \url{https://aclanthology.org/2023.emnlp-main.20/}.
+
+\bibitem[Li et~al.(2026)Li, Zhang, Cheng, Song, Zhou, Li, Hu, Qin, Zhao, Jiang,
+  et~al.]{li2026march}
+Zhuo Li, Yupeng Zhang, Pengyu Cheng, Jiajun Song, Mengyu Zhou, Hao Li, Shujie
+  Hu, Yu~Qin, Erchao Zhao, Xiaoxi Jiang, et~al.
+\newblock March: Multi-agent reinforced self-check for llm hallucination.
+\newblock \emph{arXiv preprint arXiv:2603.24579}, 2026.
+
+\bibitem[Lin et~al.(2014)Lin, Maire, Belongie, Hays, Perona, Ramanan,
+  Doll{\'a}r, and Zitnick]{lin2014microsoft}
+Tsung-Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva
+  Ramanan, Piotr Doll{\'a}r, and C~Lawrence Zitnick.
+\newblock Microsoft coco: Common objects in context.
+\newblock In \emph{European conference on computer vision}, pp.\  740--755.
+  Springer, 2014.
+
+\bibitem[Liu et~al.(2023{\natexlab{a}})Liu, Emerson, and Collier]{liu2023vsr}
+Fangyu Liu, Guy Emerson, and Nigel Collier.
+\newblock Visual spatial reasoning.
+\newblock \emph{Transactions of the Association for Computational Linguistics},
+  11:\penalty0 635--651, 2023{\natexlab{a}}.
+
+\bibitem[Liu et~al.(2024{\natexlab{a}})Liu, Xue, Chen, Chen, Zhao, Wang, Hou,
+  Li, and Peng]{liu2024survey}
+Hanchao Liu, Wenyuan Xue, Yifei Chen, Dapeng Chen, Xiutian Zhao, Ke~Wang,
+  Liping Hou, Rongjun Li, and Wei Peng.
+\newblock A survey on hallucination in large vision-language models.
+\newblock \emph{arXiv preprint arXiv:2402.00253}, 2024{\natexlab{a}}.
+
+\bibitem[Liu et~al.(2023{\natexlab{b}})Liu, Li, Wu, and Lee]{liu2023llava}
+Haotian Liu, Chunyuan Li, Qingyang Wu, and Yong~Jae Lee.
+\newblock Visual instruction tuning.
+\newblock \emph{Advances in neural information processing systems},
+  36:\penalty0 34892--34916, 2023{\natexlab{b}}.
+
+\bibitem[Liu et~al.(2024{\natexlab{b}})Liu, Duan, Zhang, Li, Zhang, Zhao, Yuan,
+  Wang, He, Liu, et~al.]{liu2024mmbench}
+Yuan Liu, Haodong Duan, Yuanhan Zhang, Bo~Li, Songyang Zhang, Wangbo Zhao, Yike
+  Yuan, Jiaqi Wang, Conghui He, Ziwei Liu, et~al.
+\newblock Mmbench: Is your multi-modal model an all-around player?
+\newblock In \emph{European conference on computer vision}, pp.\  216--233.
+  Springer, 2024{\natexlab{b}}.
+
+\bibitem[Lu et~al.(2025)Lu, Zhang, Yuan, Gao, Zhang, Qi, Li, and
+  Hu]{lu2025apasi}
+Yifan Lu, Ziqi Zhang, Chunfeng Yuan, Jun Gao, Congxuan Zhang, Xiaojuan Qi, Bing
+  Li, and Weiming Hu.
+\newblock Mitigating hallucinations in large vision-language models by
+  self-injecting hallucinations.
+\newblock In Christos Christodoulopoulos, Tanmoy Chakraborty, Carolyn Rose, and
+  Violet Peng (eds.), \emph{Findings of the Association for Computational
+  Linguistics: EMNLP 2025}, pp.\  13861--13877, Suzhou, China, November 2025.
+  Association for Computational Linguistics.
+\newblock ISBN 979-8-89176-335-7.
+\newblock \doi{10.18653/v1/2025.findings-emnlp.746}.
+\newblock URL \url{https://aclanthology.org/2025.findings-emnlp.746/}.
+
+\bibitem[Madaan et~al.(2023)Madaan, Tandon, Gupta, Hallinan, Gao, Wiegreffe,
+  Alon, Dziri, Prabhumoye, Yang, et~al.]{madaan2023self}
+Aman Madaan, Niket Tandon, Prakhar Gupta, Skyler Hallinan, Luyu Gao, Sarah
+  Wiegreffe, Uri Alon, Nouha Dziri, Shrimai Prabhumoye, Yiming Yang, et~al.
+\newblock Self-refine: Iterative refinement with self-feedback.
+\newblock \emph{Advances in neural information processing systems},
+  36:\penalty0 46534--46594, 2023.
+
+\bibitem[Meng et~al.(2025)Meng, Du, Liu, Zhou, Lu, Fu, Han, Shi, Wang, He,
+  et~al.]{meng2025mm}
+Fanqing Meng, Lingxiao Du, Zongkai Liu, Zhixiang Zhou, Quanfeng Lu, Daocheng
+  Fu, Tiancheng Han, Botian Shi, Wenhai Wang, Junjun He, et~al.
+\newblock Mm-eureka: Exploring the frontiers of multimodal reasoning with
+  rule-based reinforcement learning.
+\newblock \emph{arXiv preprint arXiv:2503.07365}, 2025.
+
+\bibitem[Metropolitansky \& Larson(2025)Metropolitansky and
+  Larson]{metropolitansky2025towards}
+Dasha Metropolitansky and Jonathan Larson.
+\newblock Towards effective extraction and evaluation of factual claims.
+\newblock In Wanxiang Che, Joyce Nabende, Ekaterina Shutova, and Mohammad~Taher
+  Pilehvar (eds.), \emph{Proceedings of the 63rd Annual Meeting of the
+  Association for Computational Linguistics (Volume 1: Long Papers)}, pp.\
+  6996--7045, Vienna, Austria, July 2025. Association for Computational
+  Linguistics.
+\newblock ISBN 979-8-89176-251-0.
+\newblock \doi{10.18653/v1/2025.acl-long.348}.
+\newblock URL \url{https://aclanthology.org/2025.acl-long.348/}.
+
+\bibitem[Miao et~al.(2024)Miao, Teh, and Rainforth]{miao2024selfcheck}
+Ning Miao, Yee~Whye Teh, and Tom Rainforth.
+\newblock Selfcheck: Using {LLM}s to zero-shot check their own step-by-step
+  reasoning.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=pTHfApDakA}.
+
+\bibitem[Ouyang et~al.(2022)Ouyang, Wu, Jiang, Almeida, Wainwright, Mishkin,
+  Zhang, Agarwal, Slama, Ray, et~al.]{ouyang2022training}
+Long Ouyang, Jeffrey Wu, Xu~Jiang, Diogo Almeida, Carroll Wainwright, Pamela
+  Mishkin, Chong Zhang, Sandhini Agarwal, Katarina Slama, Alex Ray, et~al.
+\newblock Training language models to follow instructions with human feedback.
+\newblock \emph{Advances in neural information processing systems},
+  35:\penalty0 27730--27744, 2022.
+
+\bibitem[Rawte et~al.(2025)Rawte, Mishra, Sheth, and Das]{rawte2025defining}
+Vipula Rawte, Aryan Mishra, Amit Sheth, and Amitava Das.
+\newblock Defining and quantifying visual hallucinations in vision-language
+  models.
+\newblock In Trista Cao, Anubrata Das, Tharindu Kumarage, Yixin Wan, Satyapriya
+  Krishna, Ninareh Mehrabi, Jwala Dhamala, Anil Ramakrishna, Aram Galystan,
+  Anoop Kumar, Rahul Gupta, and Kai-Wei Chang (eds.), \emph{Proceedings of the
+  5th Workshop on Trustworthy NLP (TrustNLP 2025)}, pp.\  501--510,
+  Albuquerque, New Mexico, May 2025. Association for Computational Linguistics.
+\newblock ISBN 979-8-89176-233-6.
+\newblock \doi{10.18653/v1/2025.trustnlp-main.32}.
+\newblock URL \url{https://aclanthology.org/2025.trustnlp-main.32/}.
+
+\bibitem[Schwenk et~al.(2022)Schwenk, Khandelwal, Clark, Marino, and
+  Mottaghi]{schwenk2022okvqa}
+Dustin Schwenk, Apoorv Khandelwal, Christopher Clark, Kenneth Marino, and
+  Roozbeh Mottaghi.
+\newblock A-okvqa: A benchmark for visual question answering using world
+  knowledge.
+\newblock In \emph{European conference on computer vision}, pp.\  146--162.
+  Springer, 2022.
+
+\bibitem[Shao et~al.(2024)Shao, Wang, Zhu, Xu, Song, Bi, Zhang, Zhang, Li, Wu,
+  et~al.]{shao2024deepseekmath}
+Zhihong Shao, Peiyi Wang, Qihao Zhu, Runxin Xu, Junxiao Song, Xiao Bi, Haowei
+  Zhang, Mingchuan Zhang, YK~Li, Yang Wu, et~al.
+\newblock Deepseekmath: Pushing the limits of mathematical reasoning in open
+  language models.
+\newblock \emph{arXiv preprint arXiv:2402.03300}, 2024.
+
+\bibitem[Sheng et~al.(2025)Sheng, Zhang, Ye, Wu, Zhang, Zhang, Peng, Lin, and
+  Wu]{sheng2024hybridflow}
+Guangming Sheng, Chi Zhang, Zilingfeng Ye, Xibin Wu, Wang Zhang, Ru~Zhang,
+  Yanghua Peng, Haibin Lin, and Chuan Wu.
+\newblock Hybridflow: A flexible and efficient rlhf framework.
+\newblock In \emph{Proceedings of the Twentieth European Conference on Computer
+  Systems}, pp.\  1279--1297, 2025.
+
+\bibitem[Shinn et~al.(2023)Shinn, Cassano, Gopinath, Narasimhan, and
+  Yao]{shinn2023reflexion}
+Noah Shinn, Federico Cassano, Ashwin Gopinath, Karthik Narasimhan, and Shunyu
+  Yao.
+\newblock Reflexion: Language agents with verbal reinforcement learning.
+\newblock \emph{Advances in neural information processing systems},
+  36:\penalty0 8634--8652, 2023.
+
+\bibitem[Stechly et~al.(2025)Stechly, Valmeekam, and
+  Kambhampati]{stechly2025self}
+Kaya Stechly, Karthik Valmeekam, and Subbarao Kambhampati.
+\newblock On the self-verification limitations of large language models on
+  reasoning and planning tasks.
+\newblock In \emph{International Conference on Learning Representations},
+  volume 2025, pp.\  98190--98243, 2025.
+
+\bibitem[Sun et~al.(2025)Sun, Zhou, Li, Lu, Yi, Chen, Xu, Luo, Zhang, Zhan, and
+  Ye]{sun2025mmmb}
+Hai-Long Sun, Da-Wei Zhou, Yang Li, Shiyin Lu, Chao Yi, Qing-Guo Chen, Zhao Xu,
+  Weihua Luo, Kaifu Zhang, De-Chuan Zhan, and Han-Jia Ye.
+\newblock Parrot: Multilingual visual instruction tuning.
+\newblock In \emph{Forty-second International Conference on Machine Learning},
+  2025.
+\newblock URL \url{https://openreview.net/forum?id=Yx0bl5OFvc}.
+
+\bibitem[Sun et~al.(2024)Sun, Shen, Cao, Liu, Li, Shen, Gan, Gui, Wang, Yang,
+  Keutzer, and Darrell]{sun2023llava_rlhf}
+Zhiqing Sun, Sheng Shen, Shengcao Cao, Haotian Liu, Chunyuan Li, Yikang Shen,
+  Chuang Gan, Liangyan Gui, Yu-Xiong Wang, Yiming Yang, Kurt Keutzer, and
+  Trevor Darrell.
+\newblock Aligning large multimodal models with factually augmented {RLHF}.
+\newblock In Lun-Wei Ku, Andre Martins, and Vivek Srikumar (eds.),
+  \emph{Findings of the Association for Computational Linguistics: ACL 2024},
+  pp.\  13088--13110, Bangkok, Thailand, August 2024. Association for
+  Computational Linguistics.
+\newblock \doi{10.18653/v1/2024.findings-acl.775}.
+\newblock URL \url{https://aclanthology.org/2024.findings-acl.775/}.
+
+\bibitem[Tang et~al.(2025)Tang, Liu, Xu, Hu, Huang, Xue, Chen, Peng, Yang,
+  Zhou, et~al.]{tang2025farsight}
+Feilong Tang, Chengzhi Liu, Zhongxing Xu, Ming Hu, Zile Huang, Haochen Xue,
+  Ziyang Chen, Zelin Peng, Zhiwei Yang, Sijin Zhou, et~al.
+\newblock Seeing far and clearly: Mitigating hallucinations in mllms with
+  attention causal decoding.
+\newblock In \emph{Proceedings of the Computer Vision and Pattern Recognition
+  Conference}, pp.\  26147--26159, 2025.
+
+\bibitem[Thawakar et~al.(2025)Thawakar, Venkatraman, Thawkar, Shaker,
+  Cholakkal, Anwer, Khan, and Khan]{thawakar2025evolmm}
+Omkar Thawakar, Shravan Venkatraman, Ritesh Thawkar, Abdelrahman Shaker, Hisham
+  Cholakkal, Rao~Muhammad Anwer, Salman Khan, and Fahad Khan.
+\newblock Evolmm: Self-evolving large multimodal models with continuous
+  rewards.
+\newblock \emph{arXiv preprint arXiv:2511.16672}, 2025.
+
+\bibitem[Touvron et~al.(2023)Touvron, Lavril, Izacard, Martinet, Lachaux,
+  Lacroix, Rozi{\`e}re, Goyal, Hambro, Azhar, et~al.]{touvron2023llama}
+Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie-Anne
+  Lachaux, Timoth{\'e}e Lacroix, Baptiste Rozi{\`e}re, Naman Goyal, Eric
+  Hambro, Faisal Azhar, et~al.
+\newblock Llama: Open and efficient foundation language models.
+\newblock \emph{arXiv preprint arXiv:2302.13971}, 2023.
+
+\bibitem[Wang et~al.(2025)Wang, Chen, Zhang, Tian, Xu, Deng, and
+  Chen]{wang2024deco}
+Chenxi Wang, Xiang Chen, Ningyu Zhang, Bozhong Tian, Haoming Xu, Shumin Deng,
+  and Huajun Chen.
+\newblock {MLLM} can see? dynamic correction decoding for hallucination
+  mitigation.
+\newblock In \emph{The Thirteenth International Conference on Learning
+  Representations}, 2025.
+\newblock URL \url{https://openreview.net/forum?id=4z3IguA4Zg}.
+
+\bibitem[Wang et~al.(2023)Wang, Wang, Xu, Zhang, Gu, Jia, Wang, Xu, Yan, Zhang,
+  et~al.]{wang2023amber}
+Junyang Wang, Yuhang Wang, Guohai Xu, Jing Zhang, Yukai Gu, Haitao Jia, Jiaqi
+  Wang, Haiyang Xu, Ming Yan, Ji~Zhang, et~al.
+\newblock Amber: An llm-free multi-dimensional benchmark for mllms
+  hallucination evaluation.
+\newblock \emph{arXiv preprint arXiv:2311.07397}, 2023.
+
+\bibitem[Wang et~al.(2024)Wang, Bai, Tan, Wang, Fan, Bai, Chen, Liu, Wang, Ge,
+  et~al.]{qwen2p5vl}
+Peng Wang, Shuai Bai, Sinan Tan, Shijie Wang, Zhihao Fan, Jinze Bai, Keqin
+  Chen, Xuejing Liu, Jialin Wang, Wenbin Ge, et~al.
+\newblock Qwen2-vl: Enhancing vision-language model's perception of the world
+  at any resolution.
+\newblock \emph{arXiv preprint arXiv:2409.12191}, 2024.
+
+\bibitem[Wang et~al.(2026{\natexlab{a}})Wang, Liu, Zhou, Shi, Lin, Chen, Li,
+  Wan, and Zhao]{wang2026visionzero}
+Qinsi Wang, Bo~Liu, Tianyi Zhou, Jing Shi, Yueqian Lin, Yiran Chen, Hai~Helen
+  Li, Kun Wan, and Wentian Zhao.
+\newblock Vision-zero: Scalable {VLM} self-evolution via multi-agent self-play.
+\newblock In \emph{The Fourteenth International Conference on Learning
+  Representations}, 2026{\natexlab{a}}.
+\newblock URL \url{https://openreview.net/forum?id=s00SNXREV6}.
+
+\bibitem[Wang et~al.(2026{\natexlab{b}})Wang, Ma, Liao, Zhang, Li, Guo, and
+  Liu]{wang2026after}
+Tianbo Wang, Yuqing Ma, Kewei Liao, Zhange Zhang, Simin Li, Jinyang Guo, and
+  Xianglong Liu.
+\newblock {AFTER}: Mitigating the object hallucination of {LVLM} via adaptive
+  factual-guided activation editing.
+\newblock In \emph{The Fourteenth International Conference on Learning
+  Representations}, 2026{\natexlab{b}}.
+\newblock URL \url{https://openreview.net/forum?id=ggycXmhrrG}.
+
+\bibitem[Wen et~al.(2025)Wen, Liu, Zheng, Ye, Wu, Wang, Xu, Liang, Li, Miao,
+  et~al.]{wen2025reinforcement}
+Xumeng Wen, Zihan Liu, Shun Zheng, Shengyu Ye, Zhirong Wu, Yang Wang, Zhijian
+  Xu, Xiao Liang, Junjie Li, Ziming Miao, et~al.
+\newblock Reinforcement learning with verifiable rewards implicitly
+  incentivizes correct reasoning in base llms.
+\newblock \emph{arXiv preprint arXiv:2506.14245}, 2025.
+
+\bibitem[Wu et~al.(2024)Wu, Zhang, Zhang, Chen, Liao, Wang, Li, Sun, Yan, Zhai,
+  and Lin]{wu2024qbench}
+Haoning Wu, Zicheng Zhang, Erli Zhang, Chaofeng Chen, Liang Liao, Annan Wang,
+  Chunyi Li, Wenxiu Sun, Qiong Yan, Guangtao Zhai, and Weisi Lin.
+\newblock Q-bench: A benchmark for general-purpose foundation models on
+  low-level vision.
+\newblock In \emph{The Twelfth International Conference on Learning
+  Representations}, 2024.
+\newblock URL \url{https://openreview.net/forum?id=0V5TVt9bk0}.
+
+\bibitem[Wu et~al.(2025)Wu, Shi, Wang, Huang, Yin, Yan, Cao, and
+  Zhang]{ying2025empo}
+Jiulong Wu, Zhengliang Shi, Shuaiqiang Wang, Jizhou Huang, Dawei Yin, Lingyong
+  Yan, Min Cao, and Min Zhang.
+\newblock Mitigating hallucinations in large vision-language models via
+  entity-centric multimodal preference optimization.
+\newblock In Christos Christodoulopoulos, Tanmoy Chakraborty, Carolyn Rose, and
+  Violet Peng (eds.), \emph{Proceedings of the 2025 Conference on Empirical
+  Methods in Natural Language Processing}, pp.\  19445--19461, Suzhou, China,
+  November 2025. Association for Computational Linguistics.
+\newblock ISBN 979-8-89176-332-6.
+\newblock \doi{10.18653/v1/2025.emnlp-main.982}.
+\newblock URL \url{https://aclanthology.org/2025.emnlp-main.982/}.
+
+\bibitem[Yang et~al.(2025{\natexlab{a}})Yang, Li, Cao, and
+  Xu]{yang2025mitigating}
+Tianyun Yang, Ziniu Li, Juan Cao, and Chang Xu.
+\newblock Mitigating hallucination in large vision-language models via modular
+  attribution and intervention.
+\newblock In \emph{The Thirteenth International Conference on Learning
+  Representations}, 2025{\natexlab{a}}.
+\newblock URL \url{https://openreview.net/forum?id=Bjq4W7P2Us}.
+
+\bibitem[Yang et~al.(2025{\natexlab{b}})Yang, He, Pan, Jiang, Deng, Yang, Lu,
+  Yin, Rao, Zhu, et~al.]{yang2025r1}
+Yi~Yang, Xiaoxuan He, Hongkun Pan, Xiyan Jiang, Yan Deng, Xingtao Yang, Haoyu
+  Lu, Dacheng Yin, Fengyun Rao, Minfeng Zhu, et~al.
+\newblock R1-onevision: Advancing generalized multimodal reasoning through
+  cross-modal formalization.
+\newblock In \emph{Proceedings of the IEEE/CVF International Conference on
+  Computer Vision}, pp.\  2376--2385, 2025{\natexlab{b}}.
+
+\bibitem[Yang et~al.(2025{\natexlab{c}})Yang, Luo, Han, Xu, and Li]{li2025dpo}
+Zhihe Yang, Xufang Luo, Dongqi Han, Yunjian Xu, and Dongsheng Li.
+\newblock Mitigating hallucinations in large vision-language models via dpo:
+  On-policy data hold the key.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pp.\  10610--10620, 2025{\natexlab{c}}.
+
+\bibitem[Yin et~al.(2025)Yin, Si, and Wang]{yin2025clearsight}
+Hao Yin, Guangzong Si, and Zilei Wang.
+\newblock Clearsight: Visual signal enhancement for object hallucination
+  mitigation in multimodal large language models.
+\newblock In \emph{Proceedings of the Computer Vision and Pattern Recognition
+  Conference}, pp.\  14625--14634, 2025.
+
+\bibitem[Yu et~al.(2026)Yu, Zhang, Zhu, Yuan, Zuo, Yue, Dai, Fan, Liu, Liu,
+  et~al.]{yu2026dapo}
+Qiying Yu, Zheng Zhang, Ruofei Zhu, Yufeng Yuan, Xiaochen Zuo, Yu~Yue, Weinan
+  Dai, Tiantian Fan, Gaohong Liu, Lingjun Liu, et~al.
+\newblock Dapo: An open-source llm reinforcement learning system at scale.
+\newblock \emph{Advances in Neural Information Processing Systems},
+  38:\penalty0 113222--113244, 2026.
+
+\bibitem[Yu et~al.(2024)Yu, Yao, Zhang, He, Han, Cui, Hu, Liu, Zheng, Sun,
+  et~al.]{yu2023rlhfv}
+Tianyu Yu, Yuan Yao, Haoye Zhang, Taiwen He, Yifeng Han, Ganqu Cui, Jinyi Hu,
+  Zhiyuan Liu, Hai-Tao Zheng, Maosong Sun, et~al.
+\newblock Rlhf-v: Towards trustworthy mllms via behavior alignment from
+  fine-grained correctional human feedback.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition}, pp.\  13807--13816, 2024.
+
+\bibitem[Yue et~al.(2026)Yue, Chen, Lu, Zhao, Wang, Yue, Song, and
+  Huang]{yue2026does}
+Yang Yue, Zhiqi Chen, Rui Lu, Andrew Zhao, Zhaokai Wang, Yang Yue, Shiji Song,
+  and Gao Huang.
+\newblock Does reinforcement learning really incentivize reasoning capacity in
+  {LLM}s beyond the base model?
+\newblock In \emph{The Thirty-ninth Annual Conference on Neural Information
+  Processing Systems}, 2026.
+\newblock URL \url{https://openreview.net/forum?id=4OsgYD7em5}.
+
+\end{thebibliography}

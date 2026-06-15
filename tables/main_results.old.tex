@@ -1,0 +1,42 @@
+\begin{table*}[t]
+\centering
+\small
+% \setlength{\tabcolsep}{3pt}
+\begin{tabular}{lccccccccc}
+\toprule
+% Benchmark & VisionZero-CLEVR & VisionZero-Chart & VisionZero-Real & EvolMM-Solver & VLAA-Thinker & MM-Eureka & OpenVLThinker & R1-OneVision & FactReward \\
+Benchmark & VZ-C & VZ-Ch & VZ-R & Evol & VLAA & Eureka & OVT & R1 & FactReward \\
+\midrule
+MME/color                    & 0.000 & 0.000 & 0.000 & 2.500 & 2.500 & 2.500 & 2.500 & -7.500 & \textbf{5.000} \\
+MME/reasoning                & 3.036 & -1.473 & -1.205 & 1.161 & -0.536 & -0.848 & 3.259 & \textbf{9.688} & 2.098 \\
+AMBER/Avg ACC                & 1.182 & -0.147 & 0.100 & 0.597 & 0.168 & 0.033 & -1.046 & -2.390 & \textbf{2.351} \\
+RealWorldQA/Overall          & 0.523 & 0.523 & 0.523 & 1.961 & -1.961 & -2.353 & -4.314 & -6.536 & \textbf{2.876} \\
+MME/perception               & 0.044 & -0.465 & -0.985 & 0.647 & -0.468 & 0.089 & -8.987 & -9.949 & \textbf{1.149} \\
+MME/position                 & 0.000 & 0.000 & -2.500 & -0.833 & 2.500 & 0.000 & -7.500 & -21.667 & \textbf{2.500} \\
+A-OKVQA/Overall              & 0.437 & -0.611 & -0.087 & 0.524 & -0.699 & -0.873 & -2.969 & -4.629 & \textbf{0.786} \\
+MMMB\_en/Overall             & 0.101 & 0.152 & 0.303 & \textbf{0.657} & -0.556 & 0.404 & -3.687 & -1.869 & 0.505 \\
+POPE/Overall                 & 0.268 & -0.282 & -0.104 & 0.780 & -0.323 & -0.797 & -7.260 & -4.089 & \textbf{1.303} \\
+TreeBench/Overall            & -0.247 & 0.741 & \textbf{1.728} & -0.247 & -1.481 & 0.000 & -1.481 & -15.802 & 0.988 \\
+BLINK/Overall                & 0.421 & 0.631 & 1.315 & \textbf{1.631} & -1.368 & -0.316 & -5.681 & -6.049 & 1.262 \\
+MME/count                    & 0.000 & 0.000 & -2.500 & 0.000 & -2.500 & \textbf{2.500} & -3.333 & -10.833 & 0.000 \\
+MMBench\_TEST\_EN\_V11       & \textbf{0.364} & -0.468 & -0.208 & 0.260 & -0.519 & 0.000 & -5.506 & -11.013 & 0.052 \\
+GQA/TestDev Balanced         & 0.143 & -0.183 & -0.111 & 0.127 & -0.119 & -0.215 & -50.716 & -60.463 & \textbf{0.517} \\
+NaturalBench/Acc             & 0.211 & 0.118 & 0.105 & 0.092 & 0.355 & 0.395 & -11.382 & -17.066 & \textbf{0.526} \\
+Q-Bench1\_VAL                & -0.268 & -0.067 & -0.067 & \textbf{0.201} & -0.936 & -0.669 & -6.421 & -11.505 & -0.201 \\
+VSR-zeroshot/acc             & \textbf{1.146} & 0.164 & -0.491 & 0.573 & -0.082 & 0.245 & -8.265 & -16.858 & 0.409 \\
+SEEDBench\_IMG               & 0.126 & 0.126 & 0.232 & 0.126 & 0.183 & 0.063 & -4.103 & -6.450 & \textbf{0.288} \\
+MMStar/Overall               & \textbf{1.200} & -0.600 & 0.667 & 0.067 & 0.800 & 0.733 & -3.533 & -6.800 & 0.667 \\
+COCO\_VAL/Bleu\_3            & 0.011 & 0.042 & 0.063 & 0.013 & -0.251 & 0.207 & -2.390 & -0.909 & \textbf{1.059} \\
+BLINK\_circular/Overall      & 0.421 & -1.841 & -0.421 & \textbf{0.631} & -3.367 & -4.945 & -13.414 & -16.991 & 0.158 \\
+\bottomrule
+\end{tabular}
+\caption{Absolute performance improvements over Qwen2.5-VL-7B, computed as $\mathrm{Acc(method)} - \mathrm{Acc(base)}$. The last column denotes our method, \textbf{FactReward}. Best improvement in each row is highlighted in bold.
+Abbreviations:
+VZ-C = VisionZero-CLEVR,
+VZ-Ch = VisionZero-Chart,
+VZ-R = VisionZero-RealWorld,
+Evol = EvolMM-Solver,
+OVT = OpenVLThinker.
+}
+\label{tab:main_results}
+\end{table*}

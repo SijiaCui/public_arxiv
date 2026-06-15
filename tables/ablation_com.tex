@@ -1,0 +1,52 @@
+% \begin{table}[t]
+% \centering
+% \caption{
+% Ablation study of different strategies.
+% }
+% \label{tab:ablation_com}
+% \small
+% \begin{tabular}{l*{3}{S[table-format=2.2,table-column-width=0.9cm]}}
+% \toprule
+% Method & {Hallucination} & {Real-World} & {Multi-Task} \\
+% \midrule
+% \ours                  & \textbf{88.54} & \textbf{73.16} & \textbf{58.29} \\
+% \midrule
+% \ours-nodedup          & 86.63 & 72.03 & 57.86 \\
+% Decrease               & {\dn{1.92}} & {\dn{1.13}} & {\dn{0.43}} \\
+% \midrule
+% \ours-nocount          & 86.83 & 71.53 & 55.45 \\
+% Decrease               & {\dn{1.71}} & {\dn{1.63}} & {\dn{2.85}} \\
+% \midrule
+% \ours-noquality        & 87.83 & 72.30 & 57.01 \\
+% Decrease               & {\dn{0.71}} & {\dn{0.87}} & {\dn{1.28}} \\
+% \bottomrule
+% \end{tabular}
+% \end{table}
+
+\begin{table}[t]
+\centering
+\caption{
+Ablation study of the VCR: claim deduplication (Dedup.), claim quantity reward ($r^{\text{cnt}}$), and claim quality penalty ($r^{\text{qual}}$).
+Each variant removes one component at a time; Decrease denotes the performance drop relative to the full \ours method.
+% All three components contribute positively, with $R_{\text{cnt}}$ yielding the largest overall gain and Dedup.\ proving most critical for hallucination mitigation.
+}
+\label{tab:ablation_com}
+\small
+\begin{tabular}{l*{3}{S[table-format=2.2,table-column-width=1.4cm]}}
+\toprule
+Method & {Hallucination} & {VQA(s)} & {Mixed(s)} \\
+\midrule
+\ours                  & \textbf{88.54} & \textbf{73.16} & \textbf{58.29} \\
+\midrule
+{--- w/o Dedup.}          & 86.63 & 72.03 & 57.86 \\
+\cellcolor{gray!10}Decrease               & {\negcell{-1.92}} & {\negcell{-1.13}} & {\negcell{-0.43}} \\
+\midrule
+{--- w/o $r^{\text{cnt}}$}       & 86.83 & 71.53 & 55.45 \\
+\cellcolor{gray!10}Decrease               & {\negcell{-1.71}} & {\negcell{-1.63}} & {\negcell{-2.85}} \\
+\midrule
+{--- w/o $r^{\text{qual}}$}        & 87.83 & 72.30 & 57.01 \\
+\cellcolor{gray!10}Decrease               & {\negcell{-0.71}} & {\negcell{-0.87}} & {\negcell{-1.28}} \\
+\bottomrule
+\end{tabular}
+\vspace{-6mm}
+\end{table}

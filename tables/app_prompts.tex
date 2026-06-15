@@ -1,0 +1,70 @@
+
+\begin{tcolorbox}[promptbox={\textsc{ClaimExtract}: Extract verifiable claims from caption}]
+Extract ONLY verifiable claims explicitly stated in the caption, limited to: color, position, and quantity.
+
+Guidelines:
+- Only extract claims that are explicit and directly stated in the caption.
+- Do NOT infer unstated attributes or any information not present in the caption.
+- Each claim MUST be grounded in an exact text span from the caption as "evidence".
+- Each claim MUST belong to exactly one of three types: color, position, or quantity.
+- Each claim MUST clearly associate the attribute with a specific object.
+- If no valid claim exists, output [].
+
+[Color] Include explicit colors (e.g., "red", "light gray"). Example: evidence: "a black cat" → claim: "The cat is black." \newline
+[Position] Allowed: left, right, center, top, bottom only. Format: "The [object] is at the [position] of the image." \newline
+[Quantity] Explicit numbers only; exclude vague quantifiers (e.g., "several", "many").
+
+\medskip
+Input: [Caption]: \{response\} \newline
+Output: [\{"evidence": "...", "claim": "...", "type": "color/position/quantity"\}, ...]
+\end{tcolorbox}
+
+\begin{tcolorbox}[promptbox={\textsc{ClaimToQA}: Convert claims into question–answer pairs}]
+Convert claims into Question-Answer pairs using templates.
+
+Guidelines:
+- Do NOT rewrite or reinterpret the claim.
+- The question MUST be directly derived from the claim.
+- The answer MUST be a substring or direct normalization of the claim.
+
+[Color] Q: What color is the [OBJECT]? \ A: [color phrase] \newline
+[Position] Q: Where is the [OBJECT] in the image? \ A: left / right / top / bottom / center \newline
+[Quantity] Q: How many [OBJECT] are in the image? \ A: [number]
+
+\medskip
+Input: [Claims]: \{caption\_claim\} \newline
+Output: [\{"claim": "...", "question": "...", "answer": "..."\}, ...]
+\end{tcolorbox}
+
+\begin{tcolorbox}[promptbox={\textsc{ImageQA}: Answer questions grounded in the image}]
+Answer the questions based on the image.
+
+Guidelines:
+- Answer each question based only on the image.
+- Color questions: answer with a color word or phrase only.
+- Position questions: answer with ONLY one of: left, right, center, top, bottom.
+- Quantity questions: answer with a number word or numeral only.
+- If the answer cannot be determined reliably from the image, answer "unknown".
+
+\medskip
+Input: [Questions]: \{question\} \newline
+Output: [\{"question": "...", "answer": "..."\}, ...]
+\end{tcolorbox}
+
+\begin{tcolorbox}[promptbox={\textsc{AnswerCheck}: Compare caption answer vs.\ image answer}]
+Compare Answer1 (from caption) and Answer2 (from image).
+
+Rules:
+- Output 1 if they mean the same thing; output 0 otherwise.
+- Output 0 if Answer2 is "unknown" or either answer is empty.
+
+Matching guidelines:
+- Ignore format differences: "3" == "three"
+- Allow simple variants: "blue" == "dark blue"
+- Allow position variants: "left" == "on the left"
+- Otherwise, be strict.
+
+\medskip
+Input: [Answer Pairs]: \{check\_list\} \newline
+Output: [\{"answer1": "...", "answer2": "...", "is\_correct": 1/0\}, ...]
+\end{tcolorbox}

@@ -1,0 +1,89 @@
+
+\section{Method}
+\label{sec:preliminary}
+
+% We first introduce the problem formulation in Section~\ref{sec:problem_formulation}, and then describe \ours and its components in Section~\ref{sec:overview}.
+
+\subsection{Problem Formulation}
+\label{sec:problem_formulation}
+
+We consider reinforcement learning for vision-language generation without
+ground-truth labels. Let $\mathcal{D}=\{(\mI,\vq)\}$ denote a collection
+of image-question pairs, where $\mI=\{I_1,I_2,\dots,I_K\}$ is a set of input images and $\vq$ is a textual
+instruction. A vision-language policy $\pi_\theta$ takes
+$\vx=(\mI,\vq)$ as input and generates a response
+$\vy \sim \pi_\theta(\cdot |\mI,\vq)$. Our
+goal is to improve the factual grounding of $\pi_\theta$ by encouraging
+$\vy$ to be consistent with the visual content of $\mI$, thereby
+reducing hallucinated objects, attributes, and relations.
+
+In the standard RLVR setting, a scalar reward $r(\vx,\vy)$ can be computed by
+verifying the model output against a ground-truth answer or an executable
+checker. The policy is then optimized to maximize the expected reward while
+regularizing its deviation from a reference policy $\pi_{\text{ref}}$:
+\begin{equation*}
+    \max_{\pi_\theta} \bbE_{\vy\sim\pi_\theta(\cdot| \mI,\vq)}
+    \left[
+        r(\mI,\vq,\vy)
+    \right]
+    -
+    \beta
+    \text{KL}[\pi_\theta \Vert \pi_\text{ref}],
+    % \left(
+    %     \pi_\theta(\cdot| I,q)
+    %     \,\|\, 
+    %     \pi_{\text{ref}}(\cdot| I,q)
+    % \right),
+\end{equation*}
+where $\beta$ controls the strength of KL regularization, omitted in the following for simplicity.
+
+We instantiate this objective with Group Relative Policy Optimization
+(GRPO)~\cite{shao2024deepseekmath}. For each input $x=(I,q)$, GRPO samples a
+group of $G$ responses from the rollout policy $\pi_{\bar{\theta}}$:
+\begin{equation*}
+    \{\vy_i\}_{i=1}^{G}
+    \sim
+    \pi_{\bar{\theta}}(\cdot | \mI,\vq),
+\end{equation*}
+where each response receives a scalar reward $r_i=r(\mI,\vq,\vy_i)$. GRPO then normalizes
+the rewards within the group to obtain the relative advantage $\hat{A}_i={(r_i-\mu_r)}/{(\sigma_r+\epsilon_{\text{std}})},$
+% \begin{equation}
+%     \hat{A}_i
+%     =
+%     \frac{r_i-\mu_r}{\sigma_r+\epsilon_{\text{std}}},
+%     \quad
+%     \mu_r=\frac{1}{G}\sum_{j=1}^{G}r_j,
+% \end{equation}
+% \begin{equation}
+%     \sigma_r=
+%     \sqrt{
+%     \frac{1}{G}\sum_{j=1}^{G}(r_j-\mu_r)^2
+%     },
+% \end{equation}
+where $\mu_r$ and $\sigma_r$ are the mean and standard deviation of the rewards in the group, and $\epsilon_{\text{std}}$ is a small constant for numerical stability.
+The policy is updated using the clipped surrogate objective
+$\mathcal{L}_{\text{GRPO}}(\theta)$:
+\begin{equation}
+\small
+-\mathbb{E}
+\Big[
+\frac{1}{G}
+\sum_{i=1}^{G}
+\min
+(
+\rho_i \hat{A}_i,\,
+\text{clip}(\rho_i,1-\varepsilon,1+\varepsilon)\hat{A}_i
+)
+\Big]
+\end{equation}
+where $\rho_i = \frac{\pi_\theta(\vy_i| \mI,\vq)}{\pi_{\bar{\theta}}(\vy_i| \mI,\vq)},$
+and $\varepsilon > 0$ is the clipping parameter.
+
+The key challenge in our setting is that the reward $r(\mI,\vq,\vy)$ is not directly available.
+Unlike mathematical reasoning or code generation, where correctness can be verified by an exact answer or program execution, we cannot directly determine whether $\vy$ faithfully describes the visual content of $\mI$.
+% , image-grounded factual correctness lacks ground-truth descriptions in large-scale unlabeled image corpora.
+% Consequently, we cannot directly determine whether $\vy$ faithfully describes the input image.
+% The key challenge in our setting lies in the absence of directly computable rewards: without ground-truth image descriptions, the factual correctness of $\vy$ cannot be explicitly verified.
+Existing self-verification approaches can be understood as constructing a surrogate reward $R_{\text{SV}}$ to approximate the latent reward function $r(\mI,\vq,\vy)$. 
+Following this perspective, we propose \ours, a visual multi-agent self-verification framework that provides scalable fine-grained reward signals for annotation-free policy optimization.
+% We describe the construction of $R_{\text{SV}}$ in the next section.

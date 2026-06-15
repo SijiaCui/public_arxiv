@@ -1,0 +1,4509 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.5.9)  15 JUN 2026 20:12
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+(./googledeepmind.cls
+Document Class: googledeepmind 
+(/Users/cuisijia/Library/texmf/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count275
+\calc@Bcount=\count276
+\calc@Adimen=\dimen148
+\calc@Bdimen=\dimen149
+\calc@Askip=\skip49
+\calc@Bskip=\skip50
+LaTeX Info: Redefining \setlength on input line 86.
+LaTeX Info: Redefining \addtolength on input line 87.
+\calc@Ccount=\count277
+\calc@Cskip=\skip51
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
+)
+(/Users/cuisijia/Library/texmf/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
+))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/extsizes/extarticle.cls
+Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/exscale.sty
+Package: exscale 2025/06/05 v2.1i Standard LaTeX package exscale
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
+\big@size=\dimen150
+)
+\c@part=\count278
+\c@section=\count279
+\c@subsection=\count280
+\c@subsubsection=\count281
+\c@paragraph=\count282
+\c@subparagraph=\count283
+\c@figure=\count284
+\c@table=\count285
+\abovecaptionskip=\skip52
+\belowcaptionskip=\skip53
+\bibindent=\dimen151
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
+\babel@savecnt=\count286
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2111.
+\U@D=\dimen152
+\l@unhyphenated=\language23
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count287
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/babel/locale/en/babel-engl
+ish.tex)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4330.
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language7). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language7). Reported on input line 108.
+)) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks24
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen153
+))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen154
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count288
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count289
+\leftroot@=\count290
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count291
+\DOTSCASE@=\count292
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen155
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count293
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count294
+\dotsspace@=\muskip17
+\c@parentequation=\count295
+\dspbrk@lvl=\count296
+\tag@help=\toks26
+\row@=\count297
+\column@=\count298
+\maxfields@=\count299
+\andhelp@=\toks27
+\eqnshift@=\dimen156
+\alignsep@=\dimen157
+\tagshift@=\dimen158
+\tagwidth@=\dimen159
+\totwidth@=\dimen160
+\lineht@=\dimen161
+\@envbody=\toks28
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/cmap/cmap.sty
+Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+<<t1.cmap>>) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks30
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.
+sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/gettitlestring/gettitlestr
+ing.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count300
+)
+(/Users/cuisijia/Library/texmf/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count301
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen162
+\Hy@linkcounter=\count302
+\Hy@pagecounter=\count303
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count304
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4072.
+Package hyperref Info: Hyper figures OFF on input line 4201.
+Package hyperref Info: Link nesting OFF on input line 4206.
+Package hyperref Info: Hyper index ON on input line 4209.
+Package hyperref Info: Plain pages OFF on input line 4216.
+Package hyperref Info: Backreferencing OFF on input line 4221.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4468.
+\c@Hy@tempcnt=\count305
+LaTeX Info: Redefining \url on input line 4807.
+\XeTeXLinkMargin=\dimen163
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count306
+\Field@Width=\dimen164
+\Fld@charsize=\dimen165
+Package hyperref Info: Hyper figures OFF on input line 6084.
+Package hyperref Info: Link nesting OFF on input line 6089.
+Package hyperref Info: Hyper index ON on input line 6092.
+Package hyperref Info: backreferencing OFF on input line 6099.
+Package hyperref Info: Link coloring ON on input line 6102.
+Package hyperref Info: Link coloring with OCG OFF on input line 6109.
+Package hyperref Info: PDF/A mode OFF on input line 6114.
+\Hy@abspage=\count307
+\c@Item=\count308
+\c@Hfootnote=\count309
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2026basic/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
+\Fld@listcount=\count310
+\c@bookmark@seq@number=\count311
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/rerunfilecheck/rerunfilechec
+k.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/uniquecounter/uniquecounte
+r.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip60
+) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/Users/cuisijia/Library/texmf/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2025/02/16 v1.05 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen166
+\Gin@req@width=\dimen167
+) (/Users/cuisijia/Library/texmf/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2026/05/01 v1.0l Color table columns (DPC)
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/tools/array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen168
+\ar@mcellbox=\box55
+\extrarowheight=\dimen169
+\NC@list=\toks31
+\extratabsurround=\skip61
+\backup@length=\skip62
+\ar@cellbox=\box56
+)
+\everycr=\toks32
+\minrowclearance=\skip63
+\rownum=\count312
+)
+(/Users/cuisijia/Library/texmf/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen170
+\lightrulewidth=\dimen171
+\cmidrulewidth=\dimen172
+\belowrulesep=\dimen173
+\belowbottomsep=\dimen174
+\aboverulesep=\dimen175
+\abovetopsep=\dimen176
+\cmidrulesep=\dimen177
+\cmidrulekern=\dimen178
+\defaultaddspace=\dimen179
+\@cmidla=\count313
+\@cmidlb=\count314
+\@aboverulesep=\dimen180
+\@belowrulesep=\dimen181
+\@thisruleclass=\count315
+\@lastruleclass=\count316
+\@thisrulewidth=\dimen182
+)
+(/Users/cuisijia/Library/texmf/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count317
+\cp@tempcnt=\count318
+)
+(/Users/cuisijia/Library/texmf/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip64
+\enit@outerparindent=\dimen183
+\enit@toks=\toks33
+\enit@inbox=\box57
+\enit@count@id=\count319
+\enitdp@description=\count320
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen184
+\TX@old@table=\dimen185
+\TX@old@col=\dimen186
+\TX@target=\dimen187
+\TX@delta=\dimen188
+\TX@cols=\count321
+\TX@ftn=\toks34
+)
+(/Users/cuisijia/Library/texmf/tex/latex/datetime/datetime.sty
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+(/Users/cuisijia/Library/texmf/tex/latex/fmtcount/fmtcount.sty
+Package: fmtcount 2025/12/02 v3.12 Displaying the values of LaTeX counters (NT,
+VB,NE)
+
+(/Users/cuisijia/Library/texmf/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
+
+(/Users/cuisijia/Library/texmf/tex/generic/xkeyval/xkeyval.tex
+(/Users/cuisijia/Library/texmf/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks35
+\XKV@tempa@toks=\toks36
+\XKV@tempb@toks=\toks37
+)
+\XKV@depth=\count322
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/Users/cuisijia/Library/texmf/tex/latex/fmtcount/fcprefix.sty
+Package: fcprefix 2012/09/28
+
+(/Users/cuisijia/Library/texmf/tex/latex/fmtcount/fcnumparser.sty
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count323
+))
+\c@padzeroesN=\count324
+\fc@tmpcatcode=\count325
+
+(/Users/cuisijia/Library/texmf/tex/latex/fmtcount/fc-english.def
+File: fc-english.def 2016/01/12
+)
+\@DT@modctr=\count326
+\@ordinalctr=\count327
+\@orgargctr=\count328
+\@strctr=\count329
+\@tmpstrctr=\count330
+\@DT@loopN=\count331
+\@DT@X=\count332
+)
+(/Users/cuisijia/Library/texmf/tex/latex/datetime/datetime-defaults.sty
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count333
+\@month=\count334
+\@year=\count335
+\c@HOUR=\count336
+\c@HOURXII=\count337
+\c@MINUTE=\count338
+\c@TOHOUR=\count339
+\c@TOMINUTE=\count340
+\c@SECOND=\count341
+\currenthour=\count342
+\currentminute=\count343
+\currentsecond=\count344
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count345
+\dayofyear=\count346
+\dayofweek=\count347
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks38
+\dt@b=\toks39
+)
+(./fancyhdr.sty
+\fancy@headwidth=\skip65
+\f@ncyO@elh=\skip66
+\f@ncyO@erh=\skip67
+\f@ncyO@olh=\skip68
+\f@ncyO@orh=\skip69
+\f@ncyO@elf=\skip70
+\f@ncyO@erf=\skip71
+\f@ncyO@olf=\skip72
+\f@ncyO@orf=\skip73
+) (/Users/cuisijia/Library/texmf/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
+(/Users/cuisijia/Library/texmf/tex/latex/lastpage/lastpage2e.sty
+Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (H
+MM)
+
+(/Users/cuisijia/Library/texmf/tex/latex/lastpage/lastpagemodern.sty
+Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
+\c@lastpagecount=\count348
+) 
+)) (/Users/cuisijia/Library/texmf/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box58
+\beforetitleunit=\skip74
+\aftertitleunit=\skip75
+\ttl@plus=\dimen189
+\ttl@minus=\dimen190
+\ttl@toksa=\toks40
+\titlewidth=\dimen191
+\titlewidthlast=\dimen192
+\titlewidthfirst=\dimen193
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/natbib/bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+)
+(/Users/cuisijia/Library/texmf/tex/latex/mdframed/mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
+ef
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count349
+))
+Package: xparse 2025-10-09 L3 Experimental document command parser
+) (/Users/cuisijia/Library/texmf/tex/latex/zref/zref-abspage.sty
+Package: zref-abspage 2026-03-07 v2.37 Module abspage for zref (HO)
+
+(/Users/cuisijia/Library/texmf/tex/latex/zref/zref-base.sty
+Package: zref-base 2026-03-07 v2.37 Module base for zref (HO)
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count350
+Package zref Info: New property: abspage on input line 67.
+)
+(/Users/cuisijia/Library/texmf/tex/latex/needspace/needspace.sty
+Package: needspace 2025/03/13 v1.3e reserve vertical space
+)
+\mdf@templength=\skip76
+\c@mdf@globalstyle@cnt=\count351
+\mdf@skipabove@length=\skip77
+\mdf@skipbelow@length=\skip78
+\mdf@leftmargin@length=\skip79
+\mdf@rightmargin@length=\skip80
+\mdf@innerleftmargin@length=\skip81
+\mdf@innerrightmargin@length=\skip82
+\mdf@innertopmargin@length=\skip83
+\mdf@innerbottommargin@length=\skip84
+\mdf@splittopskip@length=\skip85
+\mdf@splitbottomskip@length=\skip86
+\mdf@outermargin@length=\skip87
+\mdf@innermargin@length=\skip88
+\mdf@linewidth@length=\skip89
+\mdf@innerlinewidth@length=\skip90
+\mdf@middlelinewidth@length=\skip91
+\mdf@outerlinewidth@length=\skip92
+\mdf@roundcorner@length=\skip93
+\mdf@footenotedistance@length=\skip94
+\mdf@userdefinedwidth@length=\skip95
+\mdf@needspace@length=\skip96
+\mdf@frametitleaboveskip@length=\skip97
+\mdf@frametitlebelowskip@length=\skip98
+\mdf@frametitlerulewidth@length=\skip99
+\mdf@frametitleleftmargin@length=\skip100
+\mdf@frametitlerightmargin@length=\skip101
+\mdf@shadowsize@length=\skip102
+\mdf@extratopheight@length=\skip103
+\mdf@subtitleabovelinewidth@length=\skip104
+\mdf@subtitlebelowlinewidth@length=\skip105
+\mdf@subtitleaboveskip@length=\skip106
+\mdf@subtitlebelowskip@length=\skip107
+\mdf@subtitleinneraboveskip@length=\skip108
+\mdf@subtitleinnerbelowskip@length=\skip109
+\mdf@subsubtitleabovelinewidth@length=\skip110
+\mdf@subsubtitlebelowlinewidth@length=\skip111
+\mdf@subsubtitleaboveskip@length=\skip112
+\mdf@subsubtitlebelowskip@length=\skip113
+\mdf@subsubtitleinneraboveskip@length=\skip114
+\mdf@subsubtitleinnerbelowskip@length=\skip115
+
+(/Users/cuisijia/Library/texmf/tex/latex/mdframed/md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box59
+\mdf@footnotebox=\box60
+\mdf@splitbox@one=\box61
+\mdf@splitbox@two=\box62
+\mdf@splitbox@save=\box63
+\mdfsplitboxwidth=\skip116
+\mdfsplitboxtotalwidth=\skip117
+\mdfsplitboxheight=\skip118
+\mdfsplitboxdepth=\skip119
+\mdfsplitboxtotalheight=\skip120
+\mdfframetitleboxwidth=\skip121
+\mdfframetitleboxtotalwidth=\skip122
+\mdfframetitleboxheight=\skip123
+\mdfframetitleboxdepth=\skip124
+\mdfframetitleboxtotalheight=\skip125
+\mdffootnoteboxwidth=\skip126
+\mdffootnoteboxtotalwidth=\skip127
+\mdffootnoteboxheight=\skip128
+\mdffootnoteboxdepth=\skip129
+\mdffootnoteboxtotalheight=\skip130
+\mdftotallinewidth=\skip131
+\mdfboundingboxwidth=\skip132
+\mdfboundingboxtotalwidth=\skip133
+\mdfboundingboxheight=\skip134
+\mdfboundingboxdepth=\skip135
+\mdfboundingboxtotalheight=\skip136
+\mdf@freevspace@length=\skip137
+\mdf@horizontalwidthofbox@length=\skip138
+\mdf@verticalmarginwhole@length=\skip139
+\mdf@horizontalspaceofbox=\skip140
+\mdfsubtitleheight=\skip141
+\mdfsubsubtitleheight=\skip142
+\c@mdfcountframes=\count352
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count353
+\c@mdf@env@i=\count354
+\c@mdf@env@ii=\count355
+\c@mdf@zref@counter=\count356
+Package zref Info: New property: mdf@pagevalue on input line 895.
+)
+(/Users/cuisijia/Library/texmf/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/Users/cuisijia/Library/texmf/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen194
+\captionmargin=\dimen195
+\caption@leftmargin=\dimen196
+\caption@rightmargin=\dimen197
+\caption@width=\dimen198
+\caption@indent=\dimen199
+\caption@parindent=\dimen256
+\caption@hangindent=\dimen257
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count357
+\c@continuedfloat=\count358
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen258
+\caption@adjustwidth@linewidth=\dimen259
+Package caption Info: hyperref package is loaded.
+)
+(/Users/cuisijia/Library/texmf/tex/latex/xcharter/XCharter.sty
+Package: XCharter 2023/07/21 v1.25
+
+`XCharter' v1.25, 2023/07/21 Text macros for XCharter, an extension of Charter 
+(msharpe) (/Users/cuisijia/Library/texmf/tex/generic/xstring/xstring.sty
+(/Users/cuisijia/Library/texmf/tex/generic/xstring/xstring.tex
+\xs_counta=\count359
+\xs_countb=\count360
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+LaTeX Font Info:    Setting XCharter-LF sub-encoding to TS1/0 on input line 37.
+
+LaTeX Font Info:    Changing XCharter-TLF sub-encoding to TS1/0 on input line 3
+7.
+LaTeX Font Info:    Setting XCharter-OsF sub-encoding to TS1/0 on input line 37
+.
+LaTeX Font Info:    Changing XCharter-TOsF sub-encoding to TS1/0 on input line 
+37.
+\xch@cnt=\count361
+
+(/Users/cuisijia/Library/texmf/tex/latex/fontaxes/fontaxes.sty
+Package: fontaxes 2026-01-02 v2.0.2 Font selection axes (deprecated)
+Applying: [0000-00-00] Fall back to v1 on input line 76.
+
+(/Users/cuisijia/Library/texmf/tex/latex/fontaxes/fontaxes-v1.sty
+Package: fontaxes 2020/07/21 v1.0e Font selection axes
+LaTeX Info: Redefining \upshape on input line 29.
+LaTeX Info: Redefining \itshape on input line 31.
+LaTeX Info: Redefining \slshape on input line 33.
+LaTeX Info: Redefining \swshape on input line 35.
+LaTeX Info: Redefining \scshape on input line 37.
+LaTeX Info: Redefining \sscshape on input line 39.
+LaTeX Info: Redefining \ulcshape on input line 41.
+LaTeX Info: Redefining \textsw on input line 47.
+LaTeX Info: Redefining \textssc on input line 48.
+LaTeX Info: Redefining \textulc on input line 49.
+))
+LaTeX Info: Redefining \textsu on input line 737.
+LaTeX Info: Redefining \textde on input line 740.
+LaTeX Info: Redefining \textinf on input line 742.
+)
+(/Users/cuisijia/Library/texmf/tex/latex/newtx/newtxmath.sty
+Package: newtxmath 2024/09/22 v1.754
+
+`newtxmath' v1.754, 2024/09/22 Math macros based originally on txfonts (msharpe
+) (/usr/local/texlive/2026basic/texmf-dist/tex/latex/oberdiek/centernot.sty
+Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
+)
+\tx@cntz=\count362
+
+(/Users/cuisijia/Library/texmf/tex/generic/kastrup/binhex.tex)
+\tx@Isdigit=\count363
+\tx@IsAlNum=\count364
+\tx@tA=\toks41
+\tx@tB=\toks42
+\tx@su=\read3
+
+amsthm NOT loaded
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 402.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/XCharter-TLF/m/n on input line 402.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/XCharter-TLF/m/n on input line 402
+.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/XCharter-TLF/m/n --> OT1/XCharter-TLF/b/n on input 
+line 403.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 412.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 419.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/XCharter-TLF/m/it on input line 41
+9.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/XCharter-TLF/m/it on input line 4
+19.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 420.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 420.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 420.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 422.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/XCharter-TLF/b/n on input line 422
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/XCharter-TLF/b/n on input line 422
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/XCharter-TLF/m/it --> OT1/XCharter-TLF/b/it on inpu
+t line 423.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 426.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 474.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/zchmi/m/it on input line 474.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/zchmi/m/it on input line 474.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/zchmi/m/it --> OML/zchmi/b/it on input line 475.
+\symlettersA=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/ntxmia/m/it --> U/ntxmia/b/it on input line 582.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 584.
+Now handling font encoding LMS ...
+... no UTF-8 mapping file for font encoding LMS
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 604.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> LMS/ntxsy/m/n on input line 604.
+LaTeX Font Info:    Encoding `OMS' has changed to `LMS' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> LMS/ntxsy/m/n on input line 604.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  LMS/ntxsy/m/n --> LMS/ntxsy/b/n on input line 605.
+\symAMSm=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSm' in version `bold'
+(Font)                  U/ntxsym/m/n --> U/ntxsym/b/n on input line 630.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/ntxsyc/m/n --> U/ntxsyc/b/n on input line 651.
+Now handling font encoding LMX ...
+... no UTF-8 mapping file for font encoding LMX
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 664.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `normal' on input line 6
+64.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
+LaTeX Font Info:    Encoding `OMX' has changed to `LMX' for symbol font
+(Font)              `largesymbols' in the math version `bold' on input line 664
+.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> LMX/ntxexx/m/n on input line 664.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  LMX/ntxexx/m/n --> LMX/ntxexx/b/n on input line 665.
+\symlargesymbolsTXA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsTXA' in version `bold'
+
+(Font)                  U/ntxexa/m/n --> U/ntxexa/b/n on input line 679.
+\tx@sbptoks=\toks43
+LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 902.
+LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 903.
+LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 904.
+LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 905.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 910.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 911.
+LaTeX Font Info:    Redeclaring math delimiter \langle on input line 913.
+LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 915.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 919.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 920.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 991.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 992.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 2057.
+LaTeX Info: Redefining \Bbbk on input line 2847.
+LaTeX Info: Redefining \not on input line 2995.
+LaTeX Info: Redefining \textsquare on input line 3025.
+LaTeX Info: Redefining \openbox on input line 3027.
+) (/Users/cuisijia/Library/texmf/tex/latex/zlmtt/zlmtt.sty
+Package: zlmtt 2022/08/07 v1.032. Alternate support package for Latin Modern Ty
+peWriter
+LaTeX Font Info:    Setting zlmtt sub-encoding to TS1/0 on input line 6.
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count365
+\Gm@cntv=\count366
+\c@Gm@tempcnt=\count367
+\Gm@bindingoffset=\dimen260
+\Gm@wd@mp=\dimen261
+\Gm@odd@mp=\dimen262
+\Gm@even@mp=\dimen263
+\Gm@layoutwidth=\dimen264
+\Gm@layoutheight=\dimen265
+\Gm@layouthoffset=\dimen266
+\Gm@layoutvoffset=\dimen267
+\Gm@dimlist=\toks44
+)
+\correspondingauthor=\toks45
+\paperurl=\toks46
+\reportnumber=\toks47
+\footnotetext=\toks48
+
+(/Users/cuisijia/Library/texmf/tex/latex/preprint/authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip143
+\@affilsep=\skip144
+\c@Maxaffil=\count368
+\c@authors=\count369
+\c@affil=\count370
+)
+(/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2026/05/28 version 6.10.0 text color boxes
+
+(/Users/cuisijia/Library/texmf/tex/latex/pgf/frontendlayer/tikz.sty
+(/Users/cuisijia/Library/texmf/tex/latex/pgf/basiclayer/pgf.sty
+(/Users/cuisijia/Library/texmf/tex/latex/pgf/utilities/pgfrcs.sty
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks49
+\pgfutil@tempdima=\dimen268
+\pgfutil@tempdimb=\dimen269
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box64
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
+))
+Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
+
+(/Users/cuisijia/Library/texmf/tex/latex/pgf/basiclayer/pgfcore.sty
+(/Users/cuisijia/Library/texmf/tex/latex/pgf/systemlayer/pgfsys.sty
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
+
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks50
+\pgfkeys@temptoks=\toks51
+
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks52
+))
+\pgf@x=\dimen270
+\pgf@y=\dimen271
+\pgf@xa=\dimen272
+\pgf@ya=\dimen273
+\pgf@xb=\dimen274
+\pgf@yb=\dimen275
+\pgf@xc=\dimen276
+\pgf@yc=\dimen277
+\pgf@xd=\dimen278
+\pgf@yd=\dimen279
+\w@pgf@writea=\write3
+\r@pgf@reada=\read4
+\c@pgf@counta=\count371
+\c@pgf@countb=\count372
+\c@pgf@countc=\count373
+\c@pgf@countd=\count374
+\t@pgf@toka=\toks53
+\t@pgf@tokb=\toks54
+\t@pgf@tokc=\toks55
+\pgf@sys@id@count=\count375
+ (/Users/cuisijia/Library/texmf/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfsyssoftpath@smallbuffer@items=\count376
+\pgfsyssoftpath@bigbuffer@items=\count377
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
+
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmath.code.tex
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen280
+\pgfmath@count=\count378
+\pgfmath@box=\box65
+\pgfmath@toks=\toks56
+\pgfmath@stack@operand=\toks57
+\pgfmath@stack@operation=\toks58
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count379
+))
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfint.code.tex)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@picminx=\dimen281
+\pgf@picmaxx=\dimen282
+\pgf@picminy=\dimen283
+\pgf@picmaxy=\dimen284
+\pgf@pathminx=\dimen285
+\pgf@pathmaxx=\dimen286
+\pgf@pathminy=\dimen287
+\pgf@pathmaxy=\dimen288
+\pgf@xx=\dimen289
+\pgf@xy=\dimen290
+\pgf@yx=\dimen291
+\pgf@yy=\dimen292
+\pgf@zx=\dimen293
+\pgf@zy=\dimen294
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@path@lastx=\dimen295
+\pgf@path@lasty=\dimen296
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@shorten@end@additional=\dimen297
+\pgf@shorten@start@additional=\dimen298
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfpic=\box66
+\pgf@hbox=\box67
+\pgf@layerbox@main=\box68
+\pgf@picture@serial@count=\count380
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgflinewidth=\dimen299
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@pt@x=\dimen300
+\pgf@pt@y=\dimen301
+\pgf@pt@temp=\dimen302
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowsep=\dimen303
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@max=\dimen304
+\pgf@sys@shading@range@num=\count381
+\pgf@shadingcount=\count382
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfexternal@startupbox=\box69
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfnodeparttextbox=\box70
+) (/Users/cuisijia/Library/texmf/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+(/Users/cuisijia/Library/texmf/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@nodesepstart=\dimen305
+\pgf@nodesepend=\dimen306
+)
+(/Users/cuisijia/Library/texmf/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
+)) (/Users/cuisijia/Library/texmf/tex/latex/pgf/utilities/pgffor.sty
+(/Users/cuisijia/Library/texmf/tex/latex/pgf/utilities/pgfkeys.sty
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/Users/cuisijia/Library/texmf/tex/latex/pgf/math/pgfmath.sty
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/math/pgfmath.code.tex))
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
+\pgffor@iter=\dimen307
+\pgffor@skip=\dimen308
+\pgffor@stack=\toks59
+\pgffor@toks=\toks60
+))
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
+
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgf@plot@mark@count=\count383
+\pgfplotmarksize=\dimen309
+)
+\tikz@lastx=\dimen310
+\tikz@lasty=\dimen311
+\tikz@lastxsaved=\dimen312
+\tikz@lastysaved=\dimen313
+\tikz@lastmovetox=\dimen314
+\tikz@lastmovetoy=\dimen315
+\tikzleveldistance=\dimen316
+\tikzsiblingdistance=\dimen317
+\tikz@figbox=\box71
+\tikz@figbox@bg=\box72
+\tikz@tempbox=\box73
+\tikz@tempbox@bg=\box74
+\tikztreelevel=\count384
+\tikznumberofchildren=\count385
+\tikznumberofcurrentchild=\count386
+\tikz@fig@count=\count387
+
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfmatrixcurrentrow=\count388
+\pgfmatrixcurrentcolumn=\count389
+\pgf@matrix@numberofcolumns=\count390
+)
+\tikz@expandcount=\count391
+
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks61
+\verbatim@line=\toks62
+\verbatim@in@stream=\read5
+)
+(/Users/cuisijia/Library/texmf/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/Users/cuisijia/Library/texmf/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box75
+\tcb@upperbox=\box76
+\tcb@lowerbox=\box77
+\tcb@phantombox=\box78
+\c@tcbbreakpart=\count392
+\c@tcblayer=\count393
+\c@tcolorbox@number=\count394
+\l__tcobox_tmpa_box=\box79
+\l__tcobox_tmpa_dim=\dimen318
+\tcb@temp=\box80
+\tcb@temp=\box81
+\tcb@temp=\box82
+\tcb@temp=\box83
+
+(/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcbraster.code.tex
+Library (tcolorbox): 'tcbraster.code.tex' version '6.10.0'
+\c@tcbrastercolumn=\count395
+\c@tcbrasterrow=\count396
+\c@tcbrasternum=\count397
+\c@tcbraster=\count398
+) (/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '6.10.0'
+(/Users/cuisijia/Library/texmf/tex/latex/tikzfill/tikzfill.image.sty
+Package: tikzfill.image 2026/04/23 v1.2.0 Image filling library for TikZ
+
+(/Users/cuisijia/Library/texmf/tex/latex/tikzfill/tikzlibraryfill.image.code.te
+x
+File: tikzlibraryfill.image.code.tex 2026/04/23 v1.2.0 Image filling library
+\l__tikzfill_tmpa_dim=\dimen319
+\l__tikzfill_tmpb_dim=\dimen320
+\l__tikzfill_img_box=\box84
+)) (/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.10.0'
+)) (/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcbbreakable.code.tex
+Library (tcolorbox): 'tcbbreakable.code.tex' version '6.10.0'
+(/Users/cuisijia/Library/texmf/tex/latex/pdfcol/pdfcol.sty
+Package: pdfcol 2022-09-21 v1.7 Handle new color stacks for pdfTeX (HO)
+)
+Package pdfcol Info: New color stack `tcb@breakable' = 1 on input line 23.
+\tcb@testbox=\box85
+\tcb@totalupperbox=\box86
+\tcb@totallowerbox=\box87
+)
+(/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcbhooks.code.tex
+Library (tcolorbox): 'tcbhooks.code.tex' version '6.10.0'
+) (/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcbtheorems.code.tex
+Library (tcolorbox): 'tcbtheorems.code.tex' version '6.10.0'
+) (/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcbfitting.code.tex
+Library (tcolorbox): 'tcbfitting.code.tex' version '6.10.0'
+\tcbfitdim=\dimen321
+\tcb@lowerfitdim=\dimen322
+\tcb@upperfitdim=\dimen323
+\tcb@cur@hbadness=\count399
+) (/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcblistingsutf8.code.tex
+Library (tcolorbox): 'tcblistingsutf8.code.tex' version '6.10.0'
+(/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '6.10.0'
+(/Users/cuisijia/Library/texmf/tex/latex/listings/listings.sty
+\lst@mode=\count400
+\lst@gtempboxa=\box88
+\lst@token=\toks63
+\lst@length=\count401
+\lst@currlwidth=\dimen324
+\lst@column=\count402
+\lst@pos=\count403
+\lst@lostspace=\dimen325
+\lst@width=\dimen326
+\lst@newlines=\count404
+\lst@lineno=\count405
+\lst@maxwidth=\dimen327
+
+(/Users/cuisijia/Library/texmf/tex/latex/listings/lstpatch.sty
+File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
+)
+(/Users/cuisijia/Library/texmf/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
+\c@lstnumber=\count406
+\lst@skipnumbers=\count407
+\lst@framebox=\box89
+)
+(/Users/cuisijia/Library/texmf/tex/latex/listings/listings.cfg
+File: listings.cfg 2025/11/14 1.11b listings configuration
+))
+Package: listings 2025/11/14 1.11b (Carsten Heinz)
+
+==> First Aid for listings.sty no longer applied!
+    Expected:
+        2024/09/23 1.10c (Carsten Heinz)
+    but found:
+        2025/11/14 1.11b (Carsten Heinz)
+    so I'm assuming it got fixed.
+(/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcblistingscore.code.tex
+Library (tcolorbox): 'tcblistingscore.code.tex' version '6.10.0'
+(/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '6.10.0'
+)
+\c@tcblisting=\count408
+)) (/Users/cuisijia/Library/texmf/tex/latex/listingsutf8/listingsutf8.sty
+Package: listingsutf8 2019-12-10 v1.5 Allow UTF-8 in listings input (HO)
+))
+(/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcbexternal.code.tex
+Library (tcolorbox): 'tcbexternal.code.tex' version '6.10.0'
+) (/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcbmagazine.code.tex
+Library (tcolorbox): 'tcbmagazine.code.tex' version '6.10.0'
+) (/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcbvignette.code.tex
+Library (tcolorbox): 'tcbvignette.code.tex' version '6.10.0'
+
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+
+(/Users/cuisijia/Library/texmf/tex/generic/pgf/libraries/pgflibraryfadings.code
+.tex
+File: pgflibraryfadings.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+))) (/Users/cuisijia/Library/texmf/tex/latex/tcolorbox/tcbposter.code.tex
+Library (tcolorbox): 'tcbposter.code.tex' version '6.10.0'
+))
+Package caption Info: Option `figurename' requires the `newfloat' package on in
+put line 402.
+ (/usr/local/texlive/2026basic/texmf-dist/tex/latex/newfloat/newfloat.sty
+Package: newfloat 2023/10/01 v1.2 Defining new floating environments (AR)
+Package newfloat Info: Unsupported document class, or \@chapter 
+(newfloat)             was already redefined by another package.
+Package newfloat Info: \@chapter = macro:->\def \Hy@next {\Hy@MakeCurrentHrefAu
+to {\Hy@chapapp *}\Hy@raisedlink {\hyper@anchorstart {\@currentHref }\hyper@anc
+horend }}\ifnum \c@secnumdepth >\m@ne \@ifundefined {if@mainmatter}\iftrue {\cs
+name if@mainmatter\endcsname }\let \Hy@next \relax \fi \fi \Hy@next \Hy@org@cha
+pter .
+Package newfloat Info: \Hy@org@chapter = macro:[#1]#2->\NR@gettitle {#1}\NR@cha
+pter [{#1}]{#2}.
+Package newfloat Info: \algocf@original@chapter = undefined.
+))
+(/Users/cuisijia/Library/texmf/tex/latex/microtype/microtype.sty
+Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
+\MT@toks=\toks64
+\MT@tempbox=\box90
+\MT@count=\count409
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
+LaTeX Info: Redefining \leftprotrusion on input line 1085.
+\MT@prot@toks=\toks65
+LaTeX Info: Redefining \rightprotrusion on input line 1104.
+LaTeX Info: Redefining \textls on input line 1449.
+\MT@outer@kern=\dimen328
+LaTeX Info: Redefining \microtypecontext on input line 2053.
+LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
+\MT@listname@count=\count410
+
+(/Users/cuisijia/Library/texmf/tex/latex/microtype/microtype-pdftex.def
+File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 944.
+LaTeX Info: Redefining \lslig on input line 944.
+\MT@outer@space=\skip145
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(/Users/cuisijia/Library/texmf/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2026/03/01 v3.2d microtype main configuration file (RS)
+)
+LaTeX Info: Redefining \microtypesetup on input line 3065.
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 11
+6.
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(/Users/cuisijia/Library/texmf/tex/latex/bbm-macros/bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(./math_commands.tex
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2025/10/21 v1.2g Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup10
+\symboldletters=\mathgroup11
+\symboldsymbols=\mathgroup12
+\symboldlargesymbols=\mathgroup13
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (./natbib.sty
+Package: natbib 2009/07/16 8.31 (PWD, AO)
+\bibhang=\skip146
+\bibsep=\skip147
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count411
+)
+LaTeX Font Info:    Overwriting math alphabet `\mathsfit' in version `bold'
+(Font)                  T1/phv/m/sl --> T1/phv/bx/n on input line 321.
+) (/Users/cuisijia/Library/texmf/tex/latex/multirow/multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip148
+\multirow@cntb=\count412
+\multirow@dima=\skip149
+\bigstrutjot=\dimen329
+)
+(/Users/cuisijia/Library/texmf/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2026-05-15 v3.5.5 A comprehensive (SI) units package
+\l__siunitx_number_uncert_offset_int=\count413
+\l__siunitx_number_exponent_fixed_int=\count414
+\l__siunitx_number_min_decimal_int=\count415
+\l__siunitx_number_min_integer_int=\count416
+\l__siunitx_number_round_precision_int=\count417
+\l__siunitx_number_lower_threshold_int=\count418
+\l__siunitx_number_upper_threshold_int=\count419
+\l__siunitx_number_group_first_int=\count420
+\l__siunitx_number_group_size_int=\count421
+\l__siunitx_number_group_min_int=\count422
+\l__siunitx_number_group_minimum_int=\count423
+\l__siunitx_compound_count_int=\count424
+\l__siunitx_table_tmp_box=\box91
+\l__siunitx_table_tmp_dim=\dimen330
+\l__siunitx_table_column_width_dim=\dimen331
+\l__siunitx_table_integer_box=\box92
+\l__siunitx_table_decimal_box=\box93
+\l__siunitx_table_uncert_box=\box94
+\l__siunitx_table_before_box=\box95
+\l__siunitx_table_after_box=\box96
+\l__siunitx_table_before_dim=\dimen332
+\l__siunitx_table_carry_dim=\dimen333
+\l__siunitx_unit_tmp_int=\count425
+\l__siunitx_unit_position_int=\count426
+\l__siunitx_unit_total_int=\count427
+\l__siunitx_sexagesimal_tmp_dim=\dimen334
+\l__siunitx_sexagesimal_marker_box=\box97
+\l__siunitx_sexagesimal_unit_box=\box98
+)
+(/Users/cuisijia/Library/texmf/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen335
+\c@nlinenum=\count428
+\TeXr@lab=\toks66
+)
+(/Users/cuisijia/Library/texmf/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+
+(/Users/cuisijia/Library/texmf/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/Users/cuisijia/Library/texmf/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+
+(/Users/cuisijia/Library/texmf/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box99
+)
+\tc@llx=\dimen336
+\tc@lly=\dimen337
+\tc@urx=\dimen338
+\tc@ury=\dimen339
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/Users/cuisijia/Library/texmf/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen340
+\adjbox@Height=\dimen341
+\adjbox@Depth=\dimen342
+\adjbox@Totalheight=\dimen343
+\adjbox@pwidth=\dimen344
+\adjbox@pheight=\dimen345
+\adjbox@pdepth=\dimen346
+\adjbox@ptotalheight=\dimen347
+
+(/Users/cuisijia/Library/texmf/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count429
+LaTeX Info: Redefining \checkoddpage on input line 45.
+)
+(/Users/cuisijia/Library/texmf/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box100
+\sift@deathcycles=\count430
+\@vwid@loff=\dimen348
+\@vwid@roff=\dimen349
+)
+==> First Aid for varwidth.sty applied!
+) (/Users/cuisijia/Library/texmf/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count431
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count432
+)
+(/Users/cuisijia/Library/texmf/tex/latex/sidecap/sidecap.sty
+Package: sidecap 2023/01/24 v1.7a SideCap Package (RN/HjG)
+\SC@BOXWD=\dimen350
+\SC@CAPWD=\dimen351
+\SC@tempdima=\dimen352
+\SC@tempdimb=\dimen353
+\c@SC@C=\count433
+\SC@BOX=\box101
+)
+(/Users/cuisijia/Library/texmf/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen354
+\WF@size=\dimen355
+\c@WF@wrappedlines=\count434
+\WF@box=\box102
+\WF@everypar=\toks67
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count435
+\float@exts=\toks68
+\float@box=\box103
+\@float@everytoks=\toks69
+\@floatcapt=\box104
+)
+(/Users/cuisijia/Library/texmf/tex/latex/sttools/stfloats.sty
+Package: stfloats 2025/06/18 v3.4 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count436
+\c@dblbotnumber=\count437
+)
+(/Users/cuisijia/Library/texmf/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count438
+\algocf@hangindent=\skip150
+
+(/Users/cuisijia/Library/texmf/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip151
+\skiplinenumber=\skip152
+\skiprule=\skip153
+\skiphlne=\skip154
+\skiptext=\skip155
+\skiplength=\skip156
+\algomargin=\skip157
+\skipalgocfslide=\skip158
+\algowidth=\dimen356
+\inoutsize=\dimen357
+\inoutindent=\dimen358
+\interspacetitleruled=\dimen359
+\interspacealgoruled=\dimen360
+\interspacetitleboxruled=\dimen361
+\algocf@ruledwidth=\skip159
+\algocf@inoutbox=\box105
+\algocf@inputbox=\box106
+\AlCapSkip=\skip160
+\AlCapHSkip=\skip161
+\algoskipindent=\skip162
+\algocf@nlbox=\box107
+\algocf@hangingbox=\box108
+\algocf@untilbox=\box109
+\algocf@skipuntil=\skip163
+\algocf@capbox=\box110
+\algocf@lcaptionbox=\skip164
+\algoheightruledefault=\skip165
+\algoheightrule=\skip166
+\algotitleheightruledefault=\skip167
+\algotitleheightrule=\skip168
+\c@algocfline=\count439
+\c@algocfproc=\count440
+\c@algocf=\count441
+\algocf@algoframe=\box111
+\algocf@algobox=\box112
+)
+(/Users/cuisijia/Library/texmf/tex/generic/ulem/ulem.sty
+\UL@box=\box113
+\UL@hyphenbox=\box114
+\UL@skip=\skip169
+\UL@hook=\toks70
+\UL@height=\dimen362
+\UL@pe=\count442
+\UL@pixel=\dimen363
+\ULC@box=\box115
+Package: ulem 2019/11/18
+\ULdepth=\dimen364
+)
+LaTeX Info: Redefining \oldstylenums on input line 139.
+LaTeX Font Info:    Trying to load font information for T1+XCharter-TLF on inpu
+t line 139.
+
+(/Users/cuisijia/Library/texmf/tex/latex/xcharter/t1xcharter-tlf.fd
+File: T1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for T1/XCharter-
+TLF.
+)
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 139.
+
+(./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/zchmi/m/it on input line 139.
+LaTeX Font Info:    Trying to load font information for OML+zchmi on input line
+ 139.
+ (/Users/cuisijia/Library/texmf/tex/latex/xcharter/omlzchmi.fd
+File: omlzchmi.fd 2019/11/21 Fontinst v1.933 font definitions for OML/zchmi.
+)
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 139.
+LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
+139.
+
+(/Users/cuisijia/Library/texmf/tex/latex/newtx/untxexa.fd
+File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
+)
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 139.
+LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
+ 139.
+
+(/Users/cuisijia/Library/texmf/tex/latex/newtx/lmsntxsy.fd
+File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
+)
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 139.
+LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
+e 139.
+
+(/Users/cuisijia/Library/texmf/tex/latex/newtx/lmxntxexx.fd
+File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
+)
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Info: Command `\dddot' is already robust on input line 139.
+LaTeX Info: Command `\ddddot' is already robust on input line 139.
+Package hyperref Info: Link coloring ON on input line 139.
+ (./main.out)
+(./main.out)
+\@outlinefile=\write4
+\openout4 = `main.out'.
+
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count443
+\scratchdimen=\dimen365
+\scratchbox=\box116
+\nofMPsegments=\count444
+\nofMParguments=\count445
+\everyMPshowfont=\toks71
+\MPscratchCnt=\count446
+\MPscratchDim=\dimen366
+\MPnumerator=\count447
+\makeMPintoPDFobject=\count448
+\everyMPtoPDFconversion=\toks72
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.s
+ty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/usr/local/texlive/2026basic/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: sidecap package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@mv@tabular=\count449
+\c@mv@boldtabular=\count450
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(62.59596pt, 472.31595pt, 62.59596pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=472.31595pt
+* \textheight=674.33032pt
+* \oddsidemargin=-9.67403pt
+* \evensidemargin=-9.67403pt
+* \topmargin=-46.91173pt
+* \headheight=40.0pt
+* \headsep=20.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=15.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\c@lstlisting=\count451
+Package newfloat Info: Trying Plan B...
+Package newfloat Info: `float' package detected.
+Package newfloat Info: `sidecap' package detected.
+Package newfloat Info: `wrapfig' package detected.
+Package microtype Info: Patching varwidth to enable character protrusion.
+\MT@vwid@leftmargin=\dimen367
+\MT@vwid@rightmargin=\dimen368
+LaTeX Info: Redefining \microtypecontext on input line 139.
+Package microtype Info: Applying patch `item' on input line 139.
+Package microtype Info: Applying patch `toc' on input line 139.
+Package microtype Info: Applying patch `eqnum' on input line 139.
+Package microtype Info: Applying patch `footnote' on input line 139.
+Package microtype Info: Applying patch `verbatim' on input line 139.
+LaTeX Info: Redefining \microtypesetup on input line 139.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
+Package microtype Info: Tracking enabled.
+Package microtype Info: Using tracking set `smallcaps'.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/Users/cuisijia/Library/texmf/tex/latex/microtype/mt-bch.cfg
+File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
+
+)
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2023/06/22 v3.6 ragged2e Package
+\CenteringLeftskip=\skip170
+\RaggedLeftLeftskip=\skip171
+\RaggedRightLeftskip=\skip172
+\CenteringRightskip=\skip173
+\RaggedLeftRightskip=\skip174
+\RaggedRightRightskip=\skip175
+\CenteringParfillskip=\skip176
+\RaggedLeftParfillskip=\skip177
+\RaggedRightParfillskip=\skip178
+\JustifyingParfillskip=\skip179
+\CenteringParindent=\skip180
+\RaggedLeftParindent=\skip181
+\RaggedRightParindent=\skip182
+\JustifyingParindent=\skip183
+)
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 140.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 21.0pt on input line 140.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 140.
+LaTeX Font Info:    Trying to load font information for OT1+XCharter-TLF on inp
+ut line 140.
+
+(/Users/cuisijia/Library/texmf/tex/latex/xcharter/ot1xcharter-tlf.fd
+File: OT1XCharter-TLF.fd 2017/06/25 (autoinst) Font definitions for OT1/XCharte
+r-TLF.
+)
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 140.
+<<ot1.cmap>>
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 6.6pt on input line 140.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 5.5pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
+(Font)              scaled to size 9.0pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
+(Font)              scaled to size 6.6pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
+(Font)              scaled to size 5.5pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 9.0pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.6pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 5.5pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 9.0pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.6pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 5.5pt on input line 140.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 140
+.
+ (/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(/Users/cuisijia/Library/texmf/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 140
+.
+
+(/usr/local/texlive/2026basic/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(/Users/cuisijia/Library/texmf/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
+140.
+
+(/Users/cuisijia/Library/texmf/tex/latex/newtx/untxmia.fd
+File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
+)
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 9.0pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.6pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 5.5pt on input line 140.
+LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
+140.
+
+(/Users/cuisijia/Library/texmf/tex/latex/newtx/untxsym.fd
+File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
+)
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 9.0pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.6pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 5.5pt on input line 140.
+LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
+140.
+
+(/Users/cuisijia/Library/texmf/tex/latex/newtx/untxsyc.fd
+File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
+)
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 9.0pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.6pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 5.5pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 9.0pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.6pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 5.5pt on input line 140.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 140.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 6.6pt on input line 140.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 5.5pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/b/it' will be
+(Font)              scaled to size 9.0pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/b/it' will be
+(Font)              scaled to size 6.6pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/b/it' will be
+(Font)              scaled to size 5.5pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
+(Font)              scaled to size 9.0pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
+(Font)              scaled to size 6.6pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
+(Font)              scaled to size 5.5pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
+(Font)              scaled to size 9.0pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
+(Font)              scaled to size 6.6pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
+(Font)              scaled to size 5.5pt on input line 140.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 6.6pt on input line 140.
+LaTeX Font Info:    Calculating math sizes for size <6.6> on input line 140.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 4.81796pt on input line 140.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 3.63002pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
+(Font)              scaled to size 4.81796pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
+(Font)              scaled to size 3.63002pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 4.81796pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 3.63002pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 4.81796pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 3.63002pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 4.81796pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 3.63002pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 4.81796pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 3.63002pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 4.81796pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 3.63002pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 4.81796pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 3.63002pt on input line 140.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 4.81796pt on input line 140.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 3.63002pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/b/it' will be
+(Font)              scaled to size 4.81796pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/b/it' will be
+(Font)              scaled to size 3.63002pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
+(Font)              scaled to size 4.81796pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
+(Font)              scaled to size 3.63002pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
+(Font)              scaled to size 4.81796pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
+(Font)              scaled to size 3.63002pt on input line 140.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 6.6pt on input line 140.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 140.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 140.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 8.0pt on input line 140.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
+(Font)              scaled to size 8.0pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
+(Font)              scaled to size 6.0pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 8.0pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.0pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 8.0pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.0pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 8.0pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.0pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 8.0pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.0pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 8.0pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.0pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 8.0pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.0pt on input line 140.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 140.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 6.0pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/b/it' will be
+(Font)              scaled to size 8.0pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/b/it' will be
+(Font)              scaled to size 6.0pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
+(Font)              scaled to size 8.0pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
+(Font)              scaled to size 6.0pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
+(Font)              scaled to size 8.0pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
+(Font)              scaled to size 6.0pt on input line 140.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 140.
+LaTeX Font Info:    Trying to load font information for TS1+XCharter-TLF on inp
+ut line 140.
+
+(/Users/cuisijia/Library/texmf/tex/latex/xcharter/ts1xcharter-tlf.fd
+File: TS1XCharter-TLF.fd 2020/05/25 (msharpe) Font definitions for TS1/XCharter
+-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 140.
+Package microtype Info: Character `textbardbl ' is missing
+(microtype)             in font `TS1/XCharter-TLF/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textcelsius ' is missing
+(microtype)             in font `TS1/XCharter-TLF/m/n/6'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 6.5pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
+(Font)              scaled to size 6.5pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 6.5pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 6.5pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 6.5pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 6.5pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 6.5pt on input line 140.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 6.5pt on input line 140.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 6.5pt on input line 140.
+LaTeX Font Info:    Font shape `OML/zchmi/b/it' will be
+(Font)              scaled to size 6.5pt on input line 140.
+LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
+(Font)              scaled to size 6.5pt on input line 140.
+LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
+(Font)              scaled to size 6.5pt on input line 140.
+
+(./sections/1-introduction.tex
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 12.0pt on input line 2.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 13.0pt on input line 2.
+<figures/v-march-intro-final.pdf, id=121, 312.20638pt x 217.77359pt>
+File: figures/v-march-intro-final.pdf Graphic file (type pdf)
+<use figures/v-march-intro-final.pdf>
+Package pdftex.def Info: figures/v-march-intro-final.pdf  used on input line 7.
+
+(pdftex.def)             Requested size: 462.8676pt x 322.88136pt.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 7.3pt on input line 9.
+LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
+(Font)              scaled to size 7.3pt on input line 9.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 7.3pt on input line 9.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 7.3pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 7.3pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 7.3pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 7.3pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 7.3pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 7.3pt on input line 9.
+LaTeX Font Info:    Font shape `OML/zchmi/b/it' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `OML/zchmi/b/it' will be
+(Font)              scaled to size 7.3pt on input line 9.
+LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
+(Font)              scaled to size 7.3pt on input line 9.
+LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
+(Font)              scaled to size 10.0pt on input line 9.
+LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
+(Font)              scaled to size 7.3pt on input line 9.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/it' will be
+(Font)              scaled to size 10.0pt on input line 33.
+<figures/v-march-motivation-final.pdf, id=165, 277.035pt x 109.3686pt>
+File: figures/v-march-motivation-final.pdf Graphic file (type pdf)
+<use figures/v-march-motivation-final.pdf>
+Package pdftex.def Info: figures/v-march-motivation-final.pdf  used on input li
+ne 37.
+(pdftex.def)             Requested size: 462.8676pt x 182.73332pt.
+<./figures/qwen-logo.png, id=174, 486.14958pt x 110.4125pt>
+File: ./figures/qwen-logo.png Graphic file (type png)
+<use ./figures/qwen-logo.png>
+Package pdftex.def Info: ./figures/qwen-logo.png  used on input line 58.
+(pdftex.def)             Requested size: 80.0pt x 18.16841pt.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
+(Font)              scaled to size 8.0pt on input line 58.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 8.0pt on input line 58.
+ [1
+
+{/Users/cuisijia/Library/texlive/2026basic/texmf-var/fonts/map/pdftex/updmap/pd
+ftex.map}{/Users/cuisijia/Library/texmf/fonts/enc/dvips/xcharter/xch_rydp4l.enc
+}{/Users/cuisijia/Library/texmf/fonts/enc/dvips/xcharter/xch1_co4ru4.enc} <./fi
+gures/qwen-logo.png>] [2 <./figures/v-march-intro-final.pdf> <./figures/v-march
+-motivation-final.pdf>]
+LaTeX Font Info:    Font shape `TS1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 60.
+Package microtype Info: Character `textbardbl ' is missing
+(microtype)             in font `TS1/XCharter-TLF/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textcelsius ' is missing
+(microtype)             in font `TS1/XCharter-TLF/m/n/10'.
+(microtype)             Ignoring protrusion settings for this character.
+)
+(./sections/2-related-work.tex) (./sections/3-preliminary.tex
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 7.3pt on input line 23.
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 5.5pt on input line 23.
+ [3{/Users/cuisijia/Library/texmf/fonts/enc/dvips/xcharter/xch_3gllts.enc}]
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 67.
+
+LaTeX Font Info:    Calculating math sizes for size <> on input line 78.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 1.0pt on input line 78.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 0.73pt on input line 78.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/m/n' will be
+(Font)              scaled to size 0.55pt on input line 78.
+LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
+(Font)              scaled to size 1.0pt on input line 78.
+LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
+(Font)              scaled to size 0.73pt on input line 78.
+LaTeX Font Info:    Font shape `OML/zchmi/m/it' will be
+(Font)              scaled to size 0.55pt on input line 78.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 1.0pt on input line 78.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 0.73pt on input line 78.
+LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
+(Font)              scaled to size 0.55pt on input line 78.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 1.0pt on input line 78.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 0.73pt on input line 78.
+LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
+(Font)              scaled to size 0.55pt on input line 78.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 1.0pt on input line 78.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 0.73pt on input line 78.
+LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
+(Font)              scaled to size 0.55pt on input line 78.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 1.0pt on input line 78.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 0.73pt on input line 78.
+LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
+(Font)              scaled to size 0.55pt on input line 78.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 1.0pt on input line 78.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 0.73pt on input line 78.
+LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
+(Font)              scaled to size 0.55pt on input line 78.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 1.0pt on input line 78.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 0.73pt on input line 78.
+LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
+(Font)              scaled to size 0.55pt on input line 78.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 1.0pt on input line 78.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 0.73pt on input line 78.
+LaTeX Font Info:    Font shape `OT1/XCharter-TLF/b/n' will be
+(Font)              scaled to size 0.55pt on input line 78.
+LaTeX Font Info:    Font shape `OML/zchmi/b/it' will be
+(Font)              scaled to size 1.0pt on input line 78.
+LaTeX Font Info:    Font shape `OML/zchmi/b/it' will be
+(Font)              scaled to size 0.73pt on input line 78.
+LaTeX Font Info:    Font shape `OML/zchmi/b/it' will be
+(Font)              scaled to size 0.55pt on input line 78.
+LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
+(Font)              scaled to size 1.0pt on input line 78.
+LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
+(Font)              scaled to size 0.73pt on input line 78.
+LaTeX Font Info:    Font shape `LMS/ntxsy/b/n' will be
+(Font)              scaled to size 0.55pt on input line 78.
+LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
+(Font)              scaled to size 1.0pt on input line 78.
+LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
+(Font)              scaled to size 0.73pt on input line 78.
+LaTeX Font Info:    Font shape `LMX/ntxexx/b/n' will be
+(Font)              scaled to size 0.55pt on input line 78.
+) (./sections/4-method-vcr.tex
+<figures/v-march-pipeline-final.pdf, id=398, 529.98pt x 189.8292pt>
+File: figures/v-march-pipeline-final.pdf Graphic file (type pdf)
+<use figures/v-march-pipeline-final.pdf>
+Package pdftex.def Info: figures/v-march-pipeline-final.pdf  used on input line
+ 9.
+(pdftex.def)             Requested size: 472.31595pt x 169.17627pt.
+ [4 <./figures/v-march-pipeline-final.pdf>]
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
+(Font)              scaled to size 10.0pt on input line 90.
+
+[5]) (./sections/5-experiments.tex [6{/Users/cuisijia/Library/texmf/fonts/enc/d
+vips/xcharter/xch_uaipw4.enc}] (./tables/main_results.tex
+Overfull \hbox (8.23769pt too wide) detected at line 44
+ \T1/XCharter-TLF/m/n/8 Attribute 
+ []
+
+
+Overfull \hbox (9.84567pt too wide) detected at line 44
+ \T1/XCharter-TLF/m/n/8 Existence 
+ []
+
+
+Overfull \hbox (5.95767pt too wide) detected at line 44
+ \T1/XCharter-TLF/m/n/8 Relation 
+ []
+
+
+Overfull \hbox (8.67769pt too wide) detected at line 44
+ \T1/XCharter-TLF/m/n/8 Accuracy 
+ []
+
+
+Overfull \hbox (4.69365pt too wide) detected at line 44
+ \T1/XCharter-TLF/m/n/8 Position 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 51
+ \T1/XCharter-TLF/b/n/9 87.29 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 55
+ \T1/XCharter-TLF/b/n/9 95.55 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 59
+ \T1/XCharter-TLF/b/n/9 86.37 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 59
+ \T1/XCharter-TLF/b/n/9 84.50 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 59
+ \T1/XCharter-TLF/b/n/9 88.48 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 59
+ \T1/XCharter-TLF/b/n/9 95.00 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 59
+ \T1/XCharter-TLF/b/n/9 86.67 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 59
+ \T1/XCharter-TLF/b/n/9 82.25 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 59
+ \T1/XCharter-TLF/b/n/9 92.03 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 60
+ \T1/XCharter-TLF/b/n/9 88.54 
+ []
+
+) (./tables/main_results2.tex
+Overfull \hbox (2.68968pt too wide) detected at line 14
+ \T1/XCharter-TLF/m/n/9 RWQA 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 28
+ \T1/XCharter-TLF/b/n/9 87.60 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 28
+ \T1/XCharter-TLF/b/n/9 60.92 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 28
+ \T1/XCharter-TLF/b/n/9 70.98 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 29
+ \T1/XCharter-TLF/b/n/9 73.16 
+ []
+
+) (./tables/main_results3.tex
+Overfull \hbox (1.10713pt too wide) detected at line 15
+ \T1/XCharter-TLF/m/n/9 MMB 
+ []
+
+
+Overfull \hbox (8.90112pt too wide) detected at line 15
+ \T1/XCharter-TLF/m/n/9 MMMB 
+ []
+
+
+Overfull \hbox (1.69212pt too wide) detected at line 15
+ \T1/XCharter-TLF/m/n/9 SEED 
+ []
+
+
+Overfull \hbox (3.30713pt too wide) detected at line 18
+ \T1/XCharter-TLF/m/n/8 Jigsaw 
+ []
+
+
+Overfull \hbox (1.14713pt too wide) detected at line 18
+ \T1/XCharter-TLF/m/n/8 Depth 
+ []
+
+
+Overfull \hbox (8.97113pt too wide) detected at line 18
+ \T1/XCharter-TLF/m/n/8 Rel.Refl. 
+ []
+
+
+Overfull \hbox (0.58714pt too wide) detected at line 18
+ \T1/XCharter-TLF/m/n/8 G-Acc 
+ []
+
+
+Overfull \hbox (1.02713pt too wide) detected at line 18
+ \T1/XCharter-TLF/m/n/8 Q-Acc 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 24
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 24
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 24
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 24
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 24
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.60115pt too wide) detected at line 24
+ $[]$ 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 24
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 24
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 24
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 24
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 24
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 24
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.60115pt too wide) detected at line 24
+ $[]$ 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 25
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 25
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.60115pt too wide) detected at line 25
+ $[]$ 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 25
+ \T1/XCharter-TLF/b/n/9 62.00 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 25
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.60115pt too wide) detected at line 25
+ $[]$ 
+ []
+
+
+Overfull \hbox (2.60115pt too wide) detected at line 25
+ $[]$ 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 25
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 25
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 25
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 25
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 25
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.60115pt too wide) detected at line 26
+ $[]$ 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 26
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 26
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 26
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 26
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 26
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 26
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 26
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 26
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 26
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 26
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 26
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 26
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 27
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 27
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 27
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 27
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 27
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 27
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 27
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 27
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 27
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 27
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 27
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 27
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 27
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 28
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 28
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 28
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 28
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 28
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 28
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 28
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 28
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 28
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.60115pt too wide) detected at line 28
+ $[]$ 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 28
+ \T1/XCharter-TLF/b/n/9 61.29 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 28
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 28
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 29
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 29
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 29
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 29
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.60115pt too wide) detected at line 29
+ $[]$ 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 29
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 29
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 29
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 29
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 29
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 29
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 29
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 29
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 30
+ [][][][] 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 33
+ \T1/XCharter-TLF/b/n/9 81.61 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 33
+ \T1/XCharter-TLF/b/n/9 84.34 
+ []
+
+
+Overfull \hbox (2.60115pt too wide) detected at line 33
+ $[]$ 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 33
+ \T1/XCharter-TLF/b/n/9 41.35 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 33
+ \T1/XCharter-TLF/b/n/9 79.03 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 33
+ \T1/XCharter-TLF/b/n/9 38.06 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 33
+ \T1/XCharter-TLF/b/n/9 78.53 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 33
+ \T1/XCharter-TLF/b/n/9 33.32 
+ []
+
+
+Overfull \hbox (2.60115pt too wide) detected at line 33
+ $[]$ 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 33
+ \T1/XCharter-TLF/b/n/9 59.18 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 33
+ \T1/XCharter-TLF/b/n/9 76.95 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 34
+ \T1/XCharter-TLF/b/n/9 58.29 
+ []
+
+
+Overfull \hbox (1.72813pt too wide) detected at line 35
+ []$\LMS/ntxsy/m/n/9 "$\T1/XCharter-TLF/m/n/9 0.99[] 
+ []
+
+
+Overfull \hbox (1.72813pt too wide) detected at line 35
+ []$\LMS/ntxsy/m/n/9 "$\T1/XCharter-TLF/m/n/9 1.52[] 
+ []
+
+
+Overfull \hbox (1.72813pt too wide) detected at line 35
+ []$\LMS/ntxsy/m/n/9 "$\T1/XCharter-TLF/m/n/9 8.67[] 
+ []
+
+
+Overfull \hbox (6.73213pt too wide) detected at line 35
+ []$\LMS/ntxsy/m/n/9 "$\T1/XCharter-TLF/m/n/9 10.00[] 
+ []
+
+
+Overfull \hbox (1.72813pt too wide) detected at line 35
+ []$\LMS/ntxsy/m/n/9 "$\T1/XCharter-TLF/m/n/9 7.52[] 
+ []
+
+
+Overfull \hbox (1.72813pt too wide) detected at line 35
+ []$\LMS/ntxsy/m/n/9 "$\T1/XCharter-TLF/m/n/9 7.26[] 
+ []
+
+
+Overfull \hbox (1.72813pt too wide) detected at line 35
+ []$\LMS/ntxsy/m/n/9 "$\T1/XCharter-TLF/m/n/9 8.21[] 
+ []
+
+
+Overfull \hbox (1.72813pt too wide) detected at line 35
+ []$\LMS/ntxsy/m/n/9 "$\T1/XCharter-TLF/m/n/9 0.55[] 
+ []
+
+
+Overfull \hbox (1.72813pt too wide) detected at line 35
+ []$\LMS/ntxsy/m/n/9 "$\T1/XCharter-TLF/m/n/9 1.53[] 
+ []
+
+
+Overfull \hbox (1.72813pt too wide) detected at line 35
+ []$\LMS/ntxsy/m/n/9 "$\T1/XCharter-TLF/m/n/9 0.76[] 
+ []
+
+
+Overfull \hbox (1.72813pt too wide) detected at line 35
+ []$\LMS/ntxsy/m/n/9 "$\T1/XCharter-TLF/m/n/9 1.29[] 
+ []
+
+
+Overfull \hbox (1.72813pt too wide) detected at line 35
+ []$\LMS/ntxsy/m/n/9 "$\T1/XCharter-TLF/m/n/9 0.59[] 
+ []
+
+
+Overfull \hbox (1.72813pt too wide) detected at line 36
+ []$\LMS/ntxsy/m/n/9 "$\T1/XCharter-TLF/m/n/9 4.07[] 
+ []
+
+) [7]
+<figures/model_generalization_final_heatmap.pdf, id=597, 264.8286pt x 106.13725
+pt>
+File: figures/model_generalization_final_heatmap.pdf Graphic file (type pdf)
+<use figures/model_generalization_final_heatmap.pdf>
+Package pdftex.def Info: figures/model_generalization_final_heatmap.pdf  used o
+n input line 92.
+(pdftex.def)             Requested size: 472.31595pt x 189.30428pt.
+<figures/model_generalization_final_bars.pdf, id=600, 576.50722pt x 136.96526pt
+>
+File: figures/model_generalization_final_bars.pdf Graphic file (type pdf)
+<use figures/model_generalization_final_bars.pdf>
+Package pdftex.def Info: figures/model_generalization_final_bars.pdf  used on i
+nput line 113.
+(pdftex.def)             Requested size: 472.31595pt x 112.2119pt.
+ (./tables/ablation_com.tex
+Overfull \hbox (12.86116pt too wide) detected at line 37
+ \T1/XCharter-TLF/m/n/9 Hallucination 
+ []
+
+[8])
+Overfull \hbox (12.86116pt too wide) detected at line 159
+ \T1/XCharter-TLF/m/n/9 Hallucination 
+ []
+
+<figures/training_dynamics_2.pdf, id=611, 412.0137pt x 268.37349pt>
+File: figures/training_dynamics_2.pdf Graphic file (type pdf)
+<use figures/training_dynamics_2.pdf>
+Package pdftex.def Info: figures/training_dynamics_2.pdf  used on input line 18
+7.
+(pdftex.def)             Requested size: 472.31595pt x 307.66066pt.
+[9 <./figures/model_generalization_final_heatmap.pdf> <./figures/model_generali
+zation_final_bars.pdf>]
+Overfull \hbox (24.59468pt too wide) in paragraph at lines 209--215
+[] [] \T1/XCharter-TLF/b/n/10 (-20) Com-pu-ta-tional Over-head.[] \T1/XCharter-
+TLF/m/n/10 (-20) Ta-ble [][]6[][] re-ports the wall-clock time per train-ing st
+ep for each method. EvoLMM ([][]Thawakar
+ []
+
+) (./sections/6-conclusion.tex) [10] [11 <./figures/training_dynamics_2.pdf>]
+(./main.bbl
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 22
+.
+ (/usr/local/texlive/2026basic/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `pcr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+[12
+
+{/usr/local/texlive/2026basic/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+[13] [14] [15] [16]) [17] (./sections/appendix.tex
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/sc' will be
+(Font)              scaled to size 10.0pt on input line 14.
+ (./tables/app_prompts.tex
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/b/sc' will be
+(Font)              scaled to size 9.0pt on input line 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+[]\T1/pcr/m/n/9 Extract ONLY verifiable claims explicitly stated in the caption
+, limited to: color,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+[]\T1/pcr/m/n/9 Guidelines: - Only extract claims that are explicit and directl
+y stated in the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+\T1/pcr/m/n/9 caption. - Do NOT infer unstated attributes or any information no
+t present in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+\T1/pcr/m/n/9 the caption. - Each claim MUST be grounded in an exact text span 
+from the caption
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+\T1/pcr/m/n/9 as "evidence". - Each claim MUST belong to exactly one of three t
+ypes: color,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--12
+\T1/pcr/m/n/9 position, or quantity. - Each claim MUST clearly associate the at
+tribute with a
+ []
+
+LaTeX Info: Symbol \textrightarrow not provided by
+            font family pcr in TS1 encoding.
+            Default family used instead on input line 13.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+[]\T1/pcr/m/n/9 [Color] Include explicit colors (e.g., "red", "light gray"). Ex
+ample: evidence:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+\T1/pcr/m/n/9 [Position] Allowed: left, right, center, top, bottom only. Format
+: "The [object]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
+\T1/pcr/m/n/9 [Quantity] Explicit numbers only; exclude vague quantifiers (e.g.
+, "several",
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+\T1/pcr/m/n/9 Output: [{"evidence": "...", "claim": "...", "type": "color/posit
+ion/quantity"},
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
+[]\T1/pcr/m/n/9 Guidelines: - Do NOT rewrite or reinterpret the claim. - The qu
+estion MUST be
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
+\T1/pcr/m/n/9 directly derived from the claim. - The answer MUST be a substring
+ or direct
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--33
+\T1/pcr/m/n/9 [Position] Q: Where is the [OBJECT] in the image?  A: left / righ
+t / top / bottom /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
+[]\T1/pcr/m/n/9 Guidelines: - Answer each question based only on the image. - C
+olor questions:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
+\T1/pcr/m/n/9 answer with a color word or phrase only. - Position questions: an
+swer with ONLY
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
+\T1/pcr/m/n/9 one of: left, right, center, top, bottom. - Quantity questions: a
+nswer with a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--48
+\T1/pcr/m/n/9 number word or numeral only. - If the answer cannot be determined
+ reliably from the
+ []
+
+[18
+
+{/Users/cuisijia/Library/texmf/fonts/enc/dvips/xcharter/xch_yelf2i.enc}{/Users/
+cuisijia/Library/texmf/fonts/enc/dvips/xcharter/xch_4j4sw5.enc}{/usr/local/texl
+ive/2026basic/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 57--60
+[]\T1/pcr/m/n/9 Rules: - Output 1 if they mean the same thing; output 0 otherwi
+se. - Output 0 if
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--66
+[]\T1/pcr/m/n/9 Matching guidelines: - Ignore format differences: "3" == "three
+" - Allow simple
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--66
+\T1/pcr/m/n/9 variants: "blue" == "dark blue" - Allow position variants: "left"
+ == "on the left"
+ []
+
+) (./tables/app_training_paras.tex
+LaTeX Font Info:    Font shape `T1/XCharter-TLF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 11.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./tables/app_datasets.tex
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) (./tables/app_image_aug.tex
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<figures/000000000996-resize.jpg, id=785, 385.44pt x 513.92pt>
+File: figures/000000000996-resize.jpg Graphic file (type jpg)
+<use figures/000000000996-resize.jpg>
+Package pdftex.def Info: figures/000000000996-resize.jpg  used on input line 25
+.
+(pdftex.def)             Requested size: 108.63065pt x 144.83762pt.
+<figures/000000000996-brightness.jpg, id=786, 481.8pt x 642.4pt>
+File: figures/000000000996-brightness.jpg Graphic file (type jpg)
+<use figures/000000000996-brightness.jpg>
+Package pdftex.def Info: figures/000000000996-brightness.jpg  used on input lin
+e 30.
+(pdftex.def)             Requested size: 108.63065pt x 144.83763pt.
+<figures/000000000996-contrast.jpg, id=787, 481.8pt x 642.4pt>
+File: figures/000000000996-contrast.jpg Graphic file (type jpg)
+<use figures/000000000996-contrast.jpg>
+Package pdftex.def Info: figures/000000000996-contrast.jpg  used on input line 
+35.
+(pdftex.def)             Requested size: 108.63065pt x 144.83763pt.
+<figures/000000000996-sharpen.jpg, id=788, 481.8pt x 642.4pt>
+File: figures/000000000996-sharpen.jpg Graphic file (type jpg)
+<use figures/000000000996-sharpen.jpg>
+Package pdftex.def Info: figures/000000000996-sharpen.jpg  used on input line 4
+0.
+(pdftex.def)             Requested size: 108.63065pt x 144.83763pt.
+<figures/000000000996-gaussian_blur.jpg, id=789, 481.8pt x 642.4pt>
+File: figures/000000000996-gaussian_blur.jpg Graphic file (type jpg)
+<use figures/000000000996-gaussian_blur.jpg>
+Package pdftex.def Info: figures/000000000996-gaussian_blur.jpg  used on input 
+line 46.
+(pdftex.def)             Requested size: 108.63065pt x 144.83763pt.
+<figures/000000000996-gaussian_noise.jpg, id=790, 481.8pt x 642.4pt>
+File: figures/000000000996-gaussian_noise.jpg Graphic file (type jpg)
+<use figures/000000000996-gaussian_noise.jpg>
+Package pdftex.def Info: figures/000000000996-gaussian_noise.jpg  used on input
+ line 52.
+(pdftex.def)             Requested size: 108.63065pt x 144.83763pt.
+<figures/000000000996-salt_pepper_noise.jpg, id=791, 481.8pt x 642.4pt>
+File: figures/000000000996-salt_pepper_noise.jpg Graphic file (type jpg)
+<use figures/000000000996-salt_pepper_noise.jpg>
+Package pdftex.def Info: figures/000000000996-salt_pepper_noise.jpg  used on in
+put line 57.
+(pdftex.def)             Requested size: 108.63065pt x 144.83763pt.
+<figures/000000000996-together.jpg, id=792, 385.44pt x 513.92pt>
+File: figures/000000000996-together.jpg Graphic file (type jpg)
+<use figures/000000000996-together.jpg>
+Package pdftex.def Info: figures/000000000996-together.jpg  used on input line 
+62.
+(pdftex.def)             Requested size: 108.63065pt x 144.83762pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (8.23769pt too wide) detected at line 83
+ \T1/XCharter-TLF/m/n/8 Attribute 
+ []
+
+
+Overfull \hbox (9.84567pt too wide) detected at line 83
+ \T1/XCharter-TLF/m/n/8 Existence 
+ []
+
+
+Overfull \hbox (5.95767pt too wide) detected at line 83
+ \T1/XCharter-TLF/m/n/8 Relation 
+ []
+
+
+Overfull \hbox (8.67769pt too wide) detected at line 83
+ \T1/XCharter-TLF/m/n/8 Accuracy 
+ []
+
+
+Overfull \hbox (4.69365pt too wide) detected at line 83
+ \T1/XCharter-TLF/m/n/8 Position 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 85
+ \T1/XCharter-TLF/b/n/9 86.37 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 85
+ \T1/XCharter-TLF/b/n/9 94.58 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 85
+ \T1/XCharter-TLF/b/n/9 84.50 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 85
+ \T1/XCharter-TLF/b/n/9 88.48 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 85
+ \T1/XCharter-TLF/b/n/9 95.00 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 85
+ \T1/XCharter-TLF/b/n/9 86.67 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 85
+ \T1/XCharter-TLF/b/n/9 82.25 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 85
+ \T1/XCharter-TLF/b/n/9 92.03 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 86
+ \T1/XCharter-TLF/b/n/9 88.54 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 86
+ \T1/XCharter-TLF/b/n/9 86.67 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 86
+ \T1/XCharter-TLF/b/n/9 87.25 
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 88
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 0$
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 88
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 0$
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 88
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 0$
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 88
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 2$
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 88
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 1$
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 88
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 0$
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 89
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 0$
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (2.68968pt too wide) detected at line 104
+ \T1/XCharter-TLF/m/n/9 RWQA 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 106
+ \T1/XCharter-TLF/b/n/9 87.60 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 106
+ \T1/XCharter-TLF/b/n/9 70.98 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 107
+ \T1/XCharter-TLF/b/n/9 73.16 
+ []
+
+
+Overfull \hbox (0.75465pt too wide) detected at line 107
+ \T1/XCharter-TLF/b/n/9 60.99 
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 109
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 0$
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 109
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 2$
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 110
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 0$
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (1.10713pt too wide) detected at line 128
+ \T1/XCharter-TLF/m/n/9 MMB 
+ []
+
+
+Overfull \hbox (8.90112pt too wide) detected at line 128
+ \T1/XCharter-TLF/m/n/9 MMMB 
+ []
+
+
+Overfull \hbox (1.69212pt too wide) detected at line 128
+ \T1/XCharter-TLF/m/n/9 SEED 
+ []
+
+
+Overfull \hbox (3.30713pt too wide) detected at line 131
+ \T1/XCharter-TLF/m/n/8 Jigsaw 
+ []
+
+
+Overfull \hbox (1.14713pt too wide) detected at line 131
+ \T1/XCharter-TLF/m/n/8 Depth 
+ []
+
+
+Overfull \hbox (8.97113pt too wide) detected at line 131
+ \T1/XCharter-TLF/m/n/8 Rel.Refl. 
+ []
+
+
+Overfull \hbox (0.58714pt too wide) detected at line 131
+ \T1/XCharter-TLF/m/n/8 G-Acc 
+ []
+
+
+Overfull \hbox (1.02713pt too wide) detected at line 131
+ \T1/XCharter-TLF/m/n/8 Q-Acc 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 135
+ \T1/XCharter-TLF/b/n/9 81.61 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 135
+ \T1/XCharter-TLF/b/n/9 84.34 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 135
+ [][][][] 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 135
+ \T1/XCharter-TLF/b/n/9 41.35 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 135
+ \T1/XCharter-TLF/b/n/9 79.03 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 136
+ \T1/XCharter-TLF/b/n/9 38.06 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 136
+ \T1/XCharter-TLF/b/n/9 78.53 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 136
+ [][][][] 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 136
+ \T1/XCharter-TLF/b/n/9 61.16 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 136
+ \T1/XCharter-TLF/b/n/9 59.18 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 136
+ \T1/XCharter-TLF/b/n/9 76.95 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 137
+ \T1/XCharter-TLF/b/n/9 58.29 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 139
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 139
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 139
+ [][][][] 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 139
+ \T1/XCharter-TLF/b/n/9 58.00 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 139
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 139
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 140
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 140
+ [][][][] 
+ []
+
+
+Overfull \hbox (3.6001pt too wide) detected at line 140
+ \T1/XCharter-TLF/b/n/9 33.42 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 140
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 140
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 140
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 141
+ [][][][] 
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 144
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 0$
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 144
+ [][][][] 
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 144
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 0$
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 144
+ [][][][] 
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 144
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 3$
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 144
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 144
+ [][][][] 
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 144
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 4$
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 144
+ [][][][] 
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 144
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 1$
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 144
+ [][][][] 
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 145
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 3$
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 145
+ [][][][] 
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 145
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 0$
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 145
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 145
+ [][][][] 
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 145
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 0$
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 145
+ [][][][] 
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 145
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 0$
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 145
+ [][][][] 
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 145
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 0$
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 145
+ [][][][] 
+ []
+
+
+Overfull \hbox (0.71999pt too wide) detected at line 146
+$\LMS/ntxsy/m/n/9 ^^@\OT1/XCharter-TLF/m/n/9 1$
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 146
+ [][][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (./tables/app_ablation2.tex
+Overfull \hbox (10.51396pt too wide) detected at line 17
+ \T1/XCharter-TLF/m/n/8 Attribute 
+ []
+
+
+Overfull \hbox (12.12195pt too wide) detected at line 17
+ \T1/XCharter-TLF/m/n/8 Existence 
+ []
+
+
+Overfull \hbox (8.23395pt too wide) detected at line 17
+ \T1/XCharter-TLF/m/n/8 Relation 
+ []
+
+
+Overfull \hbox (10.95396pt too wide) detected at line 17
+ \T1/XCharter-TLF/m/n/8 Accuracy 
+ []
+
+
+Overfull \hbox (6.96992pt too wide) detected at line 17
+ \T1/XCharter-TLF/m/n/8 Position 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 19
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 19
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 19
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 19
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 19
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 19
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 19
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 19
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 19
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 20
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 20
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 20
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 20
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 20
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 20
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 20
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 20
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 20
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 20
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 21
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 22
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 23
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.13097pt too wide) detected at line 24
+ [][][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (2.68968pt too wide) detected at line 37
+ \T1/XCharter-TLF/m/n/9 RWQA 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (1.10713pt too wide) detected at line 58
+ \T1/XCharter-TLF/m/n/9 MMB 
+ []
+
+
+Overfull \hbox (8.90112pt too wide) detected at line 58
+ \T1/XCharter-TLF/m/n/9 MMMB 
+ []
+
+
+Overfull \hbox (1.69212pt too wide) detected at line 58
+ \T1/XCharter-TLF/m/n/9 SEED 
+ []
+
+
+Overfull \hbox (3.30713pt too wide) detected at line 61
+ \T1/XCharter-TLF/m/n/8 Jigsaw 
+ []
+
+
+Overfull \hbox (1.14713pt too wide) detected at line 61
+ \T1/XCharter-TLF/m/n/8 Depth 
+ []
+
+
+Overfull \hbox (8.97113pt too wide) detected at line 61
+ \T1/XCharter-TLF/m/n/8 Rel.Refl. 
+ []
+
+
+Overfull \hbox (0.58714pt too wide) detected at line 61
+ \T1/XCharter-TLF/m/n/8 G-Acc 
+ []
+
+
+Overfull \hbox (1.02713pt too wide) detected at line 61
+ \T1/XCharter-TLF/m/n/8 Q-Acc 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 63
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 63
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 63
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 63
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 63
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 63
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 63
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 63
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 63
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 63
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 63
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 63
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 64
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 64
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 64
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 64
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 64
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 64
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 64
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 64
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 64
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 64
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 64
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 64
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 64
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 65
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 65
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 65
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 65
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 65
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 65
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 65
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 65
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 65
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 65
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 65
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 65
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 65
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 66
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 66
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 66
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 66
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 66
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 66
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 66
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 66
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 66
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 66
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 66
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 66
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 66
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 67
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 67
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 67
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 67
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 67
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 67
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 67
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 67
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 67
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 67
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 67
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 67
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 67
+ [][][][] 
+ []
+
+
+Overfull \hbox (2.70013pt too wide) detected at line 68
+ [][][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [19] (./tables/prompt_selfcheck.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+\T1/pcr/m/n/9 - Score 1.0: Fully accurate and consistent with the image. No hal
+lucinations or
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+\T1/pcr/m/n/9 - Score 0.5: Partially accurate. Some details are correct but the
+re are minor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--9
+\T1/pcr/m/n/9 - Score 0.0: Significant hallucinations, contradictions, or large
+ly inconsistent
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+\T1/pcr/m/n/9 - Attribute accuracy: Are colors, sizes, positions, and other att
+ributes correctly
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+\T1/pcr/m/n/9 - Actions and relationships: Are the described actions and spatia
+l relationships
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--15
+\T1/pcr/m/n/9 - No fabrication: Does the description avoid mentioning things no
+t present in the
+ []
+
+[20] [21])) [22 <./figures/000000000996-resize.jpg> <./figures/000000000996-bri
+ghtness.jpg> <./figures/000000000996-contrast.jpg> <./figures/000000000996-shar
+pen.jpg> <./figures/000000000996-gaussian_blur.jpg> <./figures/000000000996-gau
+ssian_noise.jpg> <./figures/000000000996-salt_pepper_noise.jpg> <./figures/0000
+00000996-together.jpg>] [23]
+
+enddocument/afterlastpage (AED): lastpage setting LastPage.
+(./main.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: A20CFBA3D8B86D787A047992204DAA5D;2845.
+ ) 
+Here is how much of TeX's memory you used:
+ 46762 strings out of 469006
+ 934005 string characters out of 5454814
+ 1468868 words of memory out of 5000000
+ 73741 multiletter control sequences out of 15000+600000
+ 982546 words of font info for 669 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 113i,15n,131p,1038b,1448s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/cuisijia/Library/texmf/fonts/type1/public/xcharter/XCharter-Bold.pfb>
+</Users/cuisijia/Library/texmf/fonts/type1/public/xcharter/XCharter-BoldItalic.
+pfb></Users/cuisijia/Library/texmf/fonts/type1/public/xcharter/XCharter-Italic.
+pfb></Users/cuisijia/Library/texmf/fonts/type1/public/xcharter/XCharter-Roman.p
+fb></Users/cuisijia/Library/texmf/fonts/type1/public/xcharter/XCharterMathBMI.p
+fb></Users/cuisijia/Library/texmf/fonts/type1/public/xcharter/XCharterMathMI.pf
+b></Users/cuisijia/Library/texmf/fonts/type1/public/xcharter/XCharterMathRM.pfb
+></usr/local/texlive/2026basic/texmf-dist/fonts/type1/public/cm-super/sftt0900.
+pfb></Users/cuisijia/Library/texmf/fonts/type1/public/newtx/txexas.pfb></Users/
+cuisijia/Library/texmf/fonts/type1/public/newtx/txexs.pfb></Users/cuisijia/Libr
+ary/texmf/fonts/type1/public/newtx/txmiaSTbb.pfb></Users/cuisijia/Library/texmf
+/fonts/type1/public/newtx/txmiaX.pfb></Users/cuisijia/Library/texmf/fonts/type1
+/public/newtx/txsys.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/ur
+w/courier/ucrb8a.pfb></usr/local/texlive/2026basic/texmf-dist/fonts/type1/urw/c
+ourier/ucrr8a.pfb>
+Output written on main.pdf (23 pages, 3085014 bytes).
+PDF statistics:
+ 940 PDF objects out of 1000 (max. 8388607)
+ 721 compressed objects within 8 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 158600 words of extra memory for PDF output out of 184870 (max. 10000000)
+

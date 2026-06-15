@@ -1,0 +1,47 @@
+
+\section{Conclusion}
+\label{sec:conclusion}
+We presented \ours, a visual multi-agent self-verification framework that eliminates the need for ground-truth annotations by decomposing model responses into atomic visual claims and rewarding their consistency with the source image.
+% The central contribution, Visual Claim Regulation, addresses two failure modes that undermine claim-level verification in practice---reward hacking through claim repetition and the generation of image-agnostic claims---and proves necessary for stable, non-collapsing training dynamics.
+The central contribution, Visual Claim Regulation, addresses two practical failure modes in claim-level verification: reward hacking through repetitive claims and the generation of image-agnostic claims. Mitigating these issues is essential for maintaining stable and non-collapsing training dynamics.
+Across 12 hallucination, VQA, and mixed benchmarks, \ours consistently outperforms competitive baselines, and scales reliably from 3B to 32B parameters.
+We hope this work encourages broader adoption of structured, annotation-free self-verification as a practical path toward more grounded and trustworthy vision-language models.
+
+% In this paper, we presented \textbf{\ours}, a multi-agent reinforced self-check 
+% framework for mitigating hallucination in Vision-Language Models without relying on 
+% any human annotation or ground-truth image descriptions. Inspired by the MARCH 
+% paradigm for LLM factuality, we adapted the information-asymmetric Proposer-Checker 
+% verification pipeline to the visual domain, where the Checker grounds each atomic 
+% claim directly in the original image rather than in retrieved text documents. This 
+% design breaks the self-confirmation bias inherent in single-model verification, 
+% providing a more reliable and objective reward signal for GRPO training.
+
+% To address challenges specific to the visual setting, we introduced three 
+% complementary components: semantic deduplication to prevent reward inflation from 
+% redundant claims, a claim quantity reward to encourage informative descriptions, and 
+% an image-grounded quality penalty to suppress trivial claims answerable without 
+% genuine visual attention. Together, these components stabilize training and ensure 
+% that the reward signal faithfully reflects factual consistency with the image content.
+
+% Extensive experiments on 13 benchmarks demonstrate that \ours consistently 
+% outperforms both annotation-free and annotation-based baselines across diverse 
+% evaluation dimensions, including hallucination detection, visual perception, and 
+% image captioning. These results establish claim-level visual verification as an 
+% effective and scalable paradigm for self-supervised hallucination mitigation in VLMs.
+
+% \paragraph{Limitations and Future Work.}
+% Despite its strong empirical performance, \ours has several limitations worth 
+% noting. First, the Proposer-Checker pipeline introduces additional inference overhead 
+% compared to single-model reward computation, as each training sample requires multiple 
+% forward passes through the VLM. Reducing this cost through more efficient verification 
+% strategies remains an important direction. Second, the quality of the reward signal 
+% depends on the model's ability to answer visual questions accurately; for early-stage 
+% training or weaker base models, the Checker may itself produce unreliable reference 
+% answers, potentially introducing noise into the reward. Third, our current framework 
+% focuses on image captioning tasks; extending \ours to other modalities such as 
+% video understanding or interleaved image-text generation is a natural but non-trivial 
+% future direction. Finally, while our quality penalty based on blurred image testing 
+% effectively suppresses image-agnostic claims, more principled approaches to measuring 
+% visual grounding quality---such as region-level attribution or attention-based 
+% verification---may further improve the precision of the reward signal. We leave these 
+% directions for future work.

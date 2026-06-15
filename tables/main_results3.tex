@@ -1,0 +1,40 @@
+\begin{table*}[t]
+\centering
+\caption{
+Performance comparison between \ours and baselines on multiple mixed multi-task benchmarks.
+% BLINK evaluates low-level visual perception including IQ test, jigsaw, multi-view reasoning, relative depth, and reflectance.
+% NaturalBench measures compositional reasoning with overall accuracy, group, image, and question-level metrics.
+% \textbf{Bold} denotes the best result and \underline{underline} denotes the second best.
+% $\Delta$ indicates the improvement over base model.
+}
+\label{tab:main_results_mixed}
+\small
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{l*{13}{S[table-format=2.2,table-column-width=0.7cm]}}
+\toprule
+& MMB & MMMB & \multicolumn{5}{c}{BLINK} & \multicolumn{4}{c}{NaturalBench} & {SEED} & {Avg.} \\
+\cmidrule(lr){4-8}
+\cmidrule(lr){9-12}
+Method & {--} & {--} & {IQ} & \sh{Jigsaw} & \sh{MVR} & \sh{Depth} & \sh{Rel.Refl.} & \sh{Acc} & \sh{G-Acc} & \sh{I-Acc} & \sh{Q-Acc} & {--} & {--} \\
+\midrule
+
+Qwen2.5-VL-7B & 80.62 & 82.83 & 0.67 & 46.67 & 33.83 & 71.77 & 29.85 & 77.97 & 31.79 & 60.39 & 57.89 & 76.36 & 54.22 \\
+VZ(CLEVR)     & 80.99 & 82.93 & 1.33 & 51.33 & 24.06 & 70.97 & 27.61 & 78.18 & 32.58 & 60.76 & 58.37 & 76.48 & 53.80 \\
+VZ(Chart)     & 80.16 & 82.98 & 0.67 & 36.67 & 32.33 & 69.35 & 22.39 & 78.09 & 31.63 & 60.50 & 58.03 & 76.48 & 52.44 \\
+VZ(RealWorld) & 80.42 & 83.13 & 0.00 & 44.00 & \underline{39.85} & 73.39 & 27.61 & 78.08 & 32.26 & 60.50 & 58.18 & \underline{76.59} & 54.50 \\
+EvoLMM        & 80.88 & \underline{83.48} & \underline{4.67} & \textbf{62.00} & 39.10 & \underline{75.00} & \underline{31.34} & 78.07 & 31.74 & 60.32 & 58.16 & 76.48 & \underline{56.77} \\
+R1-Onevision  & 69.61 & 80.96 & 0.00 & 56.00 & 29.32 & 28.23 & 11.19 & 60.91 & 8.68 & 28.13 & 26.26 & 69.91 & 39.10 \\
+VLAA-Thinker  & 80.10 & 82.27 & 1.33 & 35.33 & 20.30 & 71.77 & 28.36 & 78.33 & 32.84 & 61.08 & 58.66 & 76.54 & 52.24 \\
+MM-Eureka     & 80.62 & 83.23 & 1.33 & 32.00 & 12.03 & 76.61 & 15.67 & 78.37 & \underline{33.00} & \textbf{61.29} & 58.71 & 76.42 & 50.77 \\
+OpenVLThinker & 75.12 & 79.14 & 0.67 & \underline{56.67} & 20.30 & 51.61 & 20.15 & 66.59 & 16.95 & 37.95 & 36.42 & 72.25 & 44.48 \\
+
+\midrule
+\rowcolor{oursbg}
+\ours          & \textbf{81.61} & \textbf{84.34} & \textbf{9.33} & \underline{56.67} & \textbf{41.35} & \textbf{79.03} & \textbf{38.06} & \textbf{78.53} & \textbf{33.32} & \underline{61.16} & \textbf{59.18} & \textbf{76.95} & \textbf{58.29} \\
+\rowcolor{oursbg}
+$\Delta$       & \up{0.99} & \up{1.52} & \up{8.67} & \up{10.00} & \up{7.52} & \up{7.26} & \up{8.21} & \up{0.55} & \up{1.53} & \up{0.76} & \up{1.29} & \up{0.59} & \up{4.07} \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\vspace{-2mm}
+\end{table*}

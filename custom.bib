@@ -1,0 +1,653 @@
+% Use this file for citations not found in the ACL Anthology (contained in "anthology.bib").
+
+# introduction
+## vlms
+@article{achiam2023gpt,
+  title={Gpt-4 technical report},
+  author={Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others},
+  journal={arXiv preprint arXiv:2303.08774},
+  year={2023}
+}
+@article{touvron2023llama,
+  title={Llama: Open and efficient foundation language models},
+  author={Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\'e}e and Rozi{\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others},
+  journal={arXiv preprint arXiv:2302.13971},
+  year={2023}
+}
+@article{liu2023llava,
+  title={Visual instruction tuning},
+  author={Liu, Haotian and Li, Chunyuan and Wu, Qingyang and Lee, Yong Jae},
+  journal={Advances in neural information processing systems},
+  volume={36},
+  pages={34892--34916},
+  year={2023}
+}
+@inproceedings{chen2024internvl,
+  title={Internvl: Scaling up vision foundation models and aligning for generic visual-linguistic tasks},
+  author={Chen, Zhe and Wu, Jiannan and Wang, Wenhai and Su, Weijie and Chen, Guo and Xing, Sen and Zhong, Muyan and Zhang, Qinglong and Zhu, Xizhou and Lu, Lewei and others},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={24185--24198},
+  year={2024}
+}
+@article{bai2025qwen3,
+  title={Qwen3-vl technical report},
+  author={Bai, Shuai and Cai, Yuxuan and Chen, Ruizhe and Chen, Keqin and Chen, Xionghui and Cheng, Zesen and Deng, Lianghao and Ding, Wei and Gao, Chang and Ge, Chunjiang and others},
+  journal={arXiv preprint arXiv:2511.21631},
+  year={2025}
+}
+@article{comanici2025gemini,
+  title={Gemini 2.5: Pushing the frontier with advanced reasoning, multimodality, long context, and next generation agentic capabilities},
+  author={Comanici, Gheorghe and Bieber, Eric and Schaekermann, Mike and Pasupat, Ice and Sachdeva, Noveen and Dhillon, Inderjit and Blistein, Marcel and Ram, Ori and Zhang, Dan and Rosen, Evan and others},
+  journal={arXiv preprint arXiv:2507.06261},
+  year={2025}
+}
+
+## hallucinations
+@article{liu2024survey,
+  title={A survey on hallucination in large vision-language models},
+  author={Liu, Hanchao and Xue, Wenyuan and Chen, Yifei and Chen, Dapeng and Zhao, Xiutian and Wang, Ke and Hou, Liping and Li, Rongjun and Peng, Wei},
+  journal={arXiv preprint arXiv:2402.00253},
+  year={2024}
+}
+@inproceedings{jing2024faithscore,
+    title = "{F}aith{S}core: Fine-grained Evaluations of Hallucinations in Large Vision-Language Models",
+    author = "Jing, Liqiang  and
+      Li, Ruosen  and
+      Chen, Yunmo  and
+      Du, Xinya",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.290/",
+    doi = "10.18653/v1/2024.findings-emnlp.290",
+    pages = "5042--5063",
+    abstract = "We introduce FaithScore (Faithfulness to Atomic Image Facts Score), a reference-free and fine-grained evaluation metric that measures the faithfulness of the generated free-form answers from large vision-language models (LVLMs). The FaithScore evaluation first identifies sub-sentences containing descriptive statements that need to be verified, then extracts a comprehensive list of atomic facts from these sub-sentences, and finally conducts consistency verification between fine-grained atomic facts and the input image. Meta-evaluation demonstrates that our metric highly correlates with human judgments of faithfulness. We collect two benchmark datasets (i.e. LLaVA-1k and MSCOCO-Cap) for evaluating LVLMs instruction-following hallucinations. We measure hallucinations in state-of-the-art LVLMs with FaithScore on the datasets. Results reveal that current systems are prone to generate hallucinated content unfaithful to the image, which leaves room for future improvements. We hope our metric FaithScore can help evaluate future LVLMs in terms of faithfulness and provide insightful advice for enhancing LVLMs' faithfulness."
+}
+@inproceedings{rawte2025defining,
+    title = "Defining and Quantifying Visual Hallucinations in Vision-Language Models",
+    author = "Rawte, Vipula  and
+      Mishra, Aryan  and
+      Sheth, Amit  and
+      Das, Amitava",
+    editor = "Cao, Trista  and
+      Das, Anubrata  and
+      Kumarage, Tharindu  and
+      Wan, Yixin  and
+      Krishna, Satyapriya  and
+      Mehrabi, Ninareh  and
+      Dhamala, Jwala  and
+      Ramakrishna, Anil  and
+      Galystan, Aram  and
+      Kumar, Anoop  and
+      Gupta, Rahul  and
+      Chang, Kai-Wei",
+    booktitle = "Proceedings of the 5th Workshop on Trustworthy NLP (TrustNLP 2025)",
+    month = may,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.trustnlp-main.32/",
+    doi = "10.18653/v1/2025.trustnlp-main.32",
+    pages = "501--510",
+    ISBN = "979-8-89176-233-6",
+    abstract = "The troubling rise of hallucination presents perhaps the most significant impediment to the advancement of responsible AI. In recent times, considerable research has focused on detecting and mitigating hallucination in Large Language Models (LLMs). However, it{'}s worth noting that hallucination is also quite prevalent in Vision-Language models (VLMs). In this paper, we offer a fine-grained discourse on profiling VLM hallucination based on the image captioning task. We delineate eight fine-grained orientations of visual hallucination: i) Contextual Guessing, ii) Identity Incongruity, iii) Geographical Erratum, iv) Visual Illusion, v) Gender Anomaly, vi) VLM as Classifier, vii) Wrong Reading, and viii) Numeric Discrepancy. We curate Visual HallucInation eLiciTation, a publicly available dataset comprising 2,000 samples generated using eight VLMs across the image captioning task, along with human annotations for the categories as mentioned earlier. To establish a method for quantification and to offer a comparative framework enabling the evaluation and ranking of VLMs according to their vulnerability to producing hallucinations, we propose the Visual Hallucination Vulnerability Index (VHVI). In summary, we introduce the VHILT dataset for image-to-text hallucinations and propose the VHVI metric to quantify hallucinations in VLMs, targeting specific visual hallucination types. A subset sample is available at: \url{https://huggingface.co/datasets/vr25/vhil}. The full dataset will be publicly released upon acceptance."
+}
+@inproceedings{li2025visual,
+    title = "Visual Evidence Prompting Mitigates Hallucinations in Large Vision-Language Models",
+    author = "Li, Wei  and
+      Huang, Zhen  and
+      Li, Houqiang  and
+      Lu, Le  and
+      Lu, Yang  and
+      Tian, Xinmei  and
+      Shen, Xu  and
+      Ye, Jieping",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.205/",
+    doi = "10.18653/v1/2025.acl-long.205",
+    pages = "4048--4080",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Large Vision-Language Models (LVLMs) have shown impressive progress by integrating visual perception with linguistic understanding to produce contextually grounded outputs. Despite these advancements achieved, LVLMs still suffer from the hallucination problem, e.g., they tend to produce content that does not exist in the input images. Our investigation suggests that such hallucinations often stem from the deficiencies in fine-grained comprehension on the visual aspect, particularly when visual scenes exhibit appearance or semantic similarities (e.g., bicycle vs. motorcycles, baseball bat vs. baseball). In this work, we show such hallucination is naturally mitigated via a novel method called visual evidence prompting, utilizing small visual models to complement the LVLMs. While traditional visual models are not adept at interacting with humans, they excel at perceiving the fine-grained image contents. By symbolizing the professional outputs of domain-expert models as prompts, the LVLM generalists are able to refer to these evidences as visual knowledge to generate more precise answers. Detailed analysis shows that visual evidence enables models to adjust and rectify the attribution and attention on the images, reducing visual confusion by suppressing false activation while enhancing correct ones. Extensive experiments and in-depth analysis demonstrate the effectiveness of our method. We hope our straightforward but insightful work enhances the comprehension of hallucination in LVLMs and offers valuable perspectives on addressing such challenges."
+}
+@inproceedings{yang2025mitigating,
+title={Mitigating Hallucination in Large Vision-Language Models via Modular Attribution and Intervention},
+author={Tianyun Yang and Ziniu Li and Juan Cao and Chang Xu},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=Bjq4W7P2Us}
+}
+
+## real-world hallucinations
+@article{dahl2024large,
+  title={Large legal fictions: Profiling legal hallucinations in large language models},
+  author={Dahl, Matthew and Magesh, Varun and Suzgun, Mirac and Ho, Daniel E},
+  journal={Journal of Legal Analysis},
+  volume={16},
+  number={1},
+  pages={64--93},
+  year={2024},
+  publisher={Oxford University Press UK}
+}
+@article{kim2025medical,
+  title={Medical hallucinations in foundation models and their impact on healthcare},
+  author={Kim, Yubin and Jeong, Hyewon and Chen, Shan and Li, Shuyue Stella and Park, Chanwoo and Lu, Mingyu and Alhamoud, Kumail and Mun, Jimin and Grau, Cristina and Jung, Minseok and others},
+  journal={arXiv preprint arXiv:2503.05777},
+  year={2025}
+}
+@inproceedings{li2023pope,
+    title = "Evaluating Object Hallucination in Large Vision-Language Models",
+    author = "Li, Yifan  and
+      Du, Yifan  and
+      Zhou, Kun  and
+      Wang, Jinpeng  and
+      Zhao, Xin  and
+      Wen, Ji-Rong",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.20/",
+    doi = "10.18653/v1/2023.emnlp-main.20",
+    pages = "292--305",
+    abstract = "Inspired by the superior language abilities of large language models (LLM), large vision-language models (LVLM) have been recently proposed by integrating powerful LLMs for improving the performance on complex multimodal tasks. Despite the promising progress on LVLMs, we find that they suffer from object hallucinations, i.e., they tend to generate objects inconsistent with the target images in the descriptions. To investigate it, this work presents the first systematic study on object hallucination of LVLMs. We conduct the evaluation experiments on several representative LVLMs, and show that they mostly suffer from severe object hallucination issues. We further discuss that the visual instructions may influence the hallucination, and find that: objects that frequently appear in the visual instructions or co-occur with the image objects are obviously prone to be hallucinated by LVLMs. Besides, we further design a polling-based query method called POPE for better evaluation of object hallucination. Experiment results show that our POPE can evaluate object hallucination in a more stable and flexible way."
+}
+@inproceedings{sun2023llava_rlhf,
+    title = "Aligning Large Multimodal Models with Factually Augmented {RLHF}",
+    author = "Sun, Zhiqing  and
+      Shen, Sheng  and
+      Cao, Shengcao  and
+      Liu, Haotian  and
+      Li, Chunyuan  and
+      Shen, Yikang  and
+      Gan, Chuang  and
+      Gui, Liangyan  and
+      Wang, Yu-Xiong  and
+      Yang, Yiming  and
+      Keutzer, Kurt  and
+      Darrell, Trevor",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2024",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.775/",
+    doi = "10.18653/v1/2024.findings-acl.775",
+    pages = "13088--13110",
+    abstract = "Large Multimodal Models (LMM) are built across modalities and the misalignment between two modalities can result in ``hallucination'', generating textual outputs that are not grounded by the multimodal information in context. To address the multimodal misalignment issue, we adapt the Reinforcement Learning from Human Feedback (RLHF) from the text domain to the vision-language alignment, where human annotators are asked to compare two responses and pinpoint the more hallucinated one, and the vision-language model is trained to maximize the simulated human rewards. We propose a new alignment algorithm called Factually Augmented RLHF that augments the reward model with additional factual information such as image captions and ground-truth multi-choice options, which alleviates the reward hacking phenomenon in RLHF and further improves the performance. We also enhance the GPT-4-generated training data (for vision instruction tuning) with previously available human-written image-text pairs to improve the general capabilities of our model. To evaluate the proposed approach in real-world scenarios, we develop a new evaluation benchmark MMHAL-BENCH with a special focus on penalizing hallucinations. As the first LMM trained with RLHF, our approach achieves remarkable improvement on the LLaVA-Bench dataset with the 96{\%} performance level of the text-only GPT-4 (while previous best methods can only achieve the 87{\%} level), and an improvement of 60{\%} on MMHAL-BENCH over other baselines."
+}
+@inproceedings{yu2023rlhfv,
+  title={Rlhf-v: Towards trustworthy mllms via behavior alignment from fine-grained correctional human feedback},
+  author={Yu, Tianyu and Yao, Yuan and Zhang, Haoye and He, Taiwen and Han, Yifeng and Cui, Ganqu and Hu, Jinyi and Liu, Zhiyuan and Zheng, Hai-Tao and Sun, Maosong and others},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={13807--13816},
+  year={2024}
+}
+@inproceedings{zhao2024hdpo,
+    title = "Mitigating Hallucination in Multimodal Large Language Model via Hallucination-targeted Direct Preference Optimization",
+    author = "Fu, Yuhan  and
+      Xie, Ruobing  and
+      Sun, Xingwu  and
+      Kang, Zhanhui  and
+      Li, Xirong",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Findings of the Association for Computational Linguistics: ACL 2025",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-acl.850/",
+    doi = "10.18653/v1/2025.findings-acl.850",
+    pages = "16563--16577",
+    ISBN = "979-8-89176-256-5",
+    abstract = "Multimodal Large Language Models (MLLMs) are known to hallucinate, which limits their practical applications. Recent works have attempted to apply Direct Preference Optimization (DPO) to enhance the performance of MLLMs, but have shown inconsistent improvements in mitigating hallucinations. To address this issue more effectively, we introduce Hallucination-targeted Direct Preference Optimization (HDPO) to reduce hallucinations in MLLMs. Unlike previous approaches, our method tackles hallucinations from their diverse forms and causes. Specifically, we develop three types of preference pair data targeting the following causes of MLLM hallucinations: (1) insufficient visual capabilities, (2) long context generation, and (3) multimodal conflicts. Experimental results demonstrate that our method achieves superior performance across multiple hallucination evaluation datasets, surpassing most state-of-the-art (SOTA) methods and highlighting the potential of our approach. Ablation studies and in-depth analyses further confirm the effectiveness of our method and suggest the potential for further improvements through scaling up."
+}
+@inproceedings{li2025dpo,
+  title={Mitigating hallucinations in large vision-language models via dpo: On-policy data hold the key},
+  author={Yang, Zhihe and Luo, Xufang and Han, Dongqi and Xu, Yunjian and Li, Dongsheng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={10610--10620},
+  year={2025}
+}
+@inproceedings{ying2025empo,
+    title = "Mitigating Hallucinations in Large Vision-Language Models via Entity-Centric Multimodal Preference Optimization",
+    author = "Wu, Jiulong  and
+      Shi, Zhengliang  and
+      Wang, Shuaiqiang  and
+      Huang, Jizhou  and
+      Yin, Dawei  and
+      Yan, Lingyong  and
+      Cao, Min  and
+      Zhang, Min",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.emnlp-main.982/",
+    doi = "10.18653/v1/2025.emnlp-main.982",
+    pages = "19445--19461",
+    ISBN = "979-8-89176-332-6",
+    abstract = "Large Visual Language Models (LVLMs) have demonstrated impressive capabilities across multiple tasks. However, their trustworthiness is often challenged by hallucinations, which can be attributed to the modality misalignment and the inherent hallucinations of their underlying Large Language Models (LLMs) backbone. Existing preference alignment methods focus on aligning model responses with human preferences while neglecting image-text modality alignment, resulting in over-reliance on LLMs and hallucinations. In this paper, we propose Entity-centric Multimodal Preference Optimization (EMPO), which achieves enhanced modality alignment than existing human preference alignment methods. Besides, to overcome the scarcity of high-quality multimodal preference data, we utilize open-source instruction datasets to automatically construct high-quality preference data across three aspects: image, instruction, and response. Experiments on two human preference datasets and five multimodal hallucination benchmarks demonstrate the effectiveness of EMPO, e.g., reducing hallucination rates by 80.4{\%} on Object HalBench and 52.6{\%} on MM HalBench, thereby enhancing the trustworthiness of LVLMs. The code and dataset will be made publicly available."
+}
+@inproceedings{leng2023vcd,
+  title={Mitigating object hallucinations in large vision-language models through visual contrastive decoding},
+  author={Leng, Sicong and Zhang, Hang and Chen, Guanzheng and Li, Xin and Lu, Shijian and Miao, Chunyan and Bing, Lidong},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={13872--13882},
+  year={2024}
+}
+@inproceedings{huang2023opera,
+  title={Opera: Alleviating hallucination in multi-modal large language models via over-trust penalty and retrospection-allocation},
+  author={Huang, Qidong and Dong, Xiaoyi and Zhang, Pan and Wang, Bin and He, Conghui and Wang, Jiaqi and Lin, Dahua and Zhang, Weiming and Yu, Nenghai},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={13418--13427},
+  year={2024}
+}
+@inproceedings{wang2024deco,
+title={{MLLM} can see? Dynamic Correction Decoding for Hallucination Mitigation},
+author={Chenxi Wang and Xiang Chen and Ningyu Zhang and Bozhong Tian and Haoming Xu and Shumin Deng and Huajun Chen},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=4z3IguA4Zg}
+}
+@inproceedings{yin2025clearsight,
+  title={Clearsight: Visual signal enhancement for object hallucination mitigation in multimodal large language models},
+  author={Yin, Hao and Si, Guangzong and Wang, Zilei},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={14625--14634},
+  year={2025}
+}
+@inproceedings{tang2025farsight,
+  title={Seeing far and clearly: Mitigating hallucinations in mllms with attention causal decoding},
+  author={Tang, Feilong and Liu, Chengzhi and Xu, Zhongxing and Hu, Ming and Huang, Zile and Xue, Haochen and Chen, Ziyang and Peng, Zelin and Yang, Zhiwei and Zhou, Sijin and others},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={26147--26159},
+  year={2025}
+}
+@article{anand2026crops,
+title={{CR}o{PS}: A Training-Free Hallucination Mitigation Framework for Vision-Language Models},
+author={Neeraj Anand and Samyak Jha and Udbhav Bamba and Rahul Rahaman},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2026},
+url={https://openreview.net/forum?id=KQSoZDPVGX},
+note={}
+}
+@inproceedings{jiang2024interp,
+  title={Interpreting and editing vision-language representations to mitigate hallucinations},
+  author={Jiang, Nick and Kachinthaya, Anish and Petryk, Suzanne and Gandelsman, Yossi},
+  booktitle={International Conference on Learning Representations},
+  volume={2025},
+  pages={63582--63605},
+  year={2025}
+}
+@inproceedings{wang2026after,
+title={{AFTER}: Mitigating the Object Hallucination of {LVLM} via Adaptive Factual-Guided Activation Editing},
+author={Tianbo Wang and Yuqing Ma and Kewei Liao and Zhange Zhang and Simin Li and Jinyang Guo and Xianglong Liu},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=ggycXmhrrG}
+}
+@inproceedings{deng2024stic,
+title={Enhancing Large Vision Language Models with Self-Training on Image Comprehension},
+author={Yihe Deng and Pan Lu and Fan Yin and Ziniu Hu and Sheng Shen and Quanquan Gu and James Zou and Kai-Wei Chang and Wei Wang},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=FZW7Ctyjm3}
+}
+@inproceedings{lu2025apasi,
+    title = "Mitigating Hallucinations in Large Vision-Language Models by Self-Injecting Hallucinations",
+    author = "Lu, Yifan  and
+      Zhang, Ziqi  and
+      Yuan, Chunfeng  and
+      Gao, Jun  and
+      Zhang, Congxuan  and
+      Qi, Xiaojuan  and
+      Li, Bing  and
+      Hu, Weiming",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.746/",
+    doi = "10.18653/v1/2025.findings-emnlp.746",
+    pages = "13861--13877",
+    ISBN = "979-8-89176-335-7",
+    abstract = "Large Vision-Language Models (LVLMs) suffer from serious hallucination problems, where the model-generated responses are inconsistent with the visual inputs. Existing hallucination mitigation methods are mainly based on preference alignment and require external human annotations or auxiliary models for preference data collection, which increase costs and limit sustainable improvement. To tackle these challenges, we propose Autonomous Preference Alignment via Self-Injection (APASI), a novel and generalizable method that mitigates hallucinations without external dependencies. APASI leverages the target LVLM to self-inject hallucinations into a generated response, creating a pair of responses with varying preference levels. During the self-injection process, the dis-preferred response is generated based on three key observations of hallucinations, ensuring it simulates real hallucination patterns. This fidelity offers an accurate learning signal for hallucination mitigation. Moreover, APASI incorporates an iterative alignment training strategy combined with curriculum learning to periodically update the preference data with increasing challenge, enabling stable and continuous enhancement of the LVLM. Extensive experiments across six benchmarks show that APASI not only effectively mitigates hallucinations for three baseline models but also achieves comparable or even superior performance to alignment-based methods with external dependency, thereby demonstrating its effectiveness and generalization capability."
+}
+@inproceedings{li2025visual_evidence,
+    title = "Visual Evidence Prompting Mitigates Hallucinations in Large Vision-Language Models",
+    author = "Li, Wei  and
+      Huang, Zhen  and
+      Li, Houqiang  and
+      Lu, Le  and
+      Lu, Yang  and
+      Tian, Xinmei  and
+      Shen, Xu  and
+      Ye, Jieping",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.205/",
+    doi = "10.18653/v1/2025.acl-long.205",
+    pages = "4048--4080",
+    ISBN = "979-8-89176-251-0",
+    abstract = "Large Vision-Language Models (LVLMs) have shown impressive progress by integrating visual perception with linguistic understanding to produce contextually grounded outputs. Despite these advancements achieved, LVLMs still suffer from the hallucination problem, e.g., they tend to produce content that does not exist in the input images. Our investigation suggests that such hallucinations often stem from the deficiencies in fine-grained comprehension on the visual aspect, particularly when visual scenes exhibit appearance or semantic similarities (e.g., bicycle vs. motorcycles, baseball bat vs. baseball). In this work, we show such hallucination is naturally mitigated via a novel method called visual evidence prompting, utilizing small visual models to complement the LVLMs. While traditional visual models are not adept at interacting with humans, they excel at perceiving the fine-grained image contents. By symbolizing the professional outputs of domain-expert models as prompts, the LVLM generalists are able to refer to these evidences as visual knowledge to generate more precise answers. Detailed analysis shows that visual evidence enables models to adjust and rectify the attribution and attention on the images, reducing visual confusion by suppressing false activation while enhancing correct ones. Extensive experiments and in-depth analysis demonstrate the effectiveness of our method. We hope our straightforward but insightful work enhances the comprehension of hallucination in LVLMs and offers valuable perspectives on addressing such challenges."
+}
+
+## RLVR
+@article{shao2024deepseekmath,
+  title={Deepseekmath: Pushing the limits of mathematical reasoning in open language models},
+  author={Shao, Zhihong and Wang, Peiyi and Zhu, Qihao and Xu, Runxin and Song, Junxiao and Bi, Xiao and Zhang, Haowei and Zhang, Mingchuan and Li, YK and Wu, Yang and others},
+  journal={arXiv preprint arXiv:2402.03300},
+  year={2024}
+}
+@article{li2026march,
+  title={MARCH: Multi-Agent Reinforced Self-Check for LLM Hallucination},
+  author={Li, Zhuo and Zhang, Yupeng and Cheng, Pengyu and Song, Jiajun and Zhou, Mengyu and Li, Hao and Hu, Shujie and Qin, Yu and Zhao, Erchao and Jiang, Xiaoxi and others},
+  journal={arXiv preprint arXiv:2603.24579},
+  year={2026}
+}
+@article{yu2026dapo,
+  title={Dapo: An open-source llm reinforcement learning system at scale},
+  author={Yu, Qiying and Zhang, Zheng and Zhu, Ruofei and Yuan, Yufeng and Zuo, Xiaochen and Yue, Yu and Dai, Weinan and Fan, Tiantian and Liu, Gaohong and Liu, Lingjun and others},
+  journal={Advances in Neural Information Processing Systems},
+  volume={38},
+  pages={113222--113244},
+  year={2026}
+}
+@article{wen2025reinforcement,
+  title={Reinforcement learning with verifiable rewards implicitly incentivizes correct reasoning in base llms},
+  author={Wen, Xumeng and Liu, Zihan and Zheng, Shun and Ye, Shengyu and Wu, Zhirong and Wang, Yang and Xu, Zhijian and Liang, Xiao and Li, Junjie and Miao, Ziming and others},
+  journal={arXiv preprint arXiv:2506.14245},
+  year={2025}
+}
+@inproceedings{yue2026does,
+title={Does Reinforcement Learning Really Incentivize Reasoning Capacity in {LLM}s Beyond the Base Model?},
+author={Yang Yue and Zhiqi Chen and Rui Lu and Andrew Zhao and Zhaokai Wang and Yang Yue and Shiji Song and Gao Huang},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+year={2026},
+url={https://openreview.net/forum?id=4OsgYD7em5}
+}
+
+## existing methods
+@article{ouyang2022training,
+  title={Training language models to follow instructions with human feedback},
+  author={Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and others},
+  journal={Advances in neural information processing systems},
+  volume={35},
+  pages={27730--27744},
+  year={2022}
+}
+@article{bai2022constitutional,
+  title={Constitutional ai: Harmlessness from ai feedback},
+  author={Bai, Yuntao and Kadavath, Saurav and Kundu, Sandipan and Askell, Amanda and Kernion, Jackson and Jones, Andy and Chen, Anna and Goldie, Anna and Mirhoseini, Azalia and McKinnon, Cameron and others},
+  journal={arXiv preprint arXiv:2212.08073},
+  year={2022}
+}
+@article{madaan2023self,
+  title={Self-refine: Iterative refinement with self-feedback},
+  author={Madaan, Aman and Tandon, Niket and Gupta, Prakhar and Hallinan, Skyler and Gao, Luyu and Wiegreffe, Sarah and Alon, Uri and Dziri, Nouha and Prabhumoye, Shrimai and Yang, Yiming and others},
+  journal={Advances in neural information processing systems},
+  volume={36},
+  pages={46534--46594},
+  year={2023}
+}
+@article{shinn2023reflexion,
+  title={Reflexion: Language agents with verbal reinforcement learning},
+  author={Shinn, Noah and Cassano, Federico and Gopinath, Ashwin and Narasimhan, Karthik and Yao, Shunyu},
+  journal={Advances in neural information processing systems},
+  volume={36},
+  pages={8634--8652},
+  year={2023}
+}
+@inproceedings{stechly2025self,
+  title={On the self-verification limitations of large language models on reasoning and planning tasks},
+  author={Stechly, Kaya and Valmeekam, Karthik and Kambhampati, Subbarao},
+  booktitle={International Conference on Learning Representations},
+  volume={2025},
+  pages={98190--98243},
+  year={2025}
+}
+@article{jhaveri2026failing,
+  title={Failing to Falsify: Evaluating and Mitigating Confirmation Bias in Language Models},
+  author={Jhaveri, Ayush Rajesh and GX-Chen, Anthony and Sucholutsky, Ilia and Choi, Eunsol},
+  journal={arXiv preprint arXiv:2604.02485},
+  year={2026}
+}
+
+# Experiment Section
+@article{qwen2p5vl,
+  title={Qwen2-vl: Enhancing vision-language model's perception of the world at any resolution},
+  author={Wang, Peng and Bai, Shuai and Tan, Sinan and Wang, Shijie and Fan, Zhihao and Bai, Jinze and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and others},
+  journal={arXiv preprint arXiv:2409.12191},
+  year={2024}
+}
+@article{qwen3vl,
+  title={Qwen3-vl technical report},
+  author={Bai, Shuai and Cai, Yuxuan and Chen, Ruizhe and Chen, Keqin and Chen, Xionghui and Cheng, Zesen and Deng, Lianghao and Ding, Wei and Gao, Chang and Ge, Chunjiang and others},
+  journal={arXiv preprint arXiv:2511.21631},
+  year={2025}
+}
+
+# baselines
+@inproceedings{wang2026visionzero,
+title={Vision-Zero: Scalable {VLM} Self-Evolution via Multi-Agent Self-Play},
+author={Qinsi Wang and Bo Liu and Tianyi Zhou and Jing Shi and Yueqian Lin and Yiran Chen and Hai Helen Li and Kun Wan and Wentian Zhao},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=s00SNXREV6}
+}
+@article{thawakar2025evolmm,
+  title={Evolmm: Self-evolving large multimodal models with continuous rewards},
+  author={Thawakar, Omkar and Venkatraman, Shravan and Thawkar, Ritesh and Shaker, Abdelrahman and Cholakkal, Hisham and Anwer, Rao Muhammad and Khan, Salman and Khan, Fahad},
+  journal={arXiv preprint arXiv:2511.16672},
+  year={2025}
+}
+@inproceedings{yang2025r1,
+  title={R1-onevision: Advancing generalized multimodal reasoning through cross-modal formalization},
+  author={Yang, Yi and He, Xiaoxuan and Pan, Hongkun and Jiang, Xiyan and Deng, Yan and Yang, Xingtao and Lu, Haoyu and Yin, Dacheng and Rao, Fengyun and Zhu, Minfeng and others},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={2376--2385},
+  year={2025}
+}
+@article{meng2025mm,
+  title={Mm-eureka: Exploring the frontiers of multimodal reasoning with rule-based reinforcement learning},
+  author={Meng, Fanqing and Du, Lingxiao and Liu, Zongkai and Zhou, Zhixiang and Lu, Quanfeng and Fu, Daocheng and Han, Tiancheng and Shi, Botian and Wang, Wenhai and He, Junjun and others},
+  journal={arXiv preprint arXiv:2503.07365},
+  year={2025}
+}
+@article{chen2025vlaa,
+title={{SFT} or {RL}? An Early Investigation into Training R1-Like Reasoning Large Vision-Language Models},
+author={Hardy Chen and Haoqin Tu and Fali Wang and Hui Liu and Xianfeng Tang and Xinya Du and Yuyin Zhou and Cihang Xie},
+journal={Transactions on Machine Learning Research},
+issn={2835-8856},
+year={2025},
+url={https://openreview.net/forum?id=wZI5qkQeDF},
+note={}
+}
+@article{deng2026openvlthinker,
+  title={Openvlthinker: Complex vision-language reasoning via iterative sft-rl cycles},
+  author={Deng, Yihe and Bansal, Hritik and Yin, Fan and Peng, Nanyun and Wang, Wei and Chang, Kai-Wei},
+  journal={Advances in Neural Information Processing Systems},
+  volume={38},
+  pages={123817--123846},
+  year={2026}
+}
+
+# datasets and benchmarks
+@inproceedings{hudson2019gqa,
+  title={Gqa: A new dataset for real-world visual reasoning and compositional question answering},
+  author={Hudson, Drew A and Manning, Christopher D},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={6700--6709},
+  year={2019}
+}
+@article{wang2023amber,
+  title={Amber: An llm-free multi-dimensional benchmark for mllms hallucination evaluation},
+  author={Wang, Junyang and Wang, Yuhang and Xu, Guohai and Zhang, Jing and Gu, Yukai and Jia, Haitao and Wang, Jiaqi and Xu, Haiyang and Yan, Ming and Zhang, Ji and others},
+  journal={arXiv preprint arXiv:2311.07397},
+  year={2023}
+}
+@article{liu2023vsr,
+  title={Visual spatial reasoning},
+  author={Liu, Fangyu and Emerson, Guy and Collier, Nigel},
+  journal={Transactions of the Association for Computational Linguistics},
+  volume={11},
+  pages={635--651},
+  year={2023},
+  publisher={MIT Press One Broadway, 12th Floor, Cambridge, Massachusetts 02142, USA~…}
+}
+@inproceedings{fu2026mme,
+title={{MME}: A Comprehensive Evaluation Benchmark for Multimodal Large Language Models},
+author={Chaoyou Fu and Peixian Chen and Yunhang Shen and Yulei Qin and Mengdan Zhang and Xu Lin and Jinrui Yang and Xiawu Zheng and Ke Li and Xing Sun and Yunsheng Wu and Rongrong Ji and Caifeng Shan and Ran He},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+year={2026},
+url={https://openreview.net/forum?id=DgH9YCsqWm}
+}
+@inproceedings{schwenk2022okvqa,
+  title={A-okvqa: A benchmark for visual question answering using world knowledge},
+  author={Schwenk, Dustin and Khandelwal, Apoorv and Clark, Christopher and Marino, Kenneth and Mottaghi, Roozbeh},
+  booktitle={European conference on computer vision},
+  pages={146--162},
+  year={2022},
+  organization={Springer}
+}
+@inproceedings{lin2014microsoft,
+  title={Microsoft coco: Common objects in context},
+  author={Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Doll{\'a}r, Piotr and Zitnick, C Lawrence},
+  booktitle={European conference on computer vision},
+  pages={740--755},
+  year={2014},
+  organization={Springer}
+}
+
+@inproceedings{fu2024blink,
+  title={Blink: Multimodal large language models can see but not perceive},
+  author={Fu, Xingyu and Hu, Yushi and Li, Bangzheng and Feng, Yu and Wang, Haoyu and Lin, Xudong and Roth, Dan and Smith, Noah A and Ma, Wei-Chiu and Krishna, Ranjay},
+  booktitle={European Conference on Computer Vision},
+  pages={148--166},
+  year={2024},
+  organization={Springer}
+}
+@inproceedings{li2024naturalbench,
+title={NaturalBench: Evaluating Vision-Language Models on Natural Adversarial Samples},
+author={Baiqi Li and Zhiqiu Lin and Wenxuan Peng and Jean de Dieu Nyandwi and Daniel Jiang and Zixian Ma and Simran Khanuja and Ranjay Krishna and Graham Neubig and Deva Ramanan},
+booktitle={The Thirty-eight Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+year={2024},
+url={https://openreview.net/forum?id=Dx88A9Zgnv}
+}
+@InProceedings{li2024seedbench,
+  author    = {Li, Bohao and Ge, Yuying and Ge, Yixiao and Wang, Guangzhi and Wang, Rui and Zhang, Ruimao and Shan, Ying},
+  title     = {SEED-Bench: Benchmarking Multimodal Large Language Models},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month     = {June},
+  year      = {2024},
+  pages     = {13299-13308}
+}
+@inproceedings{sun2025mmmb,
+title={Parrot: Multilingual Visual Instruction Tuning},
+author={Hai-Long Sun and Da-Wei Zhou and Yang Li and Shiyin Lu and Chao Yi and Qing-Guo Chen and Zhao Xu and Weihua Luo and Kaifu Zhang and De-Chuan Zhan and Han-Jia Ye},
+booktitle={Forty-second International Conference on Machine Learning},
+year={2025},
+url={https://openreview.net/forum?id=Yx0bl5OFvc}
+}
+@inproceedings{liu2024mmbench,
+  title={Mmbench: Is your multi-modal model an all-around player?},
+  author={Liu, Yuan and Duan, Haodong and Zhang, Yuanhan and Li, Bo and Zhang, Songyang and Zhao, Wangbo and Yuan, Yike and Wang, Jiaqi and He, Conghui and Liu, Ziwei and others},
+  booktitle={European conference on computer vision},
+  pages={216--233},
+  year={2024},
+  organization={Springer}
+}
+@inproceedings{wu2024qbench,
+title={Q-Bench: A Benchmark for General-Purpose Foundation Models on Low-level Vision},
+author={Haoning Wu and Zicheng Zhang and Erli Zhang and Chaofeng Chen and Liang Liao and Annan Wang and Chunyi Li and Wenxiu Sun and Qiong Yan and Guangtao Zhai and Weisi Lin},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=0V5TVt9bk0}
+}
+
+# verl
+@inproceedings{sheng2024hybridflow,
+  title={Hybridflow: A flexible and efficient rlhf framework},
+  author={Sheng, Guangming and Zhang, Chi and Ye, Zilingfeng and Wu, Xibin and Zhang, Wang and Zhang, Ru and Peng, Yanghua and Lin, Haibin and Wu, Chuan},
+  booktitle={Proceedings of the Twentieth European Conference on Computer Systems},
+  pages={1279--1297},
+  year={2025}
+}
+
+# vlmevalkit
+@inproceedings{duan2024vlmevalkit,
+  title={Vlmevalkit: An open-source toolkit for evaluating large multi-modality models},
+  author={Duan, Haodong and Yang, Junming and Qiao, Yuxuan and Fang, Xinyu and Chen, Lin and Liu, Yuan and Dong, Xiaoyi and Zang, Yuhang and Zhang, Pan and Wang, Jiaqi and others},
+  booktitle={Proceedings of the 32nd ACM international conference on multimedia},
+  pages={11198--11201},
+  year={2024}
+}
+
+# selfcheck
+@inproceedings{miao2024selfcheck,
+title={SelfCheck: Using {LLM}s to Zero-Shot Check Their Own Step-by-Step Reasoning},
+author={Ning Miao and Yee Whye Teh and Tom Rainforth},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=pTHfApDakA}
+}
+@inproceedings{metropolitansky2025towards,
+    title = "Towards Effective Extraction and Evaluation of Factual Claims",
+    author = "Metropolitansky, Dasha  and
+      Larson, Jonathan",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.348/",
+    doi = "10.18653/v1/2025.acl-long.348",
+    pages = "6996--7045",
+    ISBN = "979-8-89176-251-0",
+    abstract = "A common strategy for fact-checking long-form content generated by Large Language Models (LLMs) is extracting simple claims that can be verified independently. Since inaccurate or incomplete claims compromise fact-checking results, ensuring claim quality is critical. However, the lack of a standardized evaluation framework impedes assessment and comparison of claim extraction methods. To address this gap, we propose a framework for evaluating claim extraction in the context of fact-checking along with automated, scalable, and replicable methods for applying this framework, including novel approaches for measuring coverage and decontextualization. We also introduce Claimify, an LLM-based claim extraction method, and demonstrate that it outperforms existing methods under our evaluation framework. A key feature of Claimify is its ability to handle ambiguity and extract claims only when there is high confidence in the correct interpretation of the source text."
+}

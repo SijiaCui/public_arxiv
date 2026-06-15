@@ -1,0 +1,236 @@
+\relax 
+\providecommand\zref@newlabel[2]{}
+\providecommand \babel@aux [2]{\global \let \babel@toc \@gobbletwo }
+\@nameuse{bbl@beforestart}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{achiam2023gpt,touvron2023llama,liu2023llava,chen2024internvl,bai2025qwen3,comanici2025gemini}
+\citation{liu2024survey,rawte2025defining,li2025visual,yang2025mitigating}
+\citation{dahl2024large,kim2025medical}
+\citation{shao2024deepseekmath,yu2026dapo,wen2025reinforcement,yue2026does}
+\citation{ouyang2022training,bai2022constitutional}
+\citation{madaan2023self,shinn2023reflexion,li2026march}
+\citation{madaan2023self,li2026march}
+\citation{stechly2025self,jhaveri2026failing}
+\providecommand \oddpage@label [2]{}
+\babel@aux{english}{}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\newlabel{sec:introduction}{{1}{1}{Introduction}{section.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces V-MARCH\xspace  achieves reliable visual self-verification rewards through a multi-agent self-check mechanism, encouraging VLMs to generate more informative, image-supported, and diverse responses. }}{2}{figure.caption.1}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:ours_intro}{{1}{2}{\ours achieves reliable visual self-verification rewards through a multi-agent self-check mechanism, encouraging VLMs to generate more informative, image-supported, and diverse responses}{figure.caption.1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Motivation. Naive self-verification rewards vague but safe descriptions, causing rapid reward growth that reflects reward hacking rather than genuine visual grounding. Reliable visual self-verification should instead favor diverse, non-trivial, and image-grounded claims while maintaining stable training. }}{2}{figure.caption.2}\protected@file@percent }
+\newlabel{fig:ours}{{2}{2}{Motivation. Naive self-verification rewards vague but safe descriptions, causing rapid reward growth that reflects reward hacking rather than genuine visual grounding. Reliable visual self-verification should instead favor diverse, non-trivial, and image-grounded claims while maintaining stable training}{figure.caption.2}{}}
+\citation{li2023pope,wang2023amber}
+\citation{sun2023llava_rlhf,yu2023rlhfv,zhao2024hdpo,li2025dpo,ying2025empo}
+\citation{leng2023vcd}
+\citation{huang2023opera}
+\citation{wang2024deco,yin2025clearsight,tang2025farsight,anand2026crops}
+\citation{jiang2024interp,wang2026after}
+\citation{shao2024deepseekmath}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}{section.2}\protected@file@percent }
+\newlabel{sec:related_work}{{2}{3}{Related Work}{section.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{VLM Hallucination.}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{3}{section.3}\protected@file@percent }
+\newlabel{sec:preliminary}{{3}{3}{Method}{section.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Problem Formulation}{3}{subsection.3.1}\protected@file@percent }
+\newlabel{sec:problem_formulation}{{3.1}{3}{Problem Formulation}{subsection.3.1}{}}
+\citation{wang2026visionzero,li2026march}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Overview of the V-MARCH\xspace  pipeline. Given a \textbf  {Solver}-generated response, the \textbf  {Proposer} decomposes it into atomic factual claims and converts each into a visual question-answer pair. The \textbf  {Regulator} performs Visual Claim Regulation (VCR) by deduplicating semantically redundant claims, rewarding claim quantity, and penalizing image-agnostic claims that can be answered without genuine visual perception. The \textbf  {Checker} re-answers each question using the original image, and verifies consistency with the Solver's answers. The final self-verifying reward aggregates the Checker's consistency signal and the Regulator's quantity and quality signals. }}{4}{figure.caption.3}\protected@file@percent }
+\newlabel{fig:pipeline}{{3}{4}{Overview of the \ours pipeline. Given a \textbf {Solver}-generated response, the \textbf {Proposer} decomposes it into atomic factual claims and converts each into a visual question-answer pair. The \textbf {Regulator} performs Visual Claim Regulation (VCR) by deduplicating semantically redundant claims, rewarding claim quantity, and penalizing image-agnostic claims that can be answered without genuine visual perception. The \textbf {Checker} re-answers each question using the original image, and verifies consistency with the Solver's answers. The final self-verifying reward aggregates the Checker's consistency signal and the Regulator's quantity and quality signals}{figure.caption.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}V-MARCH\xspace  Overview}{4}{subsection.3.2}\protected@file@percent }
+\newlabel{sec:overview}{{3.2}{4}{\ours Overview}{subsection.3.2}{}}
+\newlabel{eq:reward_total}{{2}{5}{\ours Overview}{equation.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Proposer: Claim Extraction}{5}{subsection.3.3}\protected@file@percent }
+\newlabel{sec:proposer}{{3.3}{5}{Proposer: Claim Extraction}{subsection.3.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Regulator: Visual Claim Regulation}{5}{subsection.3.4}\protected@file@percent }
+\newlabel{sec:regulator}{{3.4}{5}{Regulator: Visual Claim Regulation}{subsection.3.4}{}}
+\@writefile{toc}{\contentsline {paragraph}{Semantic Deduplication.}{5}{subsection.3.4}\protected@file@percent }
+\citation{qwen2p5vl}
+\citation{wang2026visionzero}
+\citation{thawakar2025evolmm}
+\citation{yang2025r1}
+\citation{chen2025vlaa}
+\citation{meng2025mm}
+\citation{deng2026openvlthinker}
+\citation{hudson2019gqa}
+\citation{wang2023amber}
+\citation{li2023pope}
+\citation{liu2023vsr}
+\citation{fu2026mme}
+\citation{schwenk2022okvqa}
+\citation{hudson2019gqa}
+\citation{fu2024blink}
+\citation{li2024naturalbench}
+\citation{li2024seedbench}
+\citation{sun2025mmmb}
+\citation{liu2024mmbench}
+\citation{sheng2024hybridflow}
+\citation{duan2024vlmevalkit}
+\@writefile{toc}{\contentsline {paragraph}{Quantity Reward.}{6}{equation.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Quality Penalty.}{6}{equation.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Checker: Image-Grounded Verification}{6}{subsection.3.5}\protected@file@percent }
+\newlabel{sec:checker}{{3.5}{6}{Checker: Image-Grounded Verification}{subsection.3.5}{}}
+\@writefile{toc}{\contentsline {paragraph}{Final Reward.}{6}{equation.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Experiment}{6}{section.4}\protected@file@percent }
+\newlabel{sec:experiment}{{4}{6}{Experiment}{section.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces  Performance comparison between V-MARCH\xspace  and baselines on multiple hallucination datasets. AMBER evaluates attribute recognition, object existence, and spatial relation understanding. MME assesses color, position, and scene perception. POPE measures object hallucination, and VSR evaluates visual-spatial reasoning. \textbf  {Bold} denotes the best result and \underline  {underline} denotes the second best. $\Delta $ indicates the improvement over base model. }}{7}{table.caption.4}\protected@file@percent }
+\newlabel{tab:main_results}{{1}{7}{Performance comparison between \ours and baselines on multiple hallucination datasets. AMBER evaluates attribute recognition, object existence, and spatial relation understanding. MME assesses color, position, and scene perception. POPE measures object hallucination, and VSR evaluates visual-spatial reasoning. \textbf {Bold} denotes the best result and \underline {underline} denotes the second best. $\Delta $ indicates the improvement over base model}{table.caption.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces  Performance comparison between V-MARCH\xspace  and baselines on multiple open-ended VQA benchmarks. A-OKVQA (A-OK) evaluates knowledge-grounded visual question answering. RealWorldQA (RWQA) measures understanding of real-world visual scenes QA. }}{7}{table.caption.5}\protected@file@percent }
+\newlabel{tab:main_results_vqa}{{2}{7}{Performance comparison between \ours and baselines on multiple open-ended VQA benchmarks. A-OKVQA (A-OK) evaluates knowledge-grounded visual question answering. RealWorldQA (RWQA) measures understanding of real-world visual scenes QA}{table.caption.5}{}}
+\@writefile{toc}{\contentsline {paragraph}{Models, Datasets, and Baselines.}{7}{section.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces  Performance comparison between V-MARCH\xspace  and baselines on multiple mixed multi-task benchmarks. }}{8}{table.caption.6}\protected@file@percent }
+\newlabel{tab:main_results_mixed}{{3}{8}{Performance comparison between \ours and baselines on multiple mixed multi-task benchmarks}{table.caption.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Main Results}{8}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Mitigating Hallucination.}{8}{table.caption.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Strong Performance on Real-World VQA.}{8}{table.caption.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Comprehensive Gains on Multiple Mixed Benchmarks.}{8}{table.caption.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Model Generalization}{8}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:generalization}{{4.2}{8}{Model Generalization}{subsection.4.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{Consistent gains across all scales.}{8}{subsection.4.2}\protected@file@percent }
+\citation{li2026march}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Average improvements ($\Delta \%$) of V-MARCH\xspace  over the Qwen2.5-VL base model across three model scales and three benchmark categories. All cells are positive, demonstrating consistent gains at every scale.}}{9}{figure.caption.7}\protected@file@percent }
+\newlabel{fig:model_gen_heatmap}{{4}{9}{Average improvements ($\Delta \%$) of \ours over the Qwen2.5-VL base model across three model scales and three benchmark categories. All cells are positive, demonstrating consistent gains at every scale}{figure.caption.7}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Per-metric performance improvements ($\Delta \%$) of V-MARCH\xspace  over the respective Qwen2.5-VL-3B and Qwen2.5-VL-32B base models, across (a) Hallucination, (b) Real-World VQA, and (c) Mixed Benchmarks.}}{9}{figure.caption.8}\protected@file@percent }
+\newlabel{fig:model_gen_bars}{{5}{9}{Per-metric performance improvements ($\Delta \%$) of \ours over the respective Qwen2.5-VL-3B and Qwen2.5-VL-32B base models, across (a) Hallucination, (b) Real-World VQA, and (c) Mixed Benchmarks}{figure.caption.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Ablation Studies}{9}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{VCR Analysis.}{9}{table.caption.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Granularity of Self-Verification.}{9}{table.caption.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Training Dynamics.}{9}{table.caption.10}\protected@file@percent }
+\citation{thawakar2025evolmm}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces  Ablation study of the VCR: claim deduplication (Dedup.), claim quantity reward ($r^{\text  {cnt}}$), and claim quality penalty ($r^{\text  {qual}}$). Each variant removes one component at a time; Decrease denotes the performance drop relative to the full V-MARCH\xspace  method. }}{10}{table.caption.9}\protected@file@percent }
+\newlabel{tab:ablation_com}{{4}{10}{Ablation study of the VCR: claim deduplication (Dedup.), claim quantity reward ($r^{\text {cnt}}$), and claim quality penalty ($r^{\text {qual}}$). Each variant removes one component at a time; Decrease denotes the performance drop relative to the full \ours method}{table.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces  Comparison of claim-level and response-level self-verification on the three benchmark categories. Decrease denotes the performance drop to the claim-level. }}{10}{table.caption.10}\protected@file@percent }
+\newlabel{tab:claim_vs_response}{{5}{10}{Comparison of claim-level and response-level self-verification on the three benchmark categories. Decrease denotes the performance drop to the claim-level}{table.caption.10}{}}
+\@writefile{toc}{\contentsline {paragraph}{Computational Overhead.}{10}{figure.caption.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusion}{10}{section.5}\protected@file@percent }
+\newlabel{sec:conclusion}{{5}{10}{Conclusion}{section.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Reward (red, left axis) and entropy (blue, right axis) curves over 256 training steps for (a) Single Agent SelfCheck, (b) MARCH~\citep  {li2026march}, (c) V-MARCH w/o VCR, and (d) \textbf  {V-MARCH\xspace  }. The comparison demonstrates that claim-level verification with VCR is necessary for stable, non-degenerate training.}}{11}{figure.caption.11}\protected@file@percent }
+\newlabel{fig:training-dynamics}{{6}{11}{Reward (red, left axis) and entropy (blue, right axis) curves over 256 training steps for (a) Single Agent SelfCheck, (b) MARCH~\cite {li2026march}, (c) V-MARCH w/o VCR, and (d) \textbf {\ours }. The comparison demonstrates that claim-level verification with VCR is necessary for stable, non-degenerate training}{figure.caption.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Wall-clock time per training step, along with agent configuration \#Agent(trained/total) and relative overhead compared to SelfCheck with Ground Truth. }}{11}{table.caption.12}\protected@file@percent }
+\newlabel{tab:overhead}{{6}{11}{Wall-clock time per training step, along with agent configuration \#Agent(trained/total) and relative overhead compared to SelfCheck with Ground Truth}{table.caption.12}{}}
+\citation{*}
+\bibdata{custom}
+\bibcite{achiam2023gpt}{{1}{2023}{{Achiam et~al.}}{{Achiam, Adler, Agarwal, Ahmad, Akkaya, Aleman, Almeida, Altenschmidt, Altman, Anadkat, et~al.}}}
+\bibcite{anand2026crops}{{2}{2026}{{Anand et~al.}}{{Anand, Jha, Bamba, and Rahaman}}}
+\bibcite{bai2025qwen3}{{3}{2025{a}}{{Bai et~al.}}{{Bai, Cai, Chen, Chen, Chen, Cheng, Deng, Ding, Gao, Ge, et~al.}}}
+\bibcite{qwen3vl}{{4}{2025{b}}{{Bai et~al.}}{{Bai, Cai, Chen, Chen, Chen, Cheng, Deng, Ding, Gao, Ge, et~al.}}}
+\bibcite{bai2022constitutional}{{5}{2022}{{Bai et~al.}}{{Bai, Kadavath, Kundu, Askell, Kernion, Jones, Chen, Goldie, Mirhoseini, McKinnon, et~al.}}}
+\bibcite{chen2025vlaa}{{6}{2025}{{Chen et~al.}}{{Chen, Tu, Wang, Liu, Tang, Du, Zhou, and Xie}}}
+\bibcite{chen2024internvl}{{7}{2024}{{Chen et~al.}}{{Chen, Wu, Wang, Su, Chen, Xing, Zhong, Zhang, Zhu, Lu, et~al.}}}
+\bibcite{comanici2025gemini}{{8}{2025}{{Comanici et~al.}}{{Comanici, Bieber, Schaekermann, Pasupat, Sachdeva, Dhillon, Blistein, Ram, Zhang, Rosen, et~al.}}}
+\bibcite{dahl2024large}{{9}{2024}{{Dahl et~al.}}{{Dahl, Magesh, Suzgun, and Ho}}}
+\bibcite{deng2024stic}{{10}{2024}{{Deng et~al.}}{{Deng, Lu, Yin, Hu, Shen, Gu, Zou, Chang, and Wang}}}
+\bibcite{deng2026openvlthinker}{{11}{2026}{{Deng et~al.}}{{Deng, Bansal, Yin, Peng, Wang, and Chang}}}
+\bibcite{duan2024vlmevalkit}{{12}{2024}{{Duan et~al.}}{{Duan, Yang, Qiao, Fang, Chen, Liu, Dong, Zang, Zhang, Wang, et~al.}}}
+\bibcite{fu2026mme}{{13}{2026}{{Fu et~al.}}{{Fu, Chen, Shen, Qin, Zhang, Lin, Yang, Zheng, Li, Sun, Wu, Ji, Shan, and He}}}
+\bibcite{fu2024blink}{{14}{2024}{{Fu et~al.}}{{Fu, Hu, Li, Feng, Wang, Lin, Roth, Smith, Ma, and Krishna}}}
+\bibcite{zhao2024hdpo}{{15}{2025}{{Fu et~al.}}{{Fu, Xie, Sun, Kang, and Li}}}
+\bibcite{huang2023opera}{{16}{2024}{{Huang et~al.}}{{Huang, Dong, Zhang, Wang, He, Wang, Lin, Zhang, and Yu}}}
+\bibcite{hudson2019gqa}{{17}{2019}{{Hudson \& Manning}}{{Hudson and Manning}}}
+\bibcite{jhaveri2026failing}{{18}{2026}{{Jhaveri et~al.}}{{Jhaveri, GX-Chen, Sucholutsky, and Choi}}}
+\bibcite{jiang2024interp}{{19}{2025}{{Jiang et~al.}}{{Jiang, Kachinthaya, Petryk, and Gandelsman}}}
+\bibcite{jing2024faithscore}{{20}{2024}{{Jing et~al.}}{{Jing, Li, Chen, and Du}}}
+\bibcite{kim2025medical}{{21}{2025}{{Kim et~al.}}{{Kim, Jeong, Chen, Li, Park, Lu, Alhamoud, Mun, Grau, Jung, et~al.}}}
+\bibcite{leng2023vcd}{{22}{2024}{{Leng et~al.}}{{Leng, Zhang, Chen, Li, Lu, Miao, and Bing}}}
+\bibcite{li2024naturalbench}{{23}{2024{a}}{{Li et~al.}}{{Li, Lin, Peng, de~Dieu~Nyandwi, Jiang, Ma, Khanuja, Krishna, Neubig, and Ramanan}}}
+\bibcite{li2024seedbench}{{24}{2024{b}}{{Li et~al.}}{{Li, Ge, Ge, Wang, Wang, Zhang, and Shan}}}
+\bibcite{li2025visual}{{25}{2025{a}}{{Li et~al.}}{{Li, Huang, Li, Lu, Lu, Tian, Shen, and Ye}}}
+\bibcite{li2025visual_evidence}{{26}{2025{b}}{{Li et~al.}}{{Li, Huang, Li, Lu, Lu, Tian, Shen, and Ye}}}
+\bibcite{li2023pope}{{27}{2023}{{Li et~al.}}{{Li, Du, Zhou, Wang, Zhao, and Wen}}}
+\bibcite{li2026march}{{28}{2026}{{Li et~al.}}{{Li, Zhang, Cheng, Song, Zhou, Li, Hu, Qin, Zhao, Jiang, et~al.}}}
+\bibcite{lin2014microsoft}{{29}{2014}{{Lin et~al.}}{{Lin, Maire, Belongie, Hays, Perona, Ramanan, Doll{\'a}r, and Zitnick}}}
+\bibcite{liu2023vsr}{{30}{2023{a}}{{Liu et~al.}}{{Liu, Emerson, and Collier}}}
+\bibcite{liu2024survey}{{31}{2024{a}}{{Liu et~al.}}{{Liu, Xue, Chen, Chen, Zhao, Wang, Hou, Li, and Peng}}}
+\bibcite{liu2023llava}{{32}{2023{b}}{{Liu et~al.}}{{Liu, Li, Wu, and Lee}}}
+\bibcite{liu2024mmbench}{{33}{2024{b}}{{Liu et~al.}}{{Liu, Duan, Zhang, Li, Zhang, Zhao, Yuan, Wang, He, Liu, et~al.}}}
+\bibcite{lu2025apasi}{{34}{2025}{{Lu et~al.}}{{Lu, Zhang, Yuan, Gao, Zhang, Qi, Li, and Hu}}}
+\bibcite{madaan2023self}{{35}{2023}{{Madaan et~al.}}{{Madaan, Tandon, Gupta, Hallinan, Gao, Wiegreffe, Alon, Dziri, Prabhumoye, Yang, et~al.}}}
+\bibcite{meng2025mm}{{36}{2025}{{Meng et~al.}}{{Meng, Du, Liu, Zhou, Lu, Fu, Han, Shi, Wang, He, et~al.}}}
+\bibcite{metropolitansky2025towards}{{37}{2025}{{Metropolitansky \& Larson}}{{Metropolitansky and Larson}}}
+\bibcite{miao2024selfcheck}{{38}{2024}{{Miao et~al.}}{{Miao, Teh, and Rainforth}}}
+\bibcite{ouyang2022training}{{39}{2022}{{Ouyang et~al.}}{{Ouyang, Wu, Jiang, Almeida, Wainwright, Mishkin, Zhang, Agarwal, Slama, Ray, et~al.}}}
+\bibcite{rawte2025defining}{{40}{2025}{{Rawte et~al.}}{{Rawte, Mishra, Sheth, and Das}}}
+\bibcite{schwenk2022okvqa}{{41}{2022}{{Schwenk et~al.}}{{Schwenk, Khandelwal, Clark, Marino, and Mottaghi}}}
+\bibcite{shao2024deepseekmath}{{42}{2024}{{Shao et~al.}}{{Shao, Wang, Zhu, Xu, Song, Bi, Zhang, Zhang, Li, Wu, et~al.}}}
+\bibcite{sheng2024hybridflow}{{43}{2025}{{Sheng et~al.}}{{Sheng, Zhang, Ye, Wu, Zhang, Zhang, Peng, Lin, and Wu}}}
+\bibcite{shinn2023reflexion}{{44}{2023}{{Shinn et~al.}}{{Shinn, Cassano, Gopinath, Narasimhan, and Yao}}}
+\bibcite{stechly2025self}{{45}{2025}{{Stechly et~al.}}{{Stechly, Valmeekam, and Kambhampati}}}
+\bibcite{sun2025mmmb}{{46}{2025}{{Sun et~al.}}{{Sun, Zhou, Li, Lu, Yi, Chen, Xu, Luo, Zhang, Zhan, and Ye}}}
+\bibcite{sun2023llava_rlhf}{{47}{2024}{{Sun et~al.}}{{Sun, Shen, Cao, Liu, Li, Shen, Gan, Gui, Wang, Yang, Keutzer, and Darrell}}}
+\bibcite{tang2025farsight}{{48}{2025}{{Tang et~al.}}{{Tang, Liu, Xu, Hu, Huang, Xue, Chen, Peng, Yang, Zhou, et~al.}}}
+\bibcite{thawakar2025evolmm}{{49}{2025}{{Thawakar et~al.}}{{Thawakar, Venkatraman, Thawkar, Shaker, Cholakkal, Anwer, Khan, and Khan}}}
+\bibcite{touvron2023llama}{{50}{2023}{{Touvron et~al.}}{{Touvron, Lavril, Izacard, Martinet, Lachaux, Lacroix, Rozi{\`e}re, Goyal, Hambro, Azhar, et~al.}}}
+\bibcite{wang2024deco}{{51}{2025}{{Wang et~al.}}{{Wang, Chen, Zhang, Tian, Xu, Deng, and Chen}}}
+\bibcite{wang2023amber}{{52}{2023}{{Wang et~al.}}{{Wang, Wang, Xu, Zhang, Gu, Jia, Wang, Xu, Yan, Zhang, et~al.}}}
+\bibcite{qwen2p5vl}{{53}{2024}{{Wang et~al.}}{{Wang, Bai, Tan, Wang, Fan, Bai, Chen, Liu, Wang, Ge, et~al.}}}
+\bibcite{wang2026visionzero}{{54}{2026{a}}{{Wang et~al.}}{{Wang, Liu, Zhou, Shi, Lin, Chen, Li, Wan, and Zhao}}}
+\bibcite{wang2026after}{{55}{2026{b}}{{Wang et~al.}}{{Wang, Ma, Liao, Zhang, Li, Guo, and Liu}}}
+\bibcite{wen2025reinforcement}{{56}{2025}{{Wen et~al.}}{{Wen, Liu, Zheng, Ye, Wu, Wang, Xu, Liang, Li, Miao, et~al.}}}
+\bibcite{wu2024qbench}{{57}{2024}{{Wu et~al.}}{{Wu, Zhang, Zhang, Chen, Liao, Wang, Li, Sun, Yan, Zhai, and Lin}}}
+\bibcite{ying2025empo}{{58}{2025}{{Wu et~al.}}{{Wu, Shi, Wang, Huang, Yin, Yan, Cao, and Zhang}}}
+\bibcite{yang2025mitigating}{{59}{2025{a}}{{Yang et~al.}}{{Yang, Li, Cao, and Xu}}}
+\bibcite{yang2025r1}{{60}{2025{b}}{{Yang et~al.}}{{Yang, He, Pan, Jiang, Deng, Yang, Lu, Yin, Rao, Zhu, et~al.}}}
+\bibcite{li2025dpo}{{61}{2025{c}}{{Yang et~al.}}{{Yang, Luo, Han, Xu, and Li}}}
+\bibcite{yin2025clearsight}{{62}{2025}{{Yin et~al.}}{{Yin, Si, and Wang}}}
+\bibcite{yu2026dapo}{{63}{2026}{{Yu et~al.}}{{Yu, Zhang, Zhu, Yuan, Zuo, Yue, Dai, Fan, Liu, Liu, et~al.}}}
+\bibcite{yu2023rlhfv}{{64}{2024}{{Yu et~al.}}{{Yu, Yao, Zhang, He, Han, Cui, Hu, Liu, Zheng, Sun, et~al.}}}
+\bibcite{yue2026does}{{65}{2026}{{Yue et~al.}}{{Yue, Chen, Lu, Zhao, Wang, Yue, Song, and Huang}}}
+\bibstyle{conference}
+\@writefile{toc}{\contentsline {section}{\numberline {A}Appendix}{18}{appendix.A}\protected@file@percent }
+\newlabel{sec:appendix}{{A}{18}{Appendix}{appendix.A}{}}
+\@writefile{toc}{\contentsline {paragraph}{Organization.}{18}{appendix.A}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.1}Prompt Templates.}{18}{subsection.A.1}\protected@file@percent }
+\newlabel{para:prompt_templates}{{A.1}{18}{Prompt Templates}{subsection.A.1}{}}
+\citation{shao2024deepseekmath}
+\citation{sheng2024hybridflow}
+\citation{duan2024vlmevalkit}
+\citation{schwenk2022okvqa}
+\citation{liu2023vsr}
+\citation{sun2025mmmb}
+\citation{fu2026mme}
+\citation{li2023pope}
+\citation{fu2024blink}
+\citation{liu2024mmbench}
+\citation{li2024naturalbench}
+\citation{hudson2019gqa}
+\citation{wang2023amber}
+\citation{li2024seedbench}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.2}Implementation Details}{19}{subsection.A.2}\protected@file@percent }
+\newlabel{sec:implementation_details}{{A.2}{19}{Implementation Details}{subsection.A.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{Training Parameters.}{19}{subsection.A.2}\protected@file@percent }
+\newlabel{para:training_parameters}{{A.2}{19}{Training Parameters}{subsection.A.2}{}}
+\@writefile{toc}{\contentsline {paragraph}{Image Augmentation Pipeline.}{19}{table.caption.13}\protected@file@percent }
+\newlabel{para:image_augmentation_pipeline}{{A.2}{19}{Image Augmentation Pipeline}{table.caption.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.3}Dataset and Evaluation Details}{19}{subsection.A.3}\protected@file@percent }
+\newlabel{sec:dataset_evaluation_details}{{A.3}{19}{Dataset and Evaluation Details}{subsection.A.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Evaluation Protocol.}{19}{subsection.A.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Datasets Statistics.}{19}{subsection.A.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Key training hyperparameters used in all experiments.}}{20}{table.caption.13}\protected@file@percent }
+\newlabel{tab:training_params}{{7}{20}{Key training hyperparameters used in all experiments}{table.caption.13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.4}Albation Details}{20}{subsection.A.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {A.5}Response-Level Self-Verification}{20}{subsection.A.5}\protected@file@percent }
+\newlabel{sec:response_level_self_verification}{{A.5}{20}{Response-Level Self-Verification}{subsection.A.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Statistics of the 12 evaluation benchmarks used in our experiments. Benchmarks are sorted by number of samples.}}{21}{table.caption.14}\protected@file@percent }
+\newlabel{tab:dataset_stats}{{8}{21}{Statistics of the 12 evaluation benchmarks used in our experiments. Benchmarks are sorted by number of samples}{table.caption.14}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Image augmentation operations and their configurations.}}{21}{table.caption.15}\protected@file@percent }
+\newlabel{tab:aug_pipeline}{{9}{21}{Image augmentation operations and their configurations}{table.caption.15}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces  Ablation study on the augmentation (\textit  {aug}) component. ``Decrease'' denotes the performance change after removing the augmentation module from V-MARCH\xspace  . Negative values indicate performance degradation. }}{21}{table.caption.17}\protected@file@percent }
+\newlabel{tab:app_ablation_aug}{{10}{21}{Ablation study on the augmentation (\textit {aug}) component. ``Decrease'' denotes the performance change after removing the augmentation module from \ours . Negative values indicate performance degradation}{table.caption.17}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces  Ablation study on the augmentation (\textit  {aug}) component for open-ended VQA benchmarks. ``Decrease'' denotes the performance change after removing the augmentation module from V-MARCH\xspace  . Negative values indicate performance degradation. }}{21}{table.caption.18}\protected@file@percent }
+\newlabel{tab:app_ablation_aug_vqa}{{11}{21}{Ablation study on the augmentation (\textit {aug}) component for open-ended VQA benchmarks. ``Decrease'' denotes the performance change after removing the augmentation module from \ours . Negative values indicate performance degradation}{table.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Example augmented images generated by our pipeline. The original image is transformed using each of the seven augmentation operations independently, as well as all operations combined (bottom-right).}}{22}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:augmented_images}{{7}{22}{Example augmented images generated by our pipeline. The original image is transformed using each of the seven augmentation operations independently, as well as all operations combined (bottom-right)}{figure.caption.16}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces  Ablation study on the augmentation (\textit  {aug}) component for general benchmarks. BLINK evaluates low-level visual perception including IQ test, jigsaw, multi-view reasoning, relative depth, and reflectance. NaturalBench measures compositional reasoning with overall accuracy, group, image, and question-level metrics. ``Decrease'' denotes the performance change after removing the augmentation module from V-MARCH\xspace  . Negative values indicate performance degradation. }}{22}{table.caption.19}\protected@file@percent }
+\newlabel{tab:app_ablation_aug_mixed}{{12}{22}{Ablation study on the augmentation (\textit {aug}) component for general benchmarks. BLINK evaluates low-level visual perception including IQ test, jigsaw, multi-view reasoning, relative depth, and reflectance. NaturalBench measures compositional reasoning with overall accuracy, group, image, and question-level metrics. ``Decrease'' denotes the performance change after removing the augmentation module from \ours . Negative values indicate performance degradation}{table.caption.19}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces  Ablation study of different data processing components on hallucination benchmarks. ``w/o dedup'' removes the data deduplication strategy, ``w/o count'' removes the object-count balancing strategy, and ``w/o quality'' removes the quality filtering strategy. }}{23}{table.caption.20}\protected@file@percent }
+\newlabel{tab:ablation_components_hallu}{{13}{23}{Ablation study of different data processing components on hallucination benchmarks. ``w/o dedup'' removes the data deduplication strategy, ``w/o count'' removes the object-count balancing strategy, and ``w/o quality'' removes the quality filtering strategy}{table.caption.20}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces  Ablation study of different data processing components on hallucination benchmarks. }}{23}{table.caption.21}\protected@file@percent }
+\newlabel{tab:ablation_components_vqa}{{14}{23}{Ablation study of different data processing components on hallucination benchmarks}{table.caption.21}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces  Ablation study of different data processing components on hallucination benchmarks. }}{23}{table.caption.22}\protected@file@percent }
+\newlabel{tab:ablation_components_mixed}{{15}{23}{Ablation study of different data processing components on hallucination benchmarks}{table.caption.22}{}}
+\newlabel{LastPage}{{A.5}{23}{Response-Level Self-Verification}{page.23}{}}
+\gdef\lastpage@lastpage{23}
+\gdef\lastpage@lastpageHy{23}
+\gdef \@abspage@last{23}

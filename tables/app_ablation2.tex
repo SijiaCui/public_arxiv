@@ -1,0 +1,71 @@
+\begin{table*}[!h]
+\centering
+\caption{
+Ablation study of different data processing components on hallucination benchmarks.
+``w/o dedup'' removes the data deduplication strategy,
+``w/o count'' removes the object-count balancing strategy,
+and ``w/o quality'' removes the quality filtering strategy.
+}
+\label{tab:ablation_components_hallu}
+\small
+\begin{tabular}{l*{10}{S[table-format=2.2,table-column-width=0.72cm]}}
+\toprule
+ & \multicolumn{4}{c}{AMBER} & \multicolumn{3}{c}{MME} & \multicolumn{1}{c}{POPE} & \multicolumn{1}{c}{VSR} & \multicolumn{1}{c}{Avg.} \\
+
+\cmidrule(lr){2-5}
+\cmidrule(lr){6-8}
+Method & \sh{Attribute} & \sh{Existence} & \sh{Relation} & \sh{Accuracy} & \sh{Color} & \sh{Position} & \sh{Scene} & {--} & {--} & {--} \\
+\midrule
+Qwen2.5-VL-7B & 84.45  & 94.90  & 75.66  & 85.01  & 90.00  & 82.50  & 77.50  & 86.51  & 90.64  & 85.24 \\
+\ours & 86.37  & 94.58  & 84.50  & 88.48  & 95.00  & 86.67  & 82.25  & 87.04  & 92.03  & 88.54 \\
+\ours-nodedup & 85.51  & 94.90  & 81.25  & 87.22  & 92.50  & 82.50  & 77.13  & 86.83  & 91.81  & 86.63 \\
+\ours-nocount & 86.05  & 94.13  & 83.11  & 87.77  & 90.00  & 84.17  & 77.50  & 87.07  & 91.69  & 86.83 \\
+\ours-noquality & 85.66  & 94.52  & 82.69  & 87.62  & 95.00  & 85.83  & 81.88  & 86.24  & 91.04  & 87.83 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering
+\caption{
+Ablation study of different data processing components on hallucination benchmarks.
+}
+\label{tab:ablation_components_vqa}
+\small
+\begin{tabular}{l*{4}{S[table-format=2.2,table-column-width=0.8cm]}}
+\toprule
+Method & {A-OK} & {GQA} & {RWQA} & {Avg.} \\
+\midrule
+Qwen2.5-VL-7B & 86.38  & 60.46  & 67.45  & 71.43 \\
+\ours & 87.60  & 60.92  & 70.98  & 73.16 \\
+\ours-nodedup & 86.64  & 60.57  & 68.89  & 72.03 \\
+\ours-nocount & 85.68  & 61.21  & 67.71  & 71.53 \\
+\ours-noquality & 86.81  & 61.32  & 68.76  & 72.30 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\begin{table*}[!h]
+\centering
+\caption{
+Ablation study of different data processing components on hallucination benchmarks.
+}
+\label{tab:ablation_components_mixed}
+\small
+\begin{adjustbox}{width=\textwidth}
+\begin{tabular}{l*{13}{S[table-format=2.2,table-column-width=0.7cm]}}
+\toprule
+& MMB & MMMB & \multicolumn{5}{c}{BLINK} & \multicolumn{4}{c}{NaturalBench} & {SEED} & {Avg.} \\
+\cmidrule(lr){4-8}
+\cmidrule(lr){9-12}
+Method & {--} & {--} & {IQ} & \sh{Jigsaw} & \sh{MVR} & \sh{Depth} & \sh{Rel.Refl.} & \sh{Acc} & \sh{G-Acc} & \sh{I-Acc} & \sh{Q-Acc} & {--} & {--} \\
+\midrule
+Qwen2.5-VL-7B & 80.62  & 82.83  & 0.67  & 46.67  & 33.83  & 71.77  & 29.85  & 77.97  & 31.79  & 60.39  & 57.89  & 76.36  & 54.22 \\
+\ours & 81.61  & 84.34  & 9.33  & 56.67  & 41.35  & 79.03  & 38.06  & 78.53  & 33.32  & 61.16  & 59.18  & 76.95  & 58.29 \\
+\ours-nodedup & 81.61  & 83.33  & 3.33  & 58.67  & 41.35  & 79.84  & 35.82  & 78.62  & 34.21  & 61.63  & 59.21  & 76.69  & 57.86 \\
+\ours-nocount & 81.09  & 83.03  & 1.33  & 60.67  & 25.56  & 76.61  & 29.85  & 78.14  & 33.21  & 61.05  & 58.45  & 76.35  & 55.45 \\
+\ours-noquality & 81.66  & 83.79  & 7.33  & 56.00  & 30.08  & 77.42  & 38.06  & 78.57  & 33.84  & 61.63  & 59.08  & 76.71  & 57.01 \\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\end{table*}
