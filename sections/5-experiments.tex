@@ -201,13 +201,17 @@ Figure~\ref{fig:training-dynamics} compares training stability across four confi
 This training-time stability, conferred by the claim quantity reward $r^{\mathrm{cnt}}$ and quality penalty $r^{\mathrm{qual}}$ of VCR, directly underlies the performance advantage \ours demonstrates across all benchmarks.
 
 \paragraph{Computational Overhead.}
-\begin{wraptable}{r}{0.5\textwidth}
+% Our pipeline introduces additional inference overhead relative to single-agent baselines.
+Table~\ref{tab:overhead} reports the wall-clock time per training step for each method.
+EvoLMM~\cite{thawakar2025evolmm} trains separate Proposer and Solver models, and the switching overhead more than doubles the average step time compared to SelfCheck.
+Its training time is therefore estimated as twice that of SelfCheck, although the actual cost may be even higher.
+\ours comprises four agents, with only the Solver being trainable and the other three (Proposer, Regulator, Checker) frozen.
+This design results in a per-step runtime of 281.21,s, representing a $1.56\times$ overhead compared to SelfCheck (180.02,s).
+Given that \ours achieves consistent and substantial performance gains across all evaluation dimensions, this overhead represents a favorable trade-off between compute cost and reward quality.
+\begin{table}[h]
 \centering
-\vspace{-\intextsep}
 \caption{Wall-clock time per training step, along with agent configuration \#Agent(trained/total) and relative overhead compared to SelfCheck with Ground Truth.}
 \label{tab:overhead}
-\small
-\adjustbox{max width=\linewidth}{
 \begin{tabular}{lccc}
 \toprule
 \textbf{Method} & \textbf{Time / Step (s)} & \textbf{\#Agents} & \textbf{Overhead} \\
@@ -219,15 +223,7 @@ EvoLMM*      & 360.04 & 2/2 & $\times2.10$ \\
 \ours          & 281.21 & 1/4 & $\times1.56$ \\
 \bottomrule
 \end{tabular}
-}
-\end{wraptable}
-% Our pipeline introduces additional inference overhead relative to single-agent baselines.
-Table~\ref{tab:overhead} reports the wall-clock time per training step for each method.
-EvoLMM~\cite{thawakar2025evolmm} trains separate Proposer and Solver models, and the switching overhead more than doubles the average step time compared to SelfCheck.
-Its training time is therefore estimated as twice that of SelfCheck, although the actual cost may be even higher.
-\ours comprises four agents, with only the Solver being trainable and the other three (Proposer, Regulator, Checker) frozen.
-This design results in a per-step runtime of 281.21,s, representing a $1.56\times$ overhead compared to SelfCheck (180.02,s).
-Given that \ours achieves consistent and substantial performance gains across all evaluation dimensions, this overhead represents a favorable trade-off between compute cost and reward quality.
+\end{table}
 
 % \paragraph{Training Dynamics and Efficiency.}
 % % 我们分析\ours的训练动态，包括训练中的reward曲线，entropy变化情况，以及训练的overhead。
