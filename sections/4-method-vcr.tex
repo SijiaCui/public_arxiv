@@ -16,7 +16,7 @@
     \label{fig:pipeline}
 \end{figure*}
 
-\ours adapts the Proposer--Checker paradigm~\cite{wang2026visionzero,li2026march} to the visual domain and extends it with a dedicated \textbf{Regulator} agent.
+\ours adapts the Proposer--Checker paradigm~\cite{li2026march,wang2026visionzero} to the visual domain and extends it with a dedicated \textbf{Regulator} agent.
 The Regulator governs the quantity and quality of the claim set, addressing unreliable rewards to visual self-verification.
 As illustrated in Figure~\ref{fig:pipeline}, \ours orchestrates four agents in a sequential pipeline:
 
@@ -88,7 +88,7 @@ is passed to the Regulator for quality control.
 
 \smallskip
 \noindent\textit{Example.}
-For the query ``Describe this image'' applied to an airport scene, the Solver might generate a response $\vy$. 
+For the query ``Describe this image'' applied to an airport scene, the Solver generates a response $\vy$.
 The Proposer then extracts atomic claims and converts each to a QA pair, for instance:
 \textit{``The yellow dog is on the left of the black dog''} $\to$ (Q: \textit{Is the yellow dog on the left of the black dog?}, A: \textit{Yes});
 \textit{``The daughter's hat is blue''} $\to$ (Q: \textit{What color is the daughter's hat?}, A: \textit{Blue}).
@@ -146,7 +146,7 @@ to $r^{\text{cnt}}$.
 To address failure mode~(3), we construct a degraded image
 $\tilde{\mI}$ by applying a heavy Gaussian blur, grayscale conversion, and
 horizontal flipping to $I$.
-It then re-answers each question $v_i$ in $\mathcal{Q}^{\ast}$ with the
+The Regulator then re-answers each question $v_i$ in $\mathcal{Q}^{\ast}$ with the
 degraded image:
 \begin{equation}
     \tilde{\va}_i = \text{Ans}(\tilde{\mI},\, \vv_i).
@@ -163,7 +163,8 @@ The Regulator penalizes trivial proportions:
     r^{\text{qual}} = -\lambda_{\text{qual}} \sum_{i=1}^{n} \bm{1}[
        \gF(\tilde{\va}_i,\, \va_i') = 1],
 \end{equation}
-pushing the Solver toward responses that require genuine image grounding.
+where $\gF(\cdot,\cdot)$ is a binary consistency function that returns $1$ when two answers agree, $\bm{1}[\cdot]$ is the indicator function, and $\lambda_{\text{qual}}$ weights the trivial-claim penalty.
+This penalty pushes the Solver toward responses that require genuine image grounding.
 
 \smallskip
 \noindent\textit{Example.}

@@ -12,18 +12,18 @@
 \end{wrapfigure}
 
 % VLM 的进展和挑战
-Vision-Language Models (VLMs) have demonstrated remarkable capabilities across a wide range of multimodal tasks, from image captioning to visual question answering~\cite{achiam2023gpt,touvron2023llama,liu2023llava,chen2024internvl,bai2025qwen3,comanici2025gemini}. 
+Vision-Language Models (VLMs) have demonstrated remarkable capabilities across a wide range of multimodal tasks, from image captioning to visual question answering (VQA)~\cite{achiam2023gpt,touvron2023llama,liu2023llava,chen2024internvl,bai2025qwen3,comanici2025gemini}. 
 However, hallucination remains a fundamental bottleneck: models frequently generate descriptions that are fluent and coherent yet factually inconsistent with the visual content of the image~\cite{liu2024survey,rawte2025defining,li2025visual,yang2025mitigating}. 
 Such visual hallucinations manifest as fabricated objects, incorrect attributes, or erroneous spatial relationships, and represent a critical barrier to the reliable deployment of VLMs in real-world applications~\cite{dahl2024large,kim2025medical}.
 % RLVR 方法存在的挑战
 Reinforcement Learning from Verifiable Rewards (RLVR) has emerged as a promising paradigm for improving model factuality 
 by optimizing directly against reward signals derived from output correctness
-~\cite{shao2024deepseekmath,yu2026dapo,wen2025reinforcement,yue2026does}. 
+~\cite{shao2024deepseekmath,wen2025reinforcement,yu2026dapo,yue2026does}.
 However, unlike domains such as mathematics or code generation where correctness can be programmatically verified, factual correctness in VLM generation is inherently difficult to verify from images.
 % 现有的工作：1.标注/监督 2.self-check/self-play
 % TODO: vision-zero, evolmm 还没介绍
 Existing approaches to mitigating VLM hallucination largely fall into two categories. 
-The first relies on human annotations or external supervision, such as curated factual datasets, preference annotations, or learned reward models~\cite{ouyang2022training,bai2022constitutional}. 
+The first relies on human annotations or external supervision, such as curated factual datasets, preference annotations, or learned reward models~\cite{bai2022constitutional,ouyang2022training}.
 While effective, these methods are expensive to scale and difficult to generalize to large-scale unlabeled image corpora. 
 The second category leverages self-checking or self-reflection mechanisms to improve factual consistency through iterative verification or critique~\cite{madaan2023self,shinn2023reflexion,li2026march}. 
 % However, existing self-verification approaches are primarily designed for text-only settings and often suffer from confirmation bias when extended to VLMs, since the verifier shares the same hallucination tendencies as the generator. 
@@ -60,5 +60,5 @@ Our main contributions are as follows:
     \item We propose \textbf{\ours} method, the first visual multi-agent reinforced self-check framework for VLM hallucination mitigation.
     \item We introduce \textbf{VCR}, a novel mechanism that encourages diverse, informative, and image-grounded descriptions, thereby stabilizing self-verification rewards.
     \item Extensive experiments on 12 benchmarks demonstrate that \ours consistently outperforms existing competitive baselines, establishing a scalable pathway for self-supervised VLM hallucination mitigation.
-    \item Comprehensive ablating studies and analyses provide insights into the design of effective self-verification mechanisms for VLMs.
+    \item Comprehensive ablation studies and analyses provide insights into the design of effective self-verification mechanisms for VLMs.
 \end{itemize}

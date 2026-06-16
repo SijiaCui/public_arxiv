@@ -102,7 +102,7 @@ To evaluate whether \ours generalizes across model scales, we apply the identica
 As summarized in Figure~\ref{fig:model_gen_heatmap}, every cell of the $3{\times}3$ grid is positive, demonstrating that the claim-level self-verification signal benefits models regardless of capacity.
 % The 7B model achieves the largest average gains ($+3.30$ on Hallucination, $+1.74$ on VQA, $+4.07$ on Mixed), consistent with the main results.
 The 32B model improves substantially across all three categories ($+1.17$, $+1.99$, $+2.04$), with particularly strong per-metric gains of $+5.00$ on both MME/Color and MME/Position shown in Figure~\ref{fig:model_gen_bars}.
-Even the 3B model benefits consistently: it achieves $+8.67$ on BLINK/Jigsaw and $+2.52$ on VSR zero-shot, yielding a $+1.33$ average improvement on Mixed benchmarks.benchmarks benefit most at every scale.
+Even the 3B model benefits consistently: it achieves $+8.67$ on BLINK/Jigsaw and $+2.52$ on VSR zero-shot, yielding a $+1.33$ average improvement on Mixed benchmarks.
 % The Mixed category consistently shows the largest average gain across all three model sizes ($+1.33$, $+4.07$, and $+2.04$ for 3B, 7B, and 32B, respectively).
 % This pattern suggests that the fine-grained visual reasoning skills cultivated by claim-level self-verification transfer broadly to low-level perception, compositional reasoning, and holistic multimodal tasks—well beyond the hallucination domain targeted during training.
 These results confirm that \ours generalizes reliably from 3B to 32B, without any scale-specific adaptations.
@@ -204,7 +204,7 @@ This training-time stability, conferred by the claim quantity reward $r^{\mathrm
 % Our pipeline introduces additional inference overhead relative to single-agent baselines.
 Table~\ref{tab:overhead} reports the wall-clock time per training step for each method.
 EvoLMM~\cite{thawakar2025evolmm} trains separate Proposer and Solver models, and the switching overhead more than doubles the average step time compared to SelfCheck.
-Its training time is therefore estimated as twice that of SelfCheck, although the actual cost may be even higher.
+Its training time is therefore estimated as twice that of SelfCheck, and the actual cost is likely higher.
 \ours comprises four agents, with only the Solver being trainable and the other three (Proposer, Regulator, Checker) frozen.
 This design results in a per-step runtime of 281.21,s, representing a $1.56\times$ overhead compared to SelfCheck (180.02,s).
 Given that \ours achieves consistent and substantial performance gains across all evaluation dimensions, this overhead represents a favorable trade-off between compute cost and reward quality.
