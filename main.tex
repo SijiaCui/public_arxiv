@@ -130,7 +130,7 @@ Existing mitigation methods typically rely on human annotations or external supe
 We propose \textbf{\ours}, a reinforced visual self-check framework for reducing hallucination in VLMs without ground-truth labels.
 \ours performs claim-level factual verification by decomposing model responses into atomic claims, transforming them into visual questions, and aggregating image-grounded verification signals as reinforcement learning rewards.
 To improve reward reliability, we further introduce a Visual Claim Regulation (VCR) mechanism that encourages informative, image-grounded descriptions while suppressing trivial or redundant claims.
-We evaluate \ours on 12 benchmarks spanning hallucination evaluation (+3.30), real-world VQA (+1.74), and general multimodal understanding benchmarks (+4.07), where it consistently outperforms existing methods without human-annotated factual supervision.
+We evaluate \ours on 12 benchmarks spanning hallucination evaluation (+3.30), real-world visual question answering (+1.74), and general multimodal understanding benchmarks (+4.07), where it consistently outperforms existing methods without human-annotated factual supervision.
 Moreover, \ours generalizes effectively across model scales, demonstrating its potential as a scalable hallucination mitigation solution on large-scale real-world unlabeled image corpora.
 \end{abstract}
 
@@ -151,7 +151,7 @@ Moreover, \ours generalizes effectively across model scales, demonstrating its p
 Despite its strong empirical performance, \ours has several limitations that point to future research directions.
 First, the multi-agent reward pipeline introduces computational overhead during the post-training phase, resulting in approximately 1.56$\times$ longer wall-clock training time compared to a single-agent baseline. Importantly, this overhead is incurred only during training: the Proposer, Regulator, and Checker agents are discarded after optimization, allowing the deployed Solver model to operate without any additional inference latency.
 Second, our scaling and verification experiments were primarily conducted using different sizes of the Qwen2.5-VL family. While these experiments demonstrate consistent performance gains across model scales, the generalizability of \ours across different architectures (e.g., InternVL or LLaVA) remains an open empirical question.
-Final, although \ours demonstrates remarkable cross-dataset generalization across 12 standard benchmarks, it has been post-trained primarily on the GQA dataset. Its efficacy on highly specialized or visually distinct domains, such as document understanding, chart analysis, or medical imaging, remains to be comprehensively validated.
+Finally, although \ours demonstrates remarkable cross-dataset generalization across 12 standard benchmarks, it has been post-trained primarily on the GQA dataset. Its efficacy on highly specialized or visually distinct domains, such as document understanding, chart analysis, or medical imaging, remains to be comprehensively validated.
 
 \section*{Ethical Considerations}
 This work aims to improve the factual reliability of vision-language models, with potential benefits in high-stakes application domains such as medical image interpretation, legal document analysis, and accessibility tools for visually impaired users.
