@@ -204,7 +204,7 @@ This training-time stability, conferred by the claim quantity reward $r^{\mathrm
 % Our pipeline introduces additional inference overhead relative to single-agent baselines.
 Table~\ref{tab:overhead} reports the wall-clock time per training step for each method.
 EvoLMM~\cite{thawakar2025evolmm} trains separate Proposer and Solver models, and the switching overhead more than doubles the average step time compared to SelfCheck.
-Its training time is therefore estimated as twice that of SelfCheck, and the actual cost is likely higher.
+We therefore report a conservative estimate of twice the SelfCheck cost, which lower-bounds its true training overhead.
 \ours comprises four agents, with only the Solver being trainable and the other three (Proposer, Regulator, Checker) frozen.
 This design results in a per-step runtime of 281.21,s, representing a $1.56\times$ overhead compared to SelfCheck (180.02,s).
 Given that \ours achieves consistent and substantial performance gains across all evaluation dimensions, this overhead represents a favorable trade-off between compute cost and reward quality.
